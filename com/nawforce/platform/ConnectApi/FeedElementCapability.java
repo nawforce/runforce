@@ -33,7 +33,7 @@ import com.nawforce.platform.System.Integer;
 import com.nawforce.platform.System.String;
 
 @SuppressWarnings("unused")
-public abstract class FeedElementCapability {
+public class FeedElementCapability {
 	public Boolean equals$(Object obj) {throw new java.lang.UnsupportedOperationException();}
 	public Double getBuildVersion() {throw new java.lang.UnsupportedOperationException();}
 	public Integer hashCode$() {throw new java.lang.UnsupportedOperationException();}
