@@ -25,19 +25,13 @@
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-package com.nawforce.platform.SObjects;
+package com.nawforce.platform.Internal;
 
-import com.nawforce.platform.Internal.SObjectType$;
-import com.nawforce.platform.System.SObject;
-import com.nawforce.platform.System.String;
+import com.nawforce.platform.Schema.SObjectType;
 
 @SuppressWarnings("unused")
-public class OrgLifecycleNotification extends SObject {
-	public static SObjectType$<OrgLifecycleNotification> SObjectType;
-	public String LifecycleRequestId;
-	public String LifecycleRequestType;
-	public String OrgId;
-	public String ReplayId;
-	public String Status;
-	public String StatusCode;
+
+public class SObjectType$<T> extends SObjectType {
+    public SObjectTypeFields$<T> Fields;
+    public SObjectTypeFieldSets$<T> FieldSets;
 }
