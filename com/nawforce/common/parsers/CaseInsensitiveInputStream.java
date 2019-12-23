@@ -25,7 +25,7 @@
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-package com.nawforce.parsers;
+package com.nawforce.common.parsers;
 
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.IntStream;
@@ -33,7 +33,6 @@ import org.antlr.v4.runtime.IntStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.Reader;
-import java.nio.file.Path;
 
 /**
  * ANTLR4 stream handler that allows use of case insensitive handling.
