@@ -17,6 +17,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -52,6 +53,7 @@ public class ContactPointAddress extends SObject {
   public Id ParentId;
   public Account Parent;
   public String PostalCode;
+  public Integer PreferenceRank;
   public String State;
   public String Street;
   public String UsageType;
