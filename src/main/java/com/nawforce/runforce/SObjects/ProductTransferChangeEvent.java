@@ -25,13 +25,13 @@
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 */
-package com.nawforce.platform.SObjects;
+package com.nawforce.runforce.SObjects;
 
-import com.nawforce.platform.Internal.SObjectFields$;
-import com.nawforce.platform.Internal.SObjectType$;
-import com.nawforce.platform.System.Boolean;
-import com.nawforce.platform.System.String;
-import com.nawforce.platform.System.*;
+import com.nawforce.runforce.Internal.SObjectFields$;
+import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.String;
+import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class ProductTransferChangeEvent extends SObject {
