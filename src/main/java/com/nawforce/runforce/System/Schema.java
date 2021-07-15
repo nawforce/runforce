@@ -20,7 +20,8 @@ import com.nawforce.runforce.Schema.*;
 public class Schema {
 	public static List<DescribeDataCategoryGroupStructureResult> describeDataCategoryGroupStructures(List<DataCategoryGroupSobjectTypePair> pairs, Boolean topCategoriesOnly) {throw new java.lang.UnsupportedOperationException();}
 	public static List<DescribeDataCategoryGroupResult> describeDataCategoryGroups(List<String> sobjects) {throw new java.lang.UnsupportedOperationException();}
-	public static List<DescribeSObjectResult> describeSObjects(List<String> types) {throw new java.lang.UnsupportedOperationException();}
+	public static List<DescribeSObjectResult> describeSObjects(List<String> sobjects) {throw new java.lang.UnsupportedOperationException();}
+	public static List<DescribeSObjectResult> describeSObjects(List<String> sobjects, Object options) {throw new java.lang.UnsupportedOperationException();}
 	public static List<DescribeTabSetResult> describeTabs() {throw new java.lang.UnsupportedOperationException();}
 	public static Map<String, SObjectType> getAppDescribe(String appName) {throw new java.lang.UnsupportedOperationException();}
 	public static Map<String,SObjectType> getGlobalDescribe() {throw new java.lang.UnsupportedOperationException();}
