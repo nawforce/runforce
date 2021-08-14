@@ -1,8 +1,5 @@
 /*
- [The "BSD licence"]
- Copyright (c) 2019 Kevin Jones
- All rights reserved.
-
+ Copyright (c) 2019 Kevin Jones, All rights reserved.
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
@@ -13,18 +10,8 @@
     documentation and/or other materials provided with the distribution.
  3. The name of the author may not be used to endorse or promote products
     derived from this software without specific prior written permission.
+ */
 
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
@@ -38,15 +25,20 @@ import com.nawforce.runforce.System.*;
 public class WorkOrderLineItemChangeEvent extends SObject {
 	public static SObjectType$<WorkOrderLineItemChangeEvent> SObjectType;
 	public static SObjectFields$<WorkOrderLineItemChangeEvent> Fields;
+
 	public Address Address;
 	public Id AssetId;
 	public Asset Asset;
+	public Id AssetWarrantyId;
+	public AssetWarranty AssetWarranty;
 	public Object ChangeEventHeader;
 	public String City;
 	public String Country;
+	public String CountryCode;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String Description;
 	public Decimal Discount;
 	public Decimal Duration;
@@ -67,6 +59,8 @@ public class WorkOrderLineItemChangeEvent extends SObject {
 	public Decimal Longitude;
 	public Id MaintenancePlanId;
 	public MaintenancePlan MaintenancePlan;
+	public Id MaintenanceWorkRuleId;
+	public MaintenanceWorkRule MaintenanceWorkRule;
 	public Integer MinimumCrewSize;
 	public Id OrderId;
 	public Order Order;
@@ -78,6 +72,10 @@ public class WorkOrderLineItemChangeEvent extends SObject {
 	public String Priority;
 	public Id Product2Id;
 	public Product2 Product2;
+	public Id ProductServiceCampaignId;
+	public ProductServiceCampaign ProductServiceCampaign;
+	public Id ProductServiceCampaignItemId;
+	public ProductServiceCampaignItem ProductServiceCampaignItem;
 	public Decimal Quantity;
 	public Integer RecommendedCrewSize;
 	public String ReplayId;
@@ -91,6 +89,7 @@ public class WorkOrderLineItemChangeEvent extends SObject {
 	public ServiceTerritory ServiceTerritory;
 	public Datetime StartDate;
 	public String State;
+	public String StateCode;
 	public String Status;
 	public String StatusCategory;
 	public String Street;

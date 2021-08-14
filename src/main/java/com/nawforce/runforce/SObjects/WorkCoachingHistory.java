@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class WorkCoachingHistory extends SObject {
 	public static SObjectType$<WorkCoachingHistory> SObjectType;
 	public static SObjectFields$<WorkCoachingHistory> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

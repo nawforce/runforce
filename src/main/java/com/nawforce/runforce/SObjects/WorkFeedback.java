@@ -22,48 +22,36 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class WorkFeedback extends SObject {
-  public static SObjectType$<WorkFeedback> SObjectType;
-  public static SObjectFields$<WorkFeedback> Fields;
-  public Id CreatedById;
-  public User CreatedBy;
-  public Datetime CreatedDate;
-  public String Feedback;
-  public Id Id;
-  public Boolean IsDeleted;
-  public Id LastModifiedById;
-  public User LastModifiedBy;
-  public Datetime LastModifiedDate;
-  public String Name;
-  public Id OwnerId;
-  public Group Owner;
-  public Id QuestionId;
-  public WorkFeedbackQuestion Question;
-  public Id RequestId;
-  public WorkFeedbackRequest Request;
-  public Datetime SystemModstamp;
+	public static SObjectType$<WorkFeedback> SObjectType;
+	public static SObjectFields$<WorkFeedback> Fields;
 
-  public WorkFeedbackHistory[] Histories;
-  public ProcessInstance[] ProcessInstances;
-  public ProcessInstanceHistory[] ProcessSteps;
-  public WorkFeedbackShare[] Shares;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String Feedback;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public String Name;
+	public Id OwnerId;
+	public SObject Owner;
+	public Id QuestionId;
+	public WorkFeedbackQuestion Question;
+	public Id RequestId;
+	public WorkFeedbackRequest Request;
+	public Datetime SystemModstamp;
 
-  public WorkFeedback clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkFeedbackHistory[] Histories;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public WorkFeedbackShare[] Shares;
 
-  public WorkFeedback clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedback clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedback clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedback clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkFeedback clone$() {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedback clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedback clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedback clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedback clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

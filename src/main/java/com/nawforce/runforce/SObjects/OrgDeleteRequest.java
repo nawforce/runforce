@@ -36,12 +36,13 @@ public class OrgDeleteRequest extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String RequestType;
 	public Datetime SystemModstamp;
 
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public OrgDeleteRequestShare[] Shares;
 
 	public OrgDeleteRequest clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OrgDeleteRequest clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

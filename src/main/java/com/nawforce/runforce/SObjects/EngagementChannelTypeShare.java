@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class EngagementChannelTypeShare extends SObject {
 	public static SObjectType$<EngagementChannelTypeShare> SObjectType;
 	public static SObjectFields$<EngagementChannelTypeShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class EngagementChannelTypeShare extends SObject {
 	public EngagementChannelType Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public EngagementChannelTypeShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public EngagementChannelTypeShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

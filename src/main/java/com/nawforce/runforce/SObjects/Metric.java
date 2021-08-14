@@ -24,10 +24,12 @@ import com.nawforce.runforce.System.*;
 public class Metric extends SObject {
 	public static SObjectType$<Metric> SObjectType;
 	public static SObjectFields$<Metric> Fields;
+
 	public Datetime CompletionDate;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Decimal CurrentValue;
 	public String Description;
 	public Date DueDate;
@@ -45,7 +47,7 @@ public class Metric extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Decimal Progress;
 	public Id RecordTypeId;
 	public RecordType RecordType;

@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class OpportunityHistory extends SObject {
 	public static SObjectType$<OpportunityHistory> SObjectType;
@@ -38,9 +37,14 @@ public class OpportunityHistory extends SObject {
 	public Boolean IsDeleted;
 	public Id OpportunityId;
 	public Opportunity Opportunity;
+	public Decimal PrevAmount;
+	public Date PrevCloseDate;
 	public Decimal Probability;
 	public String StageName;
 	public Datetime SystemModstamp;
+
+	public Opportunity[] OpportunitiesAmountChanged;
+	public Opportunity[] OpportunitiesCloseDateChanged;
 
 	public OpportunityHistory clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OpportunityHistory clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

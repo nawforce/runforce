@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class GoalShare extends SObject {
 	public static SObjectType$<GoalShare> SObjectType;
 	public static SObjectFields$<GoalShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class GoalShare extends SObject {
 	public Goal Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public GoalShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public GoalShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

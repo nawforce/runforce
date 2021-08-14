@@ -20,12 +20,12 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class EmailRelay extends SObject {
 	public static SObjectType$<EmailRelay> SObjectType;
 	public static SObjectFields$<EmailRelay> Fields;
 
+	public String AuthType;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

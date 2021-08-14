@@ -37,7 +37,7 @@ public class CustomHttpHeader extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id ParentId;
-	public ExternalDataSource Parent;
+	public SObject Parent;
 	public Datetime SystemModstamp;
 
 	public CustomHttpHeader clone$() {throw new java.lang.UnsupportedOperationException();}

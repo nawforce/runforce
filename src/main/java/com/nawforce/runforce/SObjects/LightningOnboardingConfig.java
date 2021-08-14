@@ -21,11 +21,11 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class LightningOnboardingConfig extends SObject {
 	public static SObjectType$<LightningOnboardingConfig> SObjectType;
 	public static SObjectFields$<LightningOnboardingConfig> Fields;
+
 	public Id CollaborationGroupId;
 	public CollaborationGroup CollaborationGroup;
 	public Id CreatedById;

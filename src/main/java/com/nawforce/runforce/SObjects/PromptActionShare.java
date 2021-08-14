@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class PromptActionShare extends SObject {
 	public static SObjectType$<PromptActionShare> SObjectType;
 	public static SObjectFields$<PromptActionShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -35,7 +35,7 @@ public class PromptActionShare extends SObject {
 	public PromptAction Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public PromptActionShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PromptActionShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

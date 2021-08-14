@@ -20,13 +20,13 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Order extends SObject {
 	public static SObjectType$<Order> SObjectType;
 	public static SObjectFields$<Order> Fields;
 
 	public Id RecordTypeId;
+	public RecordType RecordType;
 	public Id AccountId;
 	public Account Account;
 	public Id ActivatedById;
@@ -74,7 +74,7 @@ public class Order extends SObject {
 	public Id OriginalOrderId;
 	public Order OriginalOrder;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Date PoDate;
 	public String PoNumber;
 	public Id Pricebook2Id;
@@ -99,27 +99,35 @@ public class Order extends SObject {
 	public String Type;
 
 	public ActivityHistory[] ActivityHistories;
+	public AppUsageAssignment[] AppUsageAssignments;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public DigitalSignature[] DigitalSignatures;
 	public EmailMessage[] Emails;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OrderFeed[] Feeds;
 	public OrderHistory[] Histories;
+	public Invoice[] Invoices;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
 	public OrderItem[] OrderItems;
 	public Order[] Orders;
+	public PaymentGroup[] PaymentGroups;
+	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public ReturnOrder[] ReturnOrders;
 	public OrderShare[] Shares;
+	public SurveySubject[] SurveySubjectEntities;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
+	public WorkOrderLineItem[] WorkOrderLineItems;
 
 	public Order clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Order clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

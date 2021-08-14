@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class PaymentGatewayLog extends SObject {
 	public static SObjectType$<PaymentGatewayLog> SObjectType;
 	public static SObjectFields$<PaymentGatewayLog> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String GatewayAuthCode;
 	public String GatewayAvsCode;
 	public Datetime GatewayDate;
@@ -38,6 +40,7 @@ public class PaymentGatewayLog extends SObject {
 	public String InteractionStatus;
 	public String InteractionType;
 	public Boolean IsDeleted;
+	public String IsNotification;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -45,7 +48,7 @@ public class PaymentGatewayLog extends SObject {
 	public PaymentGateway PaymentGateway;
 	public String PaymentGatewayLogNumber;
 	public Id ReferencedEntityId;
-	public CardPaymentMethod ReferencedEntity;
+	public SObject ReferencedEntity;
 	public String Request;
 	public String Response;
 	public String SfRefNumber;

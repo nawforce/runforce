@@ -21,15 +21,15 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class FieldDefinition extends SObject {
 	public static SObjectType$<FieldDefinition> SObjectType;
 	public static SObjectFields$<FieldDefinition> Fields;
 
 	public Id BusinessOwnerId;
-	public Group BusinessOwner;
+	public SObject BusinessOwner;
 	public String BusinessStatus;
+	public String ComplianceGroup;
 	public String ControllingFieldDefinitionId;
 	public String DataType;
 	public String Description;

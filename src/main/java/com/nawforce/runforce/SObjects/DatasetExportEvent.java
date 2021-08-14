@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class DatasetExportEvent extends SObject {
 	public static SObjectType$<DatasetExportEvent> SObjectType;
@@ -31,6 +30,7 @@ public class DatasetExportEvent extends SObject {
 	public Datetime CreatedDate;
 	public String DataflowInstanceId;
 	public String DatasetExportId;
+	public String EventUuid;
 	public String Message;
 	public String Owner;
 	public String PublisherInfo;

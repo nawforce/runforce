@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class MatchingInformation extends SObject {
 	public static SObjectType$<MatchingInformation> SObjectType;
 	public static SObjectFields$<MatchingInformation> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

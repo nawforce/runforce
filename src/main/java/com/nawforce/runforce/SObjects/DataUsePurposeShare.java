@@ -35,7 +35,7 @@ public class DataUsePurposeShare extends SObject {
 	public DataUsePurpose Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public DataUsePurposeShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DataUsePurposeShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

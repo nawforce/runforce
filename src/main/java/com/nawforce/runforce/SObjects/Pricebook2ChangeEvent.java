@@ -20,15 +20,16 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Pricebook2ChangeEvent extends SObject {
 	public static SObjectType$<Pricebook2ChangeEvent> SObjectType;
 	public static SObjectFields$<Pricebook2ChangeEvent> Fields;
+
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String Description;
 	public Id Id;
 	public Boolean IsActive;

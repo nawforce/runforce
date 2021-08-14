@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class RecordActionHistory extends SObject {
 	public static SObjectType$<RecordActionHistory> SObjectType;
@@ -39,7 +38,7 @@ public class RecordActionHistory extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LoggedTime;
 	public Id ParentRecordId;
-	public Account ParentRecord;
+	public SObject ParentRecord;
 	public String Pinned;
 	public String RecordActionId;
 	public String State;

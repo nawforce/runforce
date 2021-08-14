@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ContactPointTypeConsentChangeEvent extends SObject {
 	public static SObjectType$<ContactPointTypeConsentChangeEvent> SObjectType;
 	public static SObjectFields$<ContactPointTypeConsentChangeEvent> Fields;
+
 	public String CaptureContactPointType;
 	public Datetime CaptureDate;
 	public String CaptureSource;

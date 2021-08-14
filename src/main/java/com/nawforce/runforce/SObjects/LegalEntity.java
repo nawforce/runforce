@@ -24,10 +24,12 @@ import com.nawforce.runforce.System.*;
 public class LegalEntity extends SObject {
 	public static SObjectType$<LegalEntity> SObjectType;
 	public static SObjectFields$<LegalEntity> Fields;
+
 	public String CompanyName;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String Description;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -39,15 +41,17 @@ public class LegalEntity extends SObject {
 	public Address LegalEntityAddress;
 	public String LegalEntityCity;
 	public String LegalEntityCountry;
+	public String LegalEntityCountryCode;
 	public String LegalEntityGeocodeAccuracy;
 	public Decimal LegalEntityLatitude;
 	public Decimal LegalEntityLongitude;
 	public String LegalEntityPostalCode;
 	public String LegalEntityState;
+	public String LegalEntityStateCode;
 	public String LegalEntityStreet;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String Status;
 	public Datetime SystemModstamp;
 
@@ -60,6 +64,8 @@ public class LegalEntity extends SObject {
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public LegalEntityFeed[] Feeds;
+	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
+	public FinanceTransaction[] FinanceTransactions;
 	public LegalEntityHistory[] Histories;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

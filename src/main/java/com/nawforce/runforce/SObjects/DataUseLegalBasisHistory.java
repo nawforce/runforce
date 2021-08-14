@@ -28,6 +28,7 @@ public class DataUseLegalBasisHistory extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public Id DataUseLegalBasisId;
 	public DataUseLegalBasis DataUseLegalBasis;
 	public String Field;

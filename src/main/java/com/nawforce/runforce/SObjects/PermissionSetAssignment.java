@@ -28,11 +28,13 @@ public class PermissionSetAssignment extends SObject {
 
 	public Id AssigneeId;
 	public User Assignee;
+	public Datetime ExpirationDate;
 	public Id Id;
-	public Id PermissionSetId;
-	public PermissionSet PermissionSet;
+	public Boolean IsActive;
 	public Id PermissionSetGroupId;
 	public PermissionSetGroup PermissionSetGroup;
+	public Id PermissionSetId;
+	public PermissionSet PermissionSet;
 	public Datetime SystemModstamp;
 
 	public PermissionSetAssignment clone$() {throw new java.lang.UnsupportedOperationException();}

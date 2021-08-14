@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class ContactPointEmail extends SObject {
 	public static SObjectType$<ContactPointEmail> SObjectType;
 	public static SObjectFields$<ContactPointEmail> Fields;
+
 	public Date ActiveFromDate;
 	public Date ActiveToDate;
 	public Time BestTimeToContactEndTime;
@@ -47,17 +48,17 @@ public class ContactPointEmail extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Id ParentId;
-	public Account Parent;
+	public SObject Parent;
 	public Datetime SystemModstamp;
 
-  public CommSubscriptionConsent[] CommSubscriptionConsents;
-  public ContactPointConsent[] ContactPointConsents;
-  public ContactPointEmailHistory[] Histories;
-  public ProcessInstance[] ProcessInstances;
-  public ProcessInstanceHistory[] ProcessSteps;
-  public ContactPointEmailShare[] Shares;
+	public CommSubscriptionConsent[] CommSubscriptionConsents;
+	public ContactPointConsent[] ContactPointConsents;
+	public ContactPointEmailHistory[] Histories;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public ContactPointEmailShare[] Shares;
 
 	public ContactPointEmail clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointEmail clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

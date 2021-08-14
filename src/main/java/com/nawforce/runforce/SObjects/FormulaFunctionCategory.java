@@ -21,11 +21,11 @@ import com.nawforce.runforce.System.Id;
 import com.nawforce.runforce.System.SObject;
 import com.nawforce.runforce.System.String;
 
-
 @SuppressWarnings("unused")
 public class FormulaFunctionCategory extends SObject {
 	public static SObjectType$<FormulaFunctionCategory> SObjectType;
 	public static SObjectFields$<FormulaFunctionCategory> Fields;
+
 	public String DurableId;
 	public Id Id;
 	public String Label;

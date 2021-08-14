@@ -21,11 +21,11 @@ import com.nawforce.runforce.System.Id;
 import com.nawforce.runforce.System.SObject;
 import com.nawforce.runforce.System.String;
 
-
 @SuppressWarnings("unused")
 public class FlowVariableView extends SObject {
 	public static SObjectType$<FlowVariableView> SObjectType;
 	public static SObjectFields$<FlowVariableView> Fields;
+
 	public String ApiName;
 	public String DataType;
 	public String Description;

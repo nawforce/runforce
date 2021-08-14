@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class PlatformAction extends SObject {
 	public static SObjectType$<PlatformAction> SObjectType;
@@ -49,9 +48,11 @@ public class PlatformAction extends SObject {
 	public Boolean IsMassAction;
 	public String Label;
 	public Datetime LastModifiedDate;
+	public String OpenType;
 	public String PrimaryColor;
 	public String RelatedListRecordId;
 	public String RelatedSourceEntity;
+	public String RetrievalMode;
 	public String Section;
 	public String SourceEntity;
 	public String Subtype;

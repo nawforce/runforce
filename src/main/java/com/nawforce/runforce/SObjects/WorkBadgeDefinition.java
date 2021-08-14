@@ -23,63 +23,51 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class WorkBadgeDefinition extends SObject {
-  public static SObjectType$<WorkBadgeDefinition> SObjectType;
-  public static SObjectFields$<WorkBadgeDefinition> Fields;
-  public Id CreatedById;
-  public User CreatedBy;
-  public Datetime CreatedDate;
-  public String Description;
-  public Integer GivenBadgeCount;
-  public Id Id;
-  public String ImageUrl;
-  public Boolean IsActive;
-  public Boolean IsCompanyWide;
-  public Boolean IsDeleted;
-  public Boolean IsLimitPerUser;
-  public Boolean IsRewardBadge;
-  public Id LastModifiedById;
-  public User LastModifiedBy;
-  public Datetime LastModifiedDate;
-  public Datetime LastReferencedDate;
-  public Datetime LastViewedDate;
-  public Integer LimitNumber;
-  public Date LimitStartDate;
-  public String Name;
-  public Id OwnerId;
-  public Group Owner;
-  public Id RewardFundId;
-  public WorkRewardFund RewardFund;
-  public Datetime SystemModstamp;
+	public static SObjectType$<WorkBadgeDefinition> SObjectType;
+	public static SObjectFields$<WorkBadgeDefinition> Fields;
 
-  public AttachedContentDocument[] AttachedContentDocuments;
-  public WorkBadge[] Badges;
-  public CombinedAttachment[] CombinedAttachments;
-  public ContentDocumentLink[] ContentDocumentLinks;
-  public EntitySubscription[] FeedSubscriptionsForEntity;
-  public WorkBadgeDefinitionFeed[] Feeds;
-  public WorkBadgeDefinitionHistory[] Histories;
-  public ProcessInstance[] ProcessInstances;
-  public ProcessInstanceHistory[] ProcessSteps;
-  public WorkBadgeDefinitionShare[] Shares;
-  public WorkAccess[] WorkAccesses;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String Description;
+	public Integer GivenBadgeCount;
+	public Id Id;
+	public String ImageUrl;
+	public Boolean IsActive;
+	public Boolean IsCompanyWide;
+	public Boolean IsDeleted;
+	public Boolean IsLimitPerUser;
+	public Boolean IsRewardBadge;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
+	public Integer LimitNumber;
+	public Date LimitStartDate;
+	public String Name;
+	public Id OwnerId;
+	public SObject Owner;
+	public Id RewardFundId;
+	public WorkRewardFund RewardFund;
+	public Datetime SystemModstamp;
 
-  public WorkBadgeDefinition clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public WorkBadge[] Badges;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public WorkBadgeDefinitionFeed[] Feeds;
+	public WorkBadgeDefinitionHistory[] Histories;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public WorkBadgeDefinitionShare[] Shares;
+	public WorkAccess[] WorkAccesses;
 
-  public WorkBadgeDefinition clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkBadgeDefinition clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkBadgeDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkBadgeDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkBadgeDefinition clone$() {throw new java.lang.UnsupportedOperationException();}
+	public WorkBadgeDefinition clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkBadgeDefinition clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkBadgeDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkBadgeDefinition clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

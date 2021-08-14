@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class PartyConsentChangeEvent extends SObject {
 	public static SObjectType$<PartyConsentChangeEvent> SObjectType;
 	public static SObjectFields$<PartyConsentChangeEvent> Fields;
+
 	public String Action;
 	public String CaptureContactPointType;
 	public Datetime CaptureDate;
@@ -32,6 +33,7 @@ public class PartyConsentChangeEvent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class OrderChangeEvent extends SObject {
 	public static SObjectType$<OrderChangeEvent> SObjectType;
@@ -76,6 +75,8 @@ public class OrderChangeEvent extends SObject {
 	public String PoNumber;
 	public Id Pricebook2Id;
 	public Pricebook2 Pricebook2;
+	public Id RecordTypeId;
+	public RecordType RecordType;
 	public String ReplayId;
 	public Id ShipToContactId;
 	public Contact ShipToContact;

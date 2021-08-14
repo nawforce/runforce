@@ -32,7 +32,7 @@ public class EntitySubscription extends SObject {
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id ParentId;
-	public Account Parent;
+	public SObject Parent;
 	public Id SubscriberId;
 	public User Subscriber;
 

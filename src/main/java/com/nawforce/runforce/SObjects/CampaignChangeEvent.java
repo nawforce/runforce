@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class CampaignChangeEvent extends SObject {
 	public static SObjectType$<CampaignChangeEvent> SObjectType;

@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Product2 extends SObject {
 	public static SObjectType$<Product2> SObjectType;
@@ -66,11 +65,13 @@ public class Product2 extends SObject {
 	public Attachment[] Attachments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
+	public CreditMemoLine[] CreditMemoLines;
 	public EmailMessage[] Emails;
 	public Event[] Events;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public Product2Feed[] Feeds;
 	public Product2History[] Histories;
+	public InvoiceLine[] InvoiceLines;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;
@@ -78,9 +79,22 @@ public class Product2 extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductConsumptionSchedule[] ProductConsumptionSchedules;
+	public ProductItem[] ProductItems;
+	public ProductRequestLineItem[] ProductRequestLineItems;
+	public ProductServiceCampaignItem[] ProductServiceCampaignItems;
+	public ProductServiceCampaign[] ProductServiceCampaignProducts;
+	public ProductTransfer[] ProductTransfers;
+	public ProductWarrantyTerm[] ProductWarrantyTermProducts;
+	public ProductConsumed[] ProductsConsumed;
+	public ProductRequired[] ProductsRequired;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public ReturnOrderLineItem[] ReturnOrderLineItems;
+	public ShipmentItem[] ShipmentItems;
+	public SurveySubject[] SurveySubjectEntities;
 	public Task[] Tasks;
+	public WorkOrderLineItem[] WorkOrderLineItems;
+	public WorkPlanSelectionRule[] WorkPlanSelectionRules;
 
 	public Product2 clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Product2 clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

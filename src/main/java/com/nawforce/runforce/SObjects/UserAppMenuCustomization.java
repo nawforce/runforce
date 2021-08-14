@@ -38,9 +38,11 @@ public class UserAppMenuCustomization extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Integer SortOrder;
 	public Datetime SystemModstamp;
+
+	public UserAppMenuCustomizationShare[] Shares;
 
 	public UserAppMenuCustomization clone$() {throw new java.lang.UnsupportedOperationException();}
 	public UserAppMenuCustomization clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

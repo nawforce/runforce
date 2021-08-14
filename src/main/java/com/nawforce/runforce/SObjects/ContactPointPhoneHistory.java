@@ -24,11 +24,13 @@ import com.nawforce.runforce.System.*;
 public class ContactPointPhoneHistory extends SObject {
 	public static SObjectType$<ContactPointPhoneHistory> SObjectType;
 	public static SObjectFields$<ContactPointPhoneHistory> Fields;
+
 	public Id ContactPointPhoneId;
 	public ContactPointPhone ContactPointPhone;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

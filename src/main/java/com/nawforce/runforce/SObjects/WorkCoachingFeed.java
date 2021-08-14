@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class WorkCoachingFeed extends SObject {
 	public static SObjectType$<WorkCoachingFeed> SObjectType;
 	public static SObjectFields$<WorkCoachingFeed> Fields;
+
 	public Id BestCommentId;
 	public FeedComment BestComment;
 	public String Body;
@@ -43,7 +44,7 @@ public class WorkCoachingFeed extends SObject {
 	public Id ParentId;
 	public WorkCoaching Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

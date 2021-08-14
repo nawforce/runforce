@@ -24,10 +24,12 @@ import com.nawforce.runforce.System.*;
 public class SurveyResponse extends SObject {
 	public static SObjectType$<SurveyResponse> SObjectType;
 	public static SObjectFields$<SurveyResponse> Fields;
+
 	public Datetime CompletionDateTime;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public String InterviewGuid;
 	public Id InterviewId;
@@ -48,13 +50,16 @@ public class SurveyResponse extends SObject {
 	public String Name;
 	public String Status;
 	public Id SubmitterId;
-	public Contact Submitter;
+	public SObject Submitter;
 	public Id SurveyId;
 	public Survey Survey;
 	public Id SurveyVersionId;
 	public SurveyVersion SurveyVersion;
 	public Datetime SystemModstamp;
 
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public SurveyQuestionResponse[] SurveyQuestionResponses;

@@ -32,6 +32,7 @@ public class Recommendation extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public String Description;
+	public String ExternalId;
 	public Id Id;
 	public Id ImageId;
 	public ContentAsset Image;

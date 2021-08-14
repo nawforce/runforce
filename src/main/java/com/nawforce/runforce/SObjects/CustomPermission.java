@@ -32,6 +32,7 @@ public class CustomPermission extends SObject {
 	public String DeveloperName;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsLicensed;
 	public Boolean IsProtected;
 	public String Language;
 	public Id LastModifiedById;

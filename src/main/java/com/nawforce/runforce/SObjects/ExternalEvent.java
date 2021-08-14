@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class ExternalEvent extends SObject {
 	public static SObjectType$<ExternalEvent> SObjectType;
 	public static SObjectFields$<ExternalEvent> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

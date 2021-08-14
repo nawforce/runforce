@@ -21,8 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
-
 @SuppressWarnings("unused")
 public class UserProvisioningRequest extends SObject {
 	public static SObjectType$<UserProvisioningRequest> SObjectType;
@@ -46,7 +44,7 @@ public class UserProvisioningRequest extends SObject {
 	public String Name;
 	public String Operation;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Id ParentId;
 	public UserProvisioningRequest Parent;
 	public Integer RetryCount;
@@ -62,6 +60,7 @@ public class UserProvisioningRequest extends SObject {
 
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public UserProvisioningRequestShare[] Shares;
 
 	public UserProvisioningRequest clone$() {throw new java.lang.UnsupportedOperationException();}
 	public UserProvisioningRequest clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

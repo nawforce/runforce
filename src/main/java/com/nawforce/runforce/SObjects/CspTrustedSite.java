@@ -34,6 +34,12 @@ public class CspTrustedSite extends SObject {
 	public String EndpointUrl;
 	public Id Id;
 	public Boolean IsActive;
+	public Boolean IsApplicableToConnectSrc;
+	public Boolean IsApplicableToFontSrc;
+	public Boolean IsApplicableToFrameSrc;
+	public Boolean IsApplicableToImgSrc;
+	public Boolean IsApplicableToMediaSrc;
+	public Boolean IsApplicableToStyleSrc;
 	public Boolean IsDeleted;
 	public String Language;
 	public Id LastModifiedById;

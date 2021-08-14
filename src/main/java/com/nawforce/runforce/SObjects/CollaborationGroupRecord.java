@@ -37,7 +37,7 @@ public class CollaborationGroupRecord extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id RecordId;
-	public Account Record;
+	public SObject Record;
 	public Datetime SystemModstamp;
 
 	public CollaborationGroupRecord clone$() {throw new java.lang.UnsupportedOperationException();}

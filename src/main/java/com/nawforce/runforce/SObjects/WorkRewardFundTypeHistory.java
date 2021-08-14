@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class WorkRewardFundTypeHistory extends SObject {
 	public static SObjectType$<WorkRewardFundTypeHistory> SObjectType;
 	public static SObjectFields$<WorkRewardFundTypeHistory> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

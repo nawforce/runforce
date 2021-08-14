@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class CollaborationGroup extends SObject {
 	public static SObjectType$<CollaborationGroup> SObjectType;
@@ -37,11 +36,11 @@ public class CollaborationGroup extends SObject {
 	public Datetime CreatedDate;
 	public String Description;
 	public String FullPhotoUrl;
+	public String GroupEmail;
 	public Boolean HasPrivateFieldsAccess;
 	public Id Id;
 	public String InformationBody;
 	public String InformationTitle;
-	public Boolean IsActivityGroup;
 	public Boolean IsArchived;
 	public Boolean IsAutoArchiveDisabled;
 	public Boolean IsBroadcast;
@@ -60,6 +59,7 @@ public class CollaborationGroup extends SObject {
 	public Datetime SystemModstamp;
 
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public LightningOnboardingConfig[] ChatterGroup;
 	public CollaborationGroupRecord[] CollaborationGroupRecords;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

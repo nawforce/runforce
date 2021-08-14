@@ -17,6 +17,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Long;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -25,14 +26,18 @@ public class AppAnalyticsQueryRequest extends SObject {
 	public static SObjectType$<AppAnalyticsQueryRequest> SObjectType;
 	public static SObjectFields$<AppAnalyticsQueryRequest> Fields;
 
+	public Datetime AvailableSince;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String DataType;
 	public Datetime DownloadExpirationTime;
+	public Long DownloadSize;
 	public String DownloadUrl;
 	public Datetime EndTime;
 	public String ErrorMessage;
+	public String FileCompression;
+	public String FileType;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -43,6 +48,7 @@ public class AppAnalyticsQueryRequest extends SObject {
 	public String Name;
 	public String OrganizationIds;
 	public String PackageIds;
+	public Datetime QuerySubmittedTime;
 	public String RequestState;
 	public Datetime StartTime;
 	public Datetime SystemModstamp;

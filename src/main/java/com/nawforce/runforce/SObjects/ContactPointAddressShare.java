@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ContactPointAddressShare extends SObject {
 	public static SObjectType$<ContactPointAddressShare> SObjectType;
 	public static SObjectFields$<ContactPointAddressShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -35,7 +35,7 @@ public class ContactPointAddressShare extends SObject {
 	public ContactPointAddress Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public ContactPointAddressShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointAddressShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -43,14 +43,17 @@ public class Pricebook2 extends SObject {
 	public String Name;
 	public Datetime SystemModstamp;
 
+	public AssetWarranty[] AssetWarrantyPricebooks;
 	public Contract[] Contracts;
 	public Pricebook2History[] Histories;
 	public Opportunity[] Opportunities;
 	public Order[] Orders;
+	public WarrantyTerm[] Pricebook2;
 	public PricebookEntry[] PricebookEntries;
 	public Quote[] Quotes;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public WorkOrder[] WorkOrders;
 
 	public Pricebook2 clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Pricebook2 clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

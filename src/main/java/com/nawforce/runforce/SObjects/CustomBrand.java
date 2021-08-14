@@ -34,7 +34,7 @@ public class CustomBrand extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id ParentId;
-	public Organization Parent;
+	public SObject Parent;
 
 	public CustomBrandAsset[] CustomBrandAssets;
 

@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class PaymentGatewayProvider extends SObject {
 	public static SObjectType$<PaymentGatewayProvider> SObjectType;
 	public static SObjectFields$<PaymentGatewayProvider> Fields;
+
 	public Id ApexAdapterId;
 	public ApexClass ApexAdapter;
 	public String Comments;

@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class UserChangeEvent extends SObject {
 	public static SObjectType$<UserChangeEvent> SObjectType;
@@ -49,7 +48,7 @@ public class UserChangeEvent extends SObject {
 	public String DefaultCurrencyIsoCode;
 	public String DefaultGroupNotificationFrequency;
 	public Id DelegatedApproverId;
-	public Group DelegatedApprover;
+	public SObject DelegatedApprover;
 	public String Department;
 	public String DigestFrequency;
 	public String Division;
@@ -85,6 +84,7 @@ public class UserChangeEvent extends SObject {
 	public User Manager;
 	public String MobilePhone;
 	public String Name;
+	public Integer NumberOfFailedLogins;
 	public Datetime OfflinePdaTrialExpirationDate;
 	public Datetime OfflineTrialExpirationDate;
 	public String Phone;
@@ -110,7 +110,6 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPermissionsJigsawProspectingUser;
 	public Boolean UserPermissionsKnowledgeUser;
 	public Boolean UserPermissionsMarketingUser;
-	public Boolean UserPermissionsMobileUser;
 	public Boolean UserPermissionsOfflineUser;
 	public Boolean UserPermissionsSFContentUser;
 	public Boolean UserPermissionsSiteforceContributorUser;
@@ -153,20 +152,24 @@ public class UserChangeEvent extends SObject {
 	public Boolean UserPreferencesHideCSNGetChatterMobileTask;
 	public Boolean UserPreferencesHideChatterOnboardingSplash;
 	public Boolean UserPreferencesHideEndUserOnboardingAssistantModal;
+	public Boolean UserPreferencesHideLegacyRetirementModal;
 	public Boolean UserPreferencesHideLightningMigrationModal;
 	public Boolean UserPreferencesHideS1BrowserUI;
 	public Boolean UserPreferencesHideSecondChatterOnboardingSplash;
 	public Boolean UserPreferencesHideSfxWelcomeMat;
 	public Boolean UserPreferencesJigsawListUser;
 	public Boolean UserPreferencesLightningExperiencePreferred;
+	public Boolean UserPreferencesNativeEmailClient;
 	public Boolean UserPreferencesNewLightningReportRunPageEnabled;
 	public Boolean UserPreferencesPathAssistantCollapsed;
-	public Boolean UserPreferencesPipelineViewHideHelpPopover;
 	public Boolean UserPreferencesPreviewCustomTheme;
 	public Boolean UserPreferencesPreviewLightning;
+	public Boolean UserPreferencesReceiveNoNotificationsAsApprover;
+	public Boolean UserPreferencesReceiveNotificationsAsDelegatedApprover;
 	public Boolean UserPreferencesRecordHomeReservedWTShown;
 	public Boolean UserPreferencesRecordHomeSectionCollapseWTShown;
 	public Boolean UserPreferencesReminderSoundOff;
+	public Boolean UserPreferencesSRHOverrideActivities;
 	public Boolean UserPreferencesShowCityToExternalUsers;
 	public Boolean UserPreferencesShowCityToGuestUsers;
 	public Boolean UserPreferencesShowCountryToExternalUsers;

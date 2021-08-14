@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class ContactPointEmailShare extends SObject {
 	public static SObjectType$<ContactPointEmailShare> SObjectType;
 	public static SObjectFields$<ContactPointEmailShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class ContactPointEmailShare extends SObject {
 	public ContactPointEmail Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public ContactPointEmailShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointEmailShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

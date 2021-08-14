@@ -19,14 +19,15 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class AsyncOperationStatus extends SObject {
 	public static SObjectType$<AsyncOperationStatus> SObjectType;
+
 	public String Category;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String EventUuid;
 	public Object Fields;
 	public String Message;
 	public String Status;

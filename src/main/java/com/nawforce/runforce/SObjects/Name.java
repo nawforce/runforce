@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Name extends SObject {
 	public static SObjectType$<Name> SObjectType;

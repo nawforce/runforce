@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Event extends SObject {
 	public static SObjectType$<Event> SObjectType;
@@ -37,6 +36,7 @@ public class Event extends SObject {
 	public String CurrencyIsoCode;
 	public String Description;
 	public Integer DurationInMinutes;
+	public Date EndDate;
 	public Datetime EndDateTime;
 	public String EventSubtype;
 	public String GroupEventType;
@@ -57,7 +57,7 @@ public class Event extends SObject {
 	public Datetime LastModifiedDate;
 	public String Location;
 	public Id OwnerId;
-	public User Owner;
+	public SObject Owner;
 	public Datetime Recurrence2PatternStartDate;
 	public String Recurrence2PatternText;
 	public String Recurrence2PatternTimeZone;
@@ -79,9 +79,9 @@ public class Event extends SObject {
 	public String Subject;
 	public Datetime SystemModstamp;
 	public Id WhatId;
-	public Account What;
+	public SObject What;
 	public Id WhoId;
-	public Contact Who;
+	public SObject Who;
 
 	public AcceptedEventRelation[] AcceptedEventRelations;
 	public AttachedContentDocument[] AttachedContentDocuments;
@@ -93,6 +93,7 @@ public class Event extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public EventFeed[] Feeds;
 	public Event[] RecurringEvents;
+	public SurveySubject[] SurveySubjectEntities;
 	public TopicAssignment[] TopicAssignments;
 	public UndecidedEventRelation[] UndecidedEventRelations;
 

@@ -24,11 +24,13 @@ import com.nawforce.runforce.System.*;
 public class CommSubscriptionHistory extends SObject {
 	public static SObjectType$<CommSubscriptionHistory> SObjectType;
 	public static SObjectFields$<CommSubscriptionHistory> Fields;
+
 	public Id CommSubscriptionId;
 	public CommSubscription CommSubscription;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

@@ -27,7 +27,7 @@ public class ContentNotification extends SObject {
 
 	public Datetime CreatedDate;
 	public Id EntityIdentifierId;
-	public ContentDocument EntityIdentifier;
+	public SObject EntityIdentifier;
 	public String EntityType;
 	public Id Id;
 	public String Nature;

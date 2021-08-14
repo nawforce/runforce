@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class ContactPointPhoneChangeEvent extends SObject {
 	public static SObjectType$<ContactPointPhoneChangeEvent> SObjectType;
 	public static SObjectFields$<ContactPointPhoneChangeEvent> Fields;
+
 	public Date ActiveFromDate;
 	public Date ActiveToDate;
 	public String AreaCode;
@@ -50,7 +51,7 @@ public class ContactPointPhoneChangeEvent extends SObject {
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentId;
-	public Account Parent;
+	public SObject Parent;
 	public String PhoneType;
 	public String ReplayId;
 	public String TelephoneNumber;

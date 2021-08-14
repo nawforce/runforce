@@ -43,7 +43,7 @@ public class Report extends SObject {
 	public String Name;
 	public String NamespacePrefix;
 	public Id OwnerId;
-	public Folder Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 
 	public AttachedContentDocument[] AttachedContentDocuments;
@@ -51,6 +51,7 @@ public class Report extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public ReportFeed[] Feeds;
+	public MetricDataLink[] LinkDataSource;
 
 	public Report clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Report clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

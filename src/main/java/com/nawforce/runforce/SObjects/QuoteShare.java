@@ -35,7 +35,7 @@ public class QuoteShare extends SObject {
 	public Quote Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public QuoteShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public QuoteShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

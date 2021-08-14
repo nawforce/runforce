@@ -45,7 +45,7 @@ public class ConsumptionSchedule extends SObject {
 	public String Name;
 	public Integer NumberOfRates;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String RatingMethod;
 	public Datetime SystemModstamp;
 	public String Type;
@@ -61,6 +61,7 @@ public class ConsumptionSchedule extends SObject {
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public ProductConsumptionSchedule[] ProductConsumptionSchedules;
+	public ConsumptionScheduleShare[] Shares;
 
 	public ConsumptionSchedule clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ConsumptionSchedule clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

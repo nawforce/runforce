@@ -20,16 +20,17 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class QuickTextUsage extends SObject {
 	public static SObjectType$<QuickTextUsage> SObjectType;
 	public static SObjectFields$<QuickTextUsage> Fields;
+
 	public String AppContext;
 	public String Channel;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -39,7 +40,7 @@ public class QuickTextUsage extends SObject {
 	public Datetime LoggedTime;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Id QuickTextId;
 	public QuickText QuickText;
 	public Datetime SystemModstamp;

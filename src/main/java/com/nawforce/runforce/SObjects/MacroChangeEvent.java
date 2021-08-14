@@ -20,15 +20,16 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class MacroChangeEvent extends SObject {
 	public static SObjectType$<MacroChangeEvent> SObjectType;
 	public static SObjectFields$<MacroChangeEvent> Fields;
+
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String Description;
 	public Id Id;
 	public Boolean IsAlohaSupported;

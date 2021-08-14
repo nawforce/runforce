@@ -22,10 +22,12 @@ import com.nawforce.runforce.System.*;
 @SuppressWarnings("unused")
 public class CalendarView extends SObject {
 	public static SObjectFields$<CalendarView> Fields;
+
 	public String Color;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String DateHandlingType;
 	public String DisplayField;
 	public String EndField;
@@ -40,7 +42,9 @@ public class CalendarView extends SObject {
 	public ListView ListViewFilter;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
+	public Id PublisherId;
+	public SObject Publisher;
 	public String SobjectType;
 	public String StartField;
 	public Datetime SystemModstamp;

@@ -21,17 +21,18 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class DatacloudCompany extends SObject {
 	public static SObjectType$<DatacloudCompany> SObjectType;
 	public static SObjectFields$<DatacloudCompany> Fields;
+
 	public Integer ActiveContacts;
 	public Decimal AnnualRevenue;
 	public String City;
 	public String CompanyId;
 	public String Country;
 	public String CountryCode;
+	public String CurrencyIsoCode;
 	public String Description;
 	public String DunsNumber;
 	public Decimal EmployeeQuantityGrowthRate;

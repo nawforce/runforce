@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class Prompt extends SObject {
 	public static SObjectType$<Prompt> SObjectType;
 	public static SObjectFields$<Prompt> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -37,6 +38,8 @@ public class Prompt extends SObject {
 	public String MasterLabel;
 	public String NamespacePrefix;
 	public Datetime SystemModstamp;
+
+	public PromptLocalization[] Localization;
 
 	public Prompt clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Prompt clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

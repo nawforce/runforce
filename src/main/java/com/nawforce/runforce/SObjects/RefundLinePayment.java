@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class RefundLinePayment extends SObject {
 	public static SObjectType$<RefundLinePayment> SObjectType;
 	public static SObjectFields$<RefundLinePayment> Fields;
+
 	public Decimal Amount;
 	public Datetime AppliedDate;
 	public Id AssociatedAccountId;
@@ -34,6 +35,7 @@ public class RefundLinePayment extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Datetime Date;
 	public Datetime EffectiveDate;
 	public Decimal EffectiveImpactAmount;
@@ -55,7 +57,12 @@ public class RefundLinePayment extends SObject {
 	public String Type;
 	public Datetime UnappliedDate;
 
+	public FinanceTransaction[] DestinationFinanceTransactions;
+	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
+	public FinanceTransaction[] FinanceTransactions;
+	public FinanceTransaction[] ParentFinanceTransactions;
 	public RefundLinePayment[] RefundLinePayments;
+	public FinanceTransaction[] SourceFinanceTransactions;
 
 	public RefundLinePayment clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RefundLinePayment clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

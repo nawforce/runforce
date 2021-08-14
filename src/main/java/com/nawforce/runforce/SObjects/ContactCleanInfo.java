@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ContactCleanInfo extends SObject {
 	public static SObjectType$<ContactCleanInfo> SObjectType;
 	public static SObjectFields$<ContactCleanInfo> Fields;
+
 	public Address Address;
 	public String City;
 	public Boolean CleanedByJob;
@@ -33,9 +33,11 @@ public class ContactCleanInfo extends SObject {
 	public Contact Contact;
 	public String ContactStatusDataDotCom;
 	public String Country;
+	public String CountryCode;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String DataDotComId;
 	public String Email;
 	public String FirstName;
@@ -79,6 +81,7 @@ public class ContactCleanInfo extends SObject {
 	public String Phone;
 	public String PostalCode;
 	public String State;
+	public String StateCode;
 	public String Street;
 	public Datetime SystemModstamp;
 	public String Title;

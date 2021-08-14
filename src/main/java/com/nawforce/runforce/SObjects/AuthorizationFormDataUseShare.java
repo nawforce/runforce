@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class AuthorizationFormDataUseShare extends SObject {
 	public static SObjectType$<AuthorizationFormDataUseShare> SObjectType;
 	public static SObjectFields$<AuthorizationFormDataUseShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -35,7 +35,7 @@ public class AuthorizationFormDataUseShare extends SObject {
 	public AuthorizationFormDataUse Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public AuthorizationFormDataUseShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AuthorizationFormDataUseShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

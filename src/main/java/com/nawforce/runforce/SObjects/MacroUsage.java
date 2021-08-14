@@ -25,12 +25,14 @@ import com.nawforce.runforce.System.*;
 public class MacroUsage extends SObject {
 	public static SObjectType$<MacroUsage> SObjectType;
 	public static SObjectFields$<MacroUsage> Fields;
+
 	public String AppContext;
 	public Integer ConditionCount;
 	public String ContextRecord;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Integer DurationInMs;
 	public Integer ExecutedInstructionCount;
 	public Datetime ExecutionEndTime;
@@ -47,7 +49,7 @@ public class MacroUsage extends SObject {
 	public Macro Macro;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 	public Id UserId;
 	public User User;

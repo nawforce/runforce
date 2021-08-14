@@ -44,7 +44,7 @@ public class DashboardFeed extends SObject {
 	public Id ParentId;
 	public Dashboard Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

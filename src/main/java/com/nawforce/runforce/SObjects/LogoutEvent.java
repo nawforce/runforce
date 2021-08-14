@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class LogoutEvent extends SObject {
 	public static SObjectType$<LogoutEvent> SObjectType;
 	public static SObjectFields$<LogoutEvent> Fields;
+
 	public Datetime CreatedDate;
 	public Datetime EventDate;
 	public String EventIdentifier;

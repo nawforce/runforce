@@ -31,7 +31,7 @@ public class ExternalDataUserAuth extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Id ExternalDataSourceId;
-	public ExternalDataSource ExternalDataSource;
+	public SObject ExternalDataSource;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -22,37 +22,24 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class WorkAccessShare extends SObject {
-  public static SObjectType$<WorkAccessShare> SObjectType;
-  public static SObjectFields$<WorkAccessShare> Fields;
-  public String AccessLevel;
-  public Id Id;
-  public Boolean IsDeleted;
-  public Id LastModifiedById;
-  public User LastModifiedBy;
-  public Datetime LastModifiedDate;
-  public Id ParentId;
-  public WorkAccess Parent;
-  public String RowCause;
-  public Id UserOrGroupId;
-  public Group UserOrGroup;
+	public static SObjectType$<WorkAccessShare> SObjectType;
+	public static SObjectFields$<WorkAccessShare> Fields;
 
-  public WorkAccessShare clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public String AccessLevel;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Id ParentId;
+	public WorkAccess Parent;
+	public String RowCause;
+	public Id UserOrGroupId;
+	public SObject UserOrGroup;
 
-  public WorkAccessShare clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkAccessShare clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkAccessShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkAccessShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkAccessShare clone$() {throw new java.lang.UnsupportedOperationException();}
+	public WorkAccessShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkAccessShare clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkAccessShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkAccessShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

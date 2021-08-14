@@ -49,6 +49,7 @@ public class SamlSsoConfig extends SObject {
 	public String MasterLabel;
 	public String NamespacePrefix;
 	public Boolean OptionsSpInitBinding;
+	public Boolean OptionsUseConfigRequestMethod;
 	public Boolean OptionsUserProvisioning;
 	public String RequestSignatureMethod;
 	public Id SamlJitHandlerId;

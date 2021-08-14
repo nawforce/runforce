@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class IndividualChangeEvent extends SObject {
 	public static SObjectType$<IndividualChangeEvent> SObjectType;
 	public static SObjectFields$<IndividualChangeEvent> Fields;
+
 	public Date BirthDate;
 	public Boolean CanStorePiiElsewhere;
 	public Object ChangeEventHeader;

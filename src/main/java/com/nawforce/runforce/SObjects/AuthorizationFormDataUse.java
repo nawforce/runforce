@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class AuthorizationFormDataUse extends SObject {
 	public static SObjectType$<AuthorizationFormDataUse> SObjectType;
 	public static SObjectFields$<AuthorizationFormDataUse> Fields;
+
 	public Id AuthorizationFormId;
 	public AuthorizationForm AuthorizationForm;
 	public Id CreatedById;
@@ -41,7 +41,7 @@ public class AuthorizationFormDataUse extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 
 	public AuthorizationFormDataUseHistory[] Histories;

@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class CustomNotificationType extends SObject {
 	public static SObjectType$<CustomNotificationType> SObjectType;
 	public static SObjectFields$<CustomNotificationType> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

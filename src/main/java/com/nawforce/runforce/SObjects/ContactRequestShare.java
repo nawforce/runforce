@@ -35,7 +35,7 @@ public class ContactRequestShare extends SObject {
 	public ContactRequest Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public ContactRequestShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactRequestShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

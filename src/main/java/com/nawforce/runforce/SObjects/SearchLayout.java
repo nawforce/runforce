@@ -35,6 +35,9 @@ public class SearchLayout extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String LayoutType;
+	public String ListLayout;
+	public String Profile;
+	public String ProfileName;
 
 	public SearchLayout clone$() {throw new java.lang.UnsupportedOperationException();}
 	public SearchLayout clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

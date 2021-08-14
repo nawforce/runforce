@@ -21,11 +21,11 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ApiEvent extends SObject {
 	public static SObjectType$<ApiEvent> SObjectType;
 	public static SObjectFields$<ApiEvent> Fields;
+
 	public String AdditionalInfo;
 	public String ApiType;
 	public Decimal ApiVersion;
@@ -52,6 +52,7 @@ public class ApiEvent extends SObject {
 	public String Records;
 	public String RelatedEventIdentifier;
 	public Decimal RowsProcessed;
+	public Decimal RowsReturned;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

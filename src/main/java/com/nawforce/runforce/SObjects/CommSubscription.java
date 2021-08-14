@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class CommSubscription extends SObject {
 	public static SObjectType$<CommSubscription> SObjectType;
 	public static SObjectFields$<CommSubscription> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -36,7 +38,7 @@ public class CommSubscription extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 
 	public AttachedContentDocument[] AttachedContentDocuments;

@@ -26,6 +26,8 @@ public class Contract extends SObject {
 	public static SObjectType$<Contract> SObjectType;
 	public static SObjectFields$<Contract> Fields;
 
+	public Id RecordTypeId;
+	public RecordType RecordType;
 	public Id AccountId;
 	public Account Account;
 	public Id ActivatedById;

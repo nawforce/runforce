@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class LightningUriEvent extends SObject {
 	public static SObjectType$<LightningUriEvent> SObjectType;
 	public static SObjectFields$<LightningUriEvent> Fields;
+
 	public String AppName;
 	public String ConnectionType;
 	public Datetime CreatedDate;

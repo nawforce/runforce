@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class EngagementChannelTypeFeed extends SObject {
 	public static SObjectType$<EngagementChannelTypeFeed> SObjectType;
 	public static SObjectFields$<EngagementChannelTypeFeed> Fields;
+
 	public Id BestCommentId;
 	public FeedComment BestComment;
 	public String Body;
@@ -43,7 +44,7 @@ public class EngagementChannelTypeFeed extends SObject {
 	public Id ParentId;
 	public EngagementChannelType Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

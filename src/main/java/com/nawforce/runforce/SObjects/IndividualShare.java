@@ -35,7 +35,7 @@ public class IndividualShare extends SObject {
 	public Datetime LastModifiedDate;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public IndividualShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public IndividualShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

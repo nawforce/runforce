@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class MetricDataLinkHistory extends SObject {
 	public static SObjectType$<MetricDataLinkHistory> SObjectType;
 	public static SObjectFields$<MetricDataLinkHistory> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

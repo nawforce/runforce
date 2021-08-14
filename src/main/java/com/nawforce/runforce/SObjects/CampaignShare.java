@@ -35,7 +35,7 @@ public class CampaignShare extends SObject {
 	public Datetime LastModifiedDate;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public CampaignShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CampaignShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

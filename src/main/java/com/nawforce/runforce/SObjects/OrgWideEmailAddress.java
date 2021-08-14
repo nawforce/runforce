@@ -35,6 +35,7 @@ public class OrgWideEmailAddress extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String Purpose;
 	public Datetime SystemModstamp;
 
 	public OrgWideEmailAddress clone$() {throw new java.lang.UnsupportedOperationException();}

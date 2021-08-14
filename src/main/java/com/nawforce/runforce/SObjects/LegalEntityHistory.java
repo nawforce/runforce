@@ -20,14 +20,15 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class LegalEntityHistory extends SObject {
 	public static SObjectType$<LegalEntityHistory> SObjectType;
 	public static SObjectFields$<LegalEntityHistory> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

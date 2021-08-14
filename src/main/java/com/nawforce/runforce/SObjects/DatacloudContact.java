@@ -20,16 +20,17 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class DatacloudContact extends SObject {
 	public static SObjectType$<DatacloudContact> SObjectType;
 	public static SObjectFields$<DatacloudContact> Fields;
+
 	public String City;
 	public String CompanyId;
 	public String CompanyName;
 	public String ContactId;
 	public String Country;
+	public String CurrencyIsoCode;
 	public String Department;
 	public String Email;
 	public String ExternalId;

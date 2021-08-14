@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class FeedItem extends SObject {
 	public static SObjectType$<FeedItem> SObjectType;
@@ -51,9 +50,9 @@ public class FeedItem extends SObject {
 	public Integer LikeCount;
 	public String LinkUrl;
 	public Id ParentId;
-	public Account Parent;
+	public SObject Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Integer Revision;
 	public String Status;
 	public Datetime SystemModstamp;
@@ -62,6 +61,7 @@ public class FeedItem extends SObject {
 
 	public FeedAttachment[] FeedAttachments;
 	public FeedComment[] FeedComments;
+	public WorkThanks[] FeedItemThanks;
 	public FeedLike[] FeedLikes;
 	public FeedRevision[] FeedRevisions;
 	public FeedSignal[] FeedSignals;

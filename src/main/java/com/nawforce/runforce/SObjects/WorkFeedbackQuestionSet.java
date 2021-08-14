@@ -22,50 +22,38 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class WorkFeedbackQuestionSet extends SObject {
-  public static SObjectType$<WorkFeedbackQuestionSet> SObjectType;
-  public static SObjectFields$<WorkFeedbackQuestionSet> Fields;
-  public Id CreatedById;
-  public User CreatedBy;
-  public Datetime CreatedDate;
-  public Date DueDate;
-  public String FeedbackType;
-  public Id Id;
-  public Boolean IsDeleted;
-  public Id LastModifiedById;
-  public User LastModifiedBy;
-  public Datetime LastModifiedDate;
-  public String Name;
-  public Id OwnerId;
-  public Group Owner;
-  public Id PerformanceCycleId;
-  public WorkPerformanceCycle PerformanceCycle;
-  public Datetime SystemModstamp;
+	public static SObjectType$<WorkFeedbackQuestionSet> SObjectType;
+	public static SObjectFields$<WorkFeedbackQuestionSet> Fields;
 
-  public WorkFeedbackQuestion[] FeedbackQuestions;
-  public WorkFeedbackRequest[] FeedbackRequests;
-  public WorkFeedbackQuestionSetHistory[] Histories;
-  public ProcessInstance[] ProcessInstances;
-  public ProcessInstanceHistory[] ProcessSteps;
-  public WorkFeedbackQuestionSetShare[] Shares;
-  public WorkFeedbackTemplate[] Templates;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public Date DueDate;
+	public String FeedbackType;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public String Name;
+	public Id OwnerId;
+	public SObject Owner;
+	public Id PerformanceCycleId;
+	public WorkPerformanceCycle PerformanceCycle;
+	public Datetime SystemModstamp;
 
-  public WorkFeedbackQuestionSet clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkFeedbackQuestion[] FeedbackQuestions;
+	public WorkFeedbackRequest[] FeedbackRequests;
+	public WorkFeedbackQuestionSetHistory[] Histories;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public WorkFeedbackQuestionSetShare[] Shares;
+	public WorkFeedbackTemplate[] Templates;
 
-  public WorkFeedbackQuestionSet clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedbackQuestionSet clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedbackQuestionSet clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedbackQuestionSet clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkFeedbackQuestionSet clone$() {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackQuestionSet clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackQuestionSet clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackQuestionSet clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackQuestionSet clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

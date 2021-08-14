@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class EmailMessage extends SObject {
 	public static SObjectType$<EmailMessage> SObjectType;
@@ -58,7 +57,7 @@ public class EmailMessage extends SObject {
 	public Id ParentId;
 	public Case Parent;
 	public Id RelatedToId;
-	public Account RelatedTo;
+	public SObject RelatedTo;
 	public Id ReplyToEmailMessageId;
 	public EmailMessage ReplyToEmailMessage;
 	public String Status;

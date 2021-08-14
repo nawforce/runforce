@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class LookedUpFromActivity extends SObject {
 	public static SObjectType$<LookedUpFromActivity> SObjectType;
@@ -30,6 +29,7 @@ public class LookedUpFromActivity extends SObject {
 	public Id AccountId;
 	public Account Account;
 	public Date ActivityDate;
+	public Datetime ActivityDateTime;
 	public String ActivitySubtype;
 	public String ActivityType;
 	public String CallDisposition;
@@ -56,7 +56,7 @@ public class LookedUpFromActivity extends SObject {
 	public Datetime LastModifiedDate;
 	public String Location;
 	public Id OwnerId;
-	public User Owner;
+	public SObject Owner;
 	public String Priority;
 	public Datetime ReminderDateTime;
 	public Datetime StartDateTime;
@@ -64,9 +64,9 @@ public class LookedUpFromActivity extends SObject {
 	public String Subject;
 	public Datetime SystemModstamp;
 	public Id WhatId;
-	public Account What;
+	public SObject What;
 	public Id WhoId;
-	public Contact Who;
+	public SObject Who;
 
 	public LookedUpFromActivity clone$() {throw new java.lang.UnsupportedOperationException();}
 	public LookedUpFromActivity clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

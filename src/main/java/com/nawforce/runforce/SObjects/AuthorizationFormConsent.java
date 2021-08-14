@@ -24,13 +24,14 @@ import com.nawforce.runforce.System.*;
 public class AuthorizationFormConsent extends SObject {
 	public static SObjectType$<AuthorizationFormConsent> SObjectType;
 	public static SObjectFields$<AuthorizationFormConsent> Fields;
+
 	public Id AuthorizationFormTextId;
 	public AuthorizationFormText AuthorizationFormText;
 	public Datetime ConsentCapturedDateTime;
 	public String ConsentCapturedSource;
 	public String ConsentCapturedSourceType;
 	public Id ConsentGiverId;
-	public Account ConsentGiver;
+	public SObject ConsentGiver;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -45,10 +46,13 @@ public class AuthorizationFormConsent extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
+	public Id RelatedRecordId;
+	public Account RelatedRecord;
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public DigitalSignature[] DigitalSignatures;
 	public AuthorizationFormConsentHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

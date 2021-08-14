@@ -22,46 +22,34 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class WorkFeedbackTemplate extends SObject {
-  public static SObjectType$<WorkFeedbackTemplate> SObjectType;
-  public static SObjectFields$<WorkFeedbackTemplate> Fields;
-  public Id CreatedById;
-  public User CreatedBy;
-  public Datetime CreatedDate;
-  public Id Id;
-  public Boolean IsDeleted;
-  public Id LastModifiedById;
-  public User LastModifiedBy;
-  public Datetime LastModifiedDate;
-  public Datetime LastReferencedDate;
-  public Datetime LastViewedDate;
-  public String Name;
-  public Id OwnerId;
-  public Group Owner;
-  public Id QuestionSetId;
-  public WorkFeedbackQuestionSet QuestionSet;
-  public Datetime SystemModstamp;
+	public static SObjectType$<WorkFeedbackTemplate> SObjectType;
+	public static SObjectFields$<WorkFeedbackTemplate> Fields;
 
-  public ProcessInstance[] ProcessInstances;
-  public ProcessInstanceHistory[] ProcessSteps;
-  public WorkFeedbackTemplateShare[] Shares;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
+	public String Name;
+	public Id OwnerId;
+	public SObject Owner;
+	public Id QuestionSetId;
+	public WorkFeedbackQuestionSet QuestionSet;
+	public Datetime SystemModstamp;
 
-  public WorkFeedbackTemplate clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public WorkFeedbackTemplateShare[] Shares;
 
-  public WorkFeedbackTemplate clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedbackTemplate clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedbackTemplate clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedbackTemplate clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkFeedbackTemplate clone$() {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackTemplate clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackTemplate clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackTemplate clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackTemplate clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

@@ -38,7 +38,7 @@ public class DuplicateRecordItem extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id RecordId;
-	public Account Record;
+	public SObject Record;
 	public Datetime SystemModstamp;
 
 	public ProcessInstance[] ProcessInstances;

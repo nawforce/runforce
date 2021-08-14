@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class AuthorizationFormConsentChangeEvent extends SObject {
 	public static SObjectType$<AuthorizationFormConsentChangeEvent> SObjectType;
 	public static SObjectFields$<AuthorizationFormConsentChangeEvent> Fields;
+
 	public Id AuthorizationFormTextId;
 	public AuthorizationFormText AuthorizationFormText;
 	public Object ChangeEventHeader;
@@ -32,7 +32,7 @@ public class AuthorizationFormConsentChangeEvent extends SObject {
 	public String ConsentCapturedSource;
 	public String ConsentCapturedSourceType;
 	public Id ConsentGiverId;
-	public Account ConsentGiver;
+	public SObject ConsentGiver;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -45,6 +45,8 @@ public class AuthorizationFormConsentChangeEvent extends SObject {
 	public String Name;
 	public Id OwnerId;
 	public User Owner;
+	public Id RelatedRecordId;
+	public Account RelatedRecord;
 	public String ReplayId;
 	public String Status;
 

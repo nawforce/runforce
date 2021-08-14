@@ -14,12 +14,15 @@
 
 package com.nawforce.runforce.SObjects;
 
+import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class RecordType extends SObject {
+	public static SObjectFields$<RecordType> Fields;
+
 	public Id BusinessProcessId;
 	public BusinessProcess BusinessProcess;
 	public Id CreatedById;

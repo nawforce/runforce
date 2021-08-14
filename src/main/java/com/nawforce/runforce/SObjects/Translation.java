@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Translation extends SObject {
 	public static SObjectType$<Translation> SObjectType;
 	public static SObjectFields$<Translation> Fields;
+
 	public Boolean CanManage;
 	public Id CreatedById;
 	public User CreatedBy;

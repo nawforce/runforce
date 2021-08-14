@@ -32,6 +32,7 @@ public class PlatformStatusAlertEvent extends SObject {
 	public Datetime CreatedDate;
 	public Datetime EventDate;
 	public String EventIdentifier;
+	public String EventUuid;
 	public String ExtendedErrorCode;
 	public String RelatedEventIdentifier;
 	public String ReplayId;

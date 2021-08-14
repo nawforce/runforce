@@ -27,6 +27,7 @@ public class Account extends SObject {
 	public static SObjectFields$<Account> Fields;
 
 	public Id RecordTypeId;
+	public RecordType RecordType;
 	public String AccountNumber;
 	public String AccountSource;
 	public Decimal AnnualRevenue;
@@ -41,6 +42,7 @@ public class Account extends SObject {
 	public String BillingState;
 	public String BillingStateCode;
 	public String BillingStreet;
+	public String CleanStatus;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -67,6 +69,8 @@ public class Account extends SObject {
 	public String NaicsDesc;
 	public String Name;
 	public Integer NumberOfEmployees;
+	public Id OperatingHoursId;
+	public OperatingHours OperatingHours;
 	public Id OwnerId;
 	public User Owner;
 	public String Ownership;
@@ -96,29 +100,43 @@ public class Account extends SObject {
 	public String Website;
 	public String YearStarted;
 
+	public AccountCleanInfo[] AccountCleanInfos;
 	public AccountContactRole[] AccountContactRoles;
 	public AccountPartner[] AccountPartnersFrom;
 	public AccountPartner[] AccountPartnersTo;
 	public AccountUserTerritory2View[] AccountUserTerritory2Views;
 	public ActivityHistory[] ActivityHistories;
+	public AlternativePaymentMethod[] AlternativePaymentMethods;
 	public Asset[] Assets;
+	public AssociatedLocation[] AssociatedLocations;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public AuthorizationFormConsent[] AuthorizationFormConsents;
+	public CardPaymentMethod[] CardPaymentMethods;
 	public Case[] Cases;
 	public Account[] ChildAccounts;
 	public CombinedAttachment[] CombinedAttachments;
+	public CommSubscriptionConsent[] CommSubscriptionConsents;
+	public ContactPointAddress[] ContactPointAddresses;
 	public ContactPointEmail[] ContactPointEmails;
 	public ContactPointPhone[] ContactPointPhones;
 	public ContactRequest[] ContactRequests;
 	public Contact[] Contacts;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public Contract[] Contracts;
+	public CreditMemo[] CreditMemos;
+	public DigitalWallet[] DigitalWallets;
 	public DuplicateRecordItem[] DuplicateRecordItems;
 	public EmailMessage[] Emails;
 	public Event[] Events;
+	public Expense[] Expenses;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public AccountFeed[] Feeds;
+	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
+	public FinanceTransaction[] FinanceTransactions;
 	public AccountHistory[] Histories;
+	public Invoice[] Invoices;
+	public MaintenancePlan[] MaintenancePlans;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public ObjectTerritory2Association[] ObjectTerritory2Associations;
@@ -128,17 +146,34 @@ public class Account extends SObject {
 	public Order[] Orders;
 	public Partner[] PartnersFrom;
 	public Partner[] PartnersTo;
+	public PaymentAuthAdjustment[] PaymentAuthAdjustments;
+	public PaymentAuthorization[] PaymentAuthorizations;
+	public PaymentLineInvoice[] PaymentLinesInvoice;
+	public Payment[] Payments;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ProductRequestLineItem[] ProductRequestLineItems;
+	public ProductRequest[] ProductRequests;
 	public Asset[] ProvidedAssets;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
+	public RefundLinePayment[] RefundLinePayments;
+	public Refund[] Refunds;
+	public AuthorizationFormConsent[] RelatedAuthorizationFormConsents;
+	public WorkFeedbackRequest[] RelatedObjects;
+	public ResourcePreference[] ResourcePreferences;
+	public ReturnOrder[] ReturnOrders;
+	public ServiceAppointment[] ServiceAppointmentAccount;
+	public ServiceAppointment[] ServiceAppointments;
+	public ServiceResource[] ServiceResources;
 	public Asset[] ServicedAssets;
 	public AccountShare[] Shares;
+	public SurveySubject[] SurveySubjectEntities;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 	public User[] Users;
+	public WorkOrder[] WorkOrders;
 
 	public Account clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Account clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -24,10 +24,12 @@ import com.nawforce.runforce.System.*;
 public class PaymentGateway extends SObject {
 	public static SObjectType$<PaymentGateway> SObjectType;
 	public static SObjectFields$<PaymentGateway> Fields;
+
 	public String Comments;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String ExternalReference;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -43,6 +45,7 @@ public class PaymentGateway extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 
+	public AlternativePaymentMethod[] AlternativePaymentMethods;
 	public CardPaymentMethod[] CardPaymentMethods;
 	public DigitalWallet[] DigitalWallets;
 	public PaymentAuthorization[] PaymentAuthorizations;

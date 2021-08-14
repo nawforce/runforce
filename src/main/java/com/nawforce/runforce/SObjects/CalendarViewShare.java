@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class CalendarViewShare extends SObject {
 	public static SObjectType$<CalendarViewShare> SObjectType;
 	public static SObjectFields$<CalendarViewShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -35,7 +35,7 @@ public class CalendarViewShare extends SObject {
 	public CalendarView Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public CalendarViewShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CalendarViewShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

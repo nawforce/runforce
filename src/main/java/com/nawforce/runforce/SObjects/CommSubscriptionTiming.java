@@ -24,11 +24,13 @@ import com.nawforce.runforce.System.*;
 public class CommSubscriptionTiming extends SObject {
 	public static SObjectType$<CommSubscriptionTiming> SObjectType;
 	public static SObjectFields$<CommSubscriptionTiming> Fields;
+
 	public Id CommSubscriptionConsentId;
 	public CommSubscriptionConsent CommSubscriptionConsent;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class AsyncOperationEvent extends SObject {
 	public static SObjectType$<AsyncOperationEvent> SObjectType;
 	public static SObjectFields$<AsyncOperationEvent> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String EventUuid;
 	public Object OperationDetails;
 	public String OperationId;
 	public String ReplayId;

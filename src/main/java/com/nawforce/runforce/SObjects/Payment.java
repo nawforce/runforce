@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class Payment extends SObject {
 	public static SObjectType$<Payment> SObjectType;
 	public static SObjectFields$<Payment> Fields;
+
 	public Id AccountId;
 	public Account Account;
 	public Decimal Amount;
@@ -34,10 +35,12 @@ public class Payment extends SObject {
 	public String CancellationGatewayRefNumber;
 	public String CancellationGatewayResultCode;
 	public String CancellationSfResultCode;
+	public String ClientContext;
 	public String Comments;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Datetime Date;
 	public Datetime EffectiveDate;
 	public String Email;
@@ -78,8 +81,15 @@ public class Payment extends SObject {
 	public Decimal TotalUnapplied;
 	public String Type;
 
+	public FinanceTransaction[] DestinationFinanceTransactions;
+	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
+	public FinanceTransaction[] FinanceTransactions;
+	public FinanceTransaction[] ParentFinanceTransactions;
 	public PaymentGatewayLog[] PaymentGatewayLogs;
+	public PaymentLineInvoice[] PaymentLinesInvoice;
+	public ProcessException[] ProcessExceptions;
 	public RefundLinePayment[] RefundLinePayments;
+	public FinanceTransaction[] SourceFinanceTransactions;
 
 	public Payment clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Payment clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

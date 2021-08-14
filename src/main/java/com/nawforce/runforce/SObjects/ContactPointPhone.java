@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class ContactPointPhone extends SObject {
 	public static SObjectType$<ContactPointPhone> SObjectType;
 	public static SObjectFields$<ContactPointPhone> Fields;
+
 	public Date ActiveFromDate;
 	public Date ActiveToDate;
 	public String AreaCode;
@@ -50,17 +51,20 @@ public class ContactPointPhone extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Id ParentId;
-	public Account Parent;
+	public SObject Parent;
 	public String PhoneType;
 	public Datetime SystemModstamp;
 	public String TelephoneNumber;
 
+	public CommSubscriptionConsent[] CommSubscriptionConsents;
+	public ContactPointAddress[] ContactPointAddresses;
 	public ContactPointConsent[] ContactPointConsents;
 	public ContactPointPhoneHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ContactPointPhoneShare[] Shares;
 
 	public ContactPointPhone clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointPhone clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

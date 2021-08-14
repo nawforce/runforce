@@ -27,7 +27,6 @@ public class EmbeddedServiceDetail extends SObject {
 	public static SObjectFields$<EmbeddedServiceDetail> Fields;
 
 	public String AvatarImg;
-	public String CancelApptBookingFlowName;
 	public String ContrastInvertedColor;
 	public String ContrastPrimaryColor;
 	public String CustomMinimizedComponent;
@@ -36,10 +35,8 @@ public class EmbeddedServiceDetail extends SObject {
 	public String FieldServiceConfirmCardImg;
 	public String FieldServiceHomeImg;
 	public String FieldServiceLogoImg;
-	public String FlowDeveloperName;
 	public String Font;
 	public String FontSize;
-	public String HeaderBackgroundImg;
 	public Integer Height;
 	public Id Id;
 	public Boolean IsFieldServiceEnabled;
@@ -47,12 +44,13 @@ public class EmbeddedServiceDetail extends SObject {
 	public Boolean IsOfflineCaseEnabled;
 	public Boolean IsPrechatEnabled;
 	public Boolean IsQueuePositionEnabled;
-	public String ModifyApptBookingFlowName;
 	public String NavBarColor;
+	public String NavBarTextColor;
 	public String OfflineCaseBackgroundImg;
 	public String PrechatBackgroundImg;
 	public String PrimaryColor;
 	public String SecondaryColor;
+	public String SecondaryNavBarColor;
 	public Boolean ShouldHideAuthDialog;
 	public Boolean ShouldShowExistingAppointment;
 	public Boolean ShouldShowNewAppointment;

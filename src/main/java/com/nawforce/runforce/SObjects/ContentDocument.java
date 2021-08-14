@@ -59,6 +59,7 @@ public class ContentDocument extends SObject {
 	public Datetime SystemModstamp;
 	public String Title;
 
+	public AuthorizationFormText[] AuthorizationFormTexts;
 	public ContentDistribution[] ContentDistributions;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public ContentVersion[] ContentVersions;

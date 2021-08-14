@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class WorkCoaching extends SObject {
 	public static SObjectType$<WorkCoaching> SObjectType;
 	public static SObjectFields$<WorkCoaching> Fields;
+
 	public Id CoachId;
 	public User Coach;
 	public Id CoachedId;
@@ -31,6 +32,7 @@ public class WorkCoaching extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsInactive;
@@ -41,7 +43,7 @@ public class WorkCoaching extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;

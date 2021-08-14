@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class WorkFeedbackShare extends SObject {
 	public static SObjectType$<WorkFeedbackShare> SObjectType;
 	public static SObjectFields$<WorkFeedbackShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class WorkFeedbackShare extends SObject {
 	public WorkFeedback Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public WorkFeedbackShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkFeedbackShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

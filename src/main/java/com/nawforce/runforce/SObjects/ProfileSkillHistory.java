@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class ProfileSkillHistory extends SObject {
 	public static SObjectType$<ProfileSkillHistory> SObjectType;
 	public static SObjectFields$<ProfileSkillHistory> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

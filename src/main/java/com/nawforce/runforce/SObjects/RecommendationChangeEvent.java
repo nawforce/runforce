@@ -20,16 +20,17 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class RecommendationChangeEvent extends SObject {
 	public static SObjectType$<RecommendationChangeEvent> SObjectType;
 	public static SObjectFields$<RecommendationChangeEvent> Fields;
+
 	public String AcceptanceLabel;
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String Description;
 	public String ExternalId;
 	public Id Id;

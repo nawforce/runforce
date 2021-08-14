@@ -24,17 +24,19 @@ import com.nawforce.runforce.System.*;
 public class CommSubscriptionConsent extends SObject {
 	public static SObjectType$<CommSubscriptionConsent> SObjectType;
 	public static SObjectFields$<CommSubscriptionConsent> Fields;
+
 	public Id CommSubscriptionChannelTypeId;
 	public CommSubscriptionChannelType CommSubscriptionChannelType;
 	public Datetime ConsentCapturedDateTime;
 	public String ConsentCapturedSource;
 	public Id ConsentGiverId;
-	public Account ConsentGiver;
+	public SObject ConsentGiver;
 	public Id ContactPointId;
-	public ContactPointAddress ContactPoint;
+	public SObject ContactPoint;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Date EffectiveFromDate;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -45,7 +47,7 @@ public class CommSubscriptionConsent extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;

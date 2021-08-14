@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class FlowDefinitionView extends SObject {
 	public static SObjectType$<FlowDefinitionView> SObjectType;
 	public static SObjectFields$<FlowDefinitionView> Fields;
+
 	public String ActiveVersionId;
 	public String ApiName;
 	public String Builder;
@@ -33,6 +34,7 @@ public class FlowDefinitionView extends SObject {
 	public String InstalledPackageName;
 	public Boolean IsActive;
 	public Boolean IsOutOfDate;
+	public Boolean IsSwingFlow;
 	public Boolean IsTemplate;
 	public String Label;
 	public String LastModifiedBy;

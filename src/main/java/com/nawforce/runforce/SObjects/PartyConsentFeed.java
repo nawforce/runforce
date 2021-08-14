@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class PartyConsentFeed extends SObject {
 	public static SObjectType$<PartyConsentFeed> SObjectType;
 	public static SObjectFields$<PartyConsentFeed> Fields;
+
 	public Id BestCommentId;
 	public FeedComment BestComment;
 	public String Body;
@@ -43,7 +44,7 @@ public class PartyConsentFeed extends SObject {
 	public Id ParentId;
 	public PartyConsent Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

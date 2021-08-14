@@ -34,7 +34,7 @@ public class CaseTeamMember extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id MemberId;
-	public Contact Member;
+	public SObject Member;
 	public Id ParentId;
 	public Case Parent;
 	public Datetime SystemModstamp;

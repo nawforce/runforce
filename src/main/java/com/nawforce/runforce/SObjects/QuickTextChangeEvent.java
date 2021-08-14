@@ -20,18 +20,20 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class QuickTextChangeEvent extends SObject {
 	public static SObjectType$<QuickTextChangeEvent> SObjectType;
 	public static SObjectFields$<QuickTextChangeEvent> Fields;
+
 	public String Category;
 	public Object ChangeEventHeader;
 	public String Channel;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
+	public Boolean IsInsertable;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -40,6 +42,7 @@ public class QuickTextChangeEvent extends SObject {
 	public Id OwnerId;
 	public User Owner;
 	public String ReplayId;
+	public String SourceType;
 
 	public QuickTextChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public QuickTextChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

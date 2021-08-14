@@ -20,13 +20,13 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Case extends SObject {
 	public static SObjectType$<Case> SObjectType;
 	public static SObjectFields$<Case> Fields;
 
 	public Id RecordTypeId;
+	public RecordType RecordType;
 	public Id AccountId;
 	public Account Account;
 	public Id AssetId;
@@ -54,9 +54,11 @@ public class Case extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Id MasterRecordId;
+	public Case MasterRecord;
 	public String Origin;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Id ParentId;
 	public Case Parent;
 	public String Priority;
@@ -87,17 +89,22 @@ public class Case extends SObject {
 	public CaseFeed[] Feeds;
 	public CaseHistory[] Histories;
 	public OpenActivity[] OpenActivities;
+	public ProcessException[] ProcessExceptions;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ProductRequestLineItem[] ProductRequestLineItems;
+	public ProductRequest[] ProductRequests;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
-	public SOSSession[] SOSSessions;
+	public ReturnOrder[] ReturnOrders;
 	public CaseShare[] Shares;
+	public SurveySubject[] SurveySubjectEntities;
 	public Task[] Tasks;
 	public CaseTeamMember[] TeamMembers;
 	public CaseTeamTemplateRecord[] TeamTemplateRecords;
 	public TopicAssignment[] TopicAssignments;
+	public WorkOrder[] WorkOrders;
 
 	public Case clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Case clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

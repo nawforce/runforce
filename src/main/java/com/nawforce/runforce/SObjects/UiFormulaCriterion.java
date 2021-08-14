@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class UiFormulaCriterion extends SObject {
 	public static SObjectType$<UiFormulaCriterion> SObjectType;
 	public static SObjectFields$<UiFormulaCriterion> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

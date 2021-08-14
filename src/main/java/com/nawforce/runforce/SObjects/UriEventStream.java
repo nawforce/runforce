@@ -20,14 +20,15 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class UriEventStream extends SObject {
 	public static SObjectType$<UriEventStream> SObjectType;
 	public static SObjectFields$<UriEventStream> Fields;
+
 	public Datetime CreatedDate;
 	public Datetime EventDate;
 	public String EventIdentifier;
+	public String EventUuid;
 	public String LoginKey;
 	public String Message;
 	public String Name;

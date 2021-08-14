@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class LegalEntityFeed extends SObject {
 	public static SObjectType$<LegalEntityFeed> SObjectType;
 	public static SObjectFields$<LegalEntityFeed> Fields;
+
 	public Id BestCommentId;
 	public FeedComment BestComment;
 	public String Body;
@@ -43,7 +44,7 @@ public class LegalEntityFeed extends SObject {
 	public Id ParentId;
 	public LegalEntity Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

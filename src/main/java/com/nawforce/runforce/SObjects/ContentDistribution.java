@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ContentDistribution extends SObject {
 	public static SObjectType$<ContentDistribution> SObjectType;
@@ -58,7 +57,7 @@ public class ContentDistribution extends SObject {
 	public Boolean PreferencesNotifyRndtnComplete;
 	public Boolean PreferencesPasswordRequired;
 	public Id RelatedRecordId;
-	public Account RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public Integer ViewCount;
 

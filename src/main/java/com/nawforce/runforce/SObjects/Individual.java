@@ -29,6 +29,8 @@ public class Individual extends SObject {
 	public Date BirthDate;
 	public Boolean CanStorePiiElsewhere;
 	public Integer ChildrenCount;
+	public Integer ConsumerCreditScore;
+	public String ConsumerCreditScoreProviderName;
 	public Integer ConvictionsCount;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -42,6 +44,7 @@ public class Individual extends SObject {
 	public Boolean HasOptedOutTracking;
 	public Id Id;
 	public String IndividualsAge;
+	public Integer InfluencerRating;
 	public Boolean IsDeleted;
 	public Boolean IsHomeOwner;
 	public Id LastModifiedById;
@@ -62,6 +65,9 @@ public class Individual extends SObject {
 	public Datetime SystemModstamp;
 	public String Website;
 
+	public AuthorizationFormConsent[] AuthorizationFormConsents;
+	public CommSubscriptionConsent[] CommSubscriptionConsents;
+	public ContactPointAddress[] ContactPointAddresses;
 	public ContactPointEmail[] ContactPointEmails;
 	public ContactPointPhone[] ContactPointPhones;
 	public Contact[] Contacts;
@@ -69,6 +75,7 @@ public class Individual extends SObject {
 	public IndividualHistory[] Histories;
 	public ContactPointTypeConsent[] Individuals;
 	public Lead[] Leads;
+	public PartyConsent[] PartyConsents;
 	public IndividualShare[] Shares;
 
 	public Individual clone$() {throw new java.lang.UnsupportedOperationException();}

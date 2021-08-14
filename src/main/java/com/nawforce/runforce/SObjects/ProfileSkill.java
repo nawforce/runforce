@@ -25,9 +25,11 @@ import com.nawforce.runforce.System.*;
 public class ProfileSkill extends SObject {
 	public static SObjectType$<ProfileSkill> SObjectType;
 	public static SObjectFields$<ProfileSkill> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String Description;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -38,7 +40,7 @@ public class ProfileSkill extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 	public Integer UserCount;
 

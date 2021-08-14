@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class PaymentMethod extends SObject {
 	public static SObjectType$<PaymentMethod> SObjectType;
 	public static SObjectFields$<PaymentMethod> Fields;
+
 	public Id AccountId;
 	public Account Account;
 	public String Comments;
@@ -32,6 +33,7 @@ public class PaymentMethod extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Id Id;
+	public String ImplementorType;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
@@ -41,11 +43,13 @@ public class PaymentMethod extends SObject {
 	public Address PaymentMethodAddress;
 	public String PaymentMethodCity;
 	public String PaymentMethodCountry;
+	public String PaymentMethodCountryCode;
 	public String PaymentMethodGeocodeAccuracy;
 	public Decimal PaymentMethodLatitude;
 	public Decimal PaymentMethodLongitude;
 	public String PaymentMethodPostalCode;
 	public String PaymentMethodState;
+	public String PaymentMethodStateCode;
 	public String PaymentMethodStreet;
 	public String Status;
 	public Datetime SystemModstamp;

@@ -35,7 +35,7 @@ public class TodayGoalShare extends SObject {
 	public TodayGoal Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public TodayGoalShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public TodayGoalShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

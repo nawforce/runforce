@@ -35,7 +35,7 @@ public class UserProvisioningRequestShare extends SObject {
 	public UserProvisioningRequest Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public UserProvisioningRequestShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public UserProvisioningRequestShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

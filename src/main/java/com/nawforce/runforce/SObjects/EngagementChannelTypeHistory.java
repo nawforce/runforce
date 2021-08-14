@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class EngagementChannelTypeHistory extends SObject {
 	public static SObjectType$<EngagementChannelTypeHistory> SObjectType;
 	public static SObjectFields$<EngagementChannelTypeHistory> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public Id EngagementChannelTypeId;
 	public EngagementChannelType EngagementChannelType;
 	public String Field;

@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Attachment extends SObject {
 	public static SObjectType$<Attachment> SObjectType;
@@ -42,9 +41,9 @@ public class Attachment extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public User Owner;
+	public SObject Owner;
 	public Id ParentId;
-	public Account Parent;
+	public SObject Parent;
 	public Datetime SystemModstamp;
 
 	public Attachment clone$() {throw new java.lang.UnsupportedOperationException();}

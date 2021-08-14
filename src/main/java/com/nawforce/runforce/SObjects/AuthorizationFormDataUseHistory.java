@@ -20,16 +20,17 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class AuthorizationFormDataUseHistory extends SObject {
 	public static SObjectType$<AuthorizationFormDataUseHistory> SObjectType;
 	public static SObjectFields$<AuthorizationFormDataUseHistory> Fields;
+
 	public Id AuthorizationFormDataUseId;
 	public AuthorizationFormDataUse AuthorizationFormDataUse;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

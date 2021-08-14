@@ -44,7 +44,7 @@ public class Territory2ModelFeed extends SObject {
 	public Id ParentId;
 	public Territory2Model Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

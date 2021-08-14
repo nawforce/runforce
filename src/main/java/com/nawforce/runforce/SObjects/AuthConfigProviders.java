@@ -29,7 +29,7 @@ public class AuthConfigProviders extends SObject {
 	public Id AuthConfigId;
 	public AuthConfig AuthConfig;
 	public Id AuthProviderId;
-	public AuthProvider AuthProvider;
+	public SObject AuthProvider;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

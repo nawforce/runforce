@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class ProfileSkillFeed extends SObject {
 	public static SObjectType$<ProfileSkillFeed> SObjectType;
 	public static SObjectFields$<ProfileSkillFeed> Fields;
+
 	public Id BestCommentId;
 	public FeedComment BestComment;
 	public String Body;
@@ -43,7 +44,7 @@ public class ProfileSkillFeed extends SObject {
 	public Id ParentId;
 	public ProfileSkill Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

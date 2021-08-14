@@ -21,15 +21,16 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class MacroInstructionChangeEvent extends SObject {
 	public static SObjectType$<MacroInstructionChangeEvent> SObjectType;
 	public static SObjectFields$<MacroInstructionChangeEvent> Fields;
+
 	public Object ChangeEventHeader;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

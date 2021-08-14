@@ -21,14 +21,15 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class PromptAction extends SObject {
 	public static SObjectType$<PromptAction> SObjectType;
 	public static SObjectFields$<PromptAction> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Datetime LastDisplayDate;
@@ -39,13 +40,17 @@ public class PromptAction extends SObject {
 	public Datetime LastResultDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Id PromptVersionId;
 	public PromptVersion PromptVersion;
+	public Datetime SnoozeUntil;
+	public Integer StepCount;
+	public Integer StepNumber;
 	public Datetime SystemModstamp;
 	public Integer TimesActionTaken;
 	public Integer TimesDismissed;
 	public Integer TimesDisplayed;
+	public Integer TimesSnoozed;
 	public Id UserId;
 	public User User;
 

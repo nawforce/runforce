@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class MacroUsageShare extends SObject {
 	public static SObjectType$<MacroUsageShare> SObjectType;
 	public static SObjectFields$<MacroUsageShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class MacroUsageShare extends SObject {
 	public MacroUsage Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public MacroUsageShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public MacroUsageShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

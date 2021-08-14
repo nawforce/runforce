@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class GoalFeed extends SObject {
 	public static SObjectType$<GoalFeed> SObjectType;
 	public static SObjectFields$<GoalFeed> Fields;
+
 	public Id BestCommentId;
 	public FeedComment BestComment;
 	public String Body;
@@ -43,7 +44,7 @@ public class GoalFeed extends SObject {
 	public Id ParentId;
 	public Goal Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

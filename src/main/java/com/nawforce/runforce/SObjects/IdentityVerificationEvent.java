@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class IdentityVerificationEvent extends SObject {
 	public static SObjectType$<IdentityVerificationEvent> SObjectType;
 	public static SObjectFields$<IdentityVerificationEvent> Fields;
+
 	public String Activity;
 	public String City;
 	public String Country;

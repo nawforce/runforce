@@ -23,61 +23,49 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class WorkRewardFundType extends SObject {
-  public static SObjectType$<WorkRewardFundType> SObjectType;
-  public static SObjectFields$<WorkRewardFundType> Fields;
-  public String CodeValidationPattern;
-  public Id CreatedById;
-  public User CreatedBy;
-  public Datetime CreatedDate;
-  public String CreditSystem;
-  public String CurrencyCode;
-  public Id Id;
-  public Boolean IsActive;
-  public Boolean IsDeleted;
-  public Boolean IsPredefined;
-  public Id LastModifiedById;
-  public User LastModifiedBy;
-  public Datetime LastModifiedDate;
-  public Datetime LastReferencedDate;
-  public Datetime LastViewedDate;
-  public String Name;
-  public Id OwnerId;
-  public Group Owner;
-  public String RedemptionDisclaimer;
-  public String RedemptionInfo;
-  public String RedemptionUrl;
-  public Datetime SystemModstamp;
-  public Integer UploadCodeColumn;
-  public Integer UploadValueColumn;
+	public static SObjectType$<WorkRewardFundType> SObjectType;
+	public static SObjectFields$<WorkRewardFundType> Fields;
 
-  public AttachedContentDocument[] AttachedContentDocuments;
-  public CombinedAttachment[] CombinedAttachments;
-  public ContentDocumentLink[] ContentDocumentLinks;
-  public EntitySubscription[] FeedSubscriptionsForEntity;
-  public WorkRewardFundTypeFeed[] Feeds;
-  public WorkRewardFundTypeHistory[] Histories;
-  public ProcessInstance[] ProcessInstances;
-  public ProcessInstanceHistory[] ProcessSteps;
-  public WorkRewardFund[] RewardFunds;
-  public WorkRewardFundTypeShare[] Shares;
+	public String CodeValidationPattern;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CreditSystem;
+	public String CurrencyCode;
+	public String CurrencyIsoCode;
+	public Id Id;
+	public Boolean IsActive;
+	public Boolean IsDeleted;
+	public Boolean IsPredefined;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
+	public String Name;
+	public Id OwnerId;
+	public SObject Owner;
+	public String RedemptionDisclaimer;
+	public String RedemptionInfo;
+	public String RedemptionUrl;
+	public Datetime SystemModstamp;
+	public Integer UploadCodeColumn;
+	public Integer UploadValueColumn;
 
-  public WorkRewardFundType clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public WorkRewardFundTypeFeed[] Feeds;
+	public WorkRewardFundTypeHistory[] Histories;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public WorkRewardFund[] RewardFunds;
+	public WorkRewardFundTypeShare[] Shares;
 
-  public WorkRewardFundType clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkRewardFundType clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkRewardFundType clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkRewardFundType clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkRewardFundType clone$() {throw new java.lang.UnsupportedOperationException();}
+	public WorkRewardFundType clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkRewardFundType clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkRewardFundType clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkRewardFundType clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

@@ -27,6 +27,7 @@ public class Campaign extends SObject {
 	public static SObjectFields$<Campaign> Fields;
 
 	public Id RecordTypeId;
+	public RecordType RecordType;
 	public Decimal ActualCost;
 	public Decimal AmountAllOpportunities;
 	public Decimal AmountWonOpportunities;
@@ -89,7 +90,9 @@ public class Campaign extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
+	public WorkFeedbackRequest[] RelatedObjects;
 	public CampaignShare[] Shares;
+	public SurveySubject[] SurveySubjectEntities;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

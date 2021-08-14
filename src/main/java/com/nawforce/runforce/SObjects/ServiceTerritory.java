@@ -1,8 +1,5 @@
 /*
- [The "BSD licence"]
- Copyright (c) 2019 Kevin Jones
- All rights reserved.
-
+ Copyright (c) 2019 Kevin Jones, All rights reserved.
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
@@ -13,18 +10,8 @@
     documentation and/or other materials provided with the distribution.
  3. The name of the author may not be used to endorse or promote products
     derived from this software without specific prior written permission.
+ */
 
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
@@ -37,12 +24,15 @@ import com.nawforce.runforce.System.*;
 public class ServiceTerritory extends SObject {
 	public static SObjectType$<ServiceTerritory> SObjectType;
 	public static SObjectFields$<ServiceTerritory> Fields;
+
 	public Address Address;
 	public String City;
 	public String Country;
+	public String CountryCode;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String Description;
 	public String GeocodeAccuracy;
 	public Id Id;
@@ -59,11 +49,12 @@ public class ServiceTerritory extends SObject {
 	public Id OperatingHoursId;
 	public OperatingHours OperatingHours;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Id ParentTerritoryId;
 	public ServiceTerritory ParentTerritory;
 	public String PostalCode;
 	public String State;
+	public String StateCode;
 	public String Street;
 	public Datetime SystemModstamp;
 	public Id TopLevelTerritoryId;
@@ -90,6 +81,7 @@ public class ServiceTerritory extends SObject {
 	public TopicAssignment[] TopicAssignments;
 	public WorkOrderLineItem[] WorkOrderLineItems;
 	public WorkOrder[] WorkOrders;
+	public WorkPlanSelectionRule[] WorkPlanSelectionRules;
 
 	public ServiceTerritory clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ServiceTerritory clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

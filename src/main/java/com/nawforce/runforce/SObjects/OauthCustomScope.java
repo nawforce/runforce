@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class OauthCustomScope extends SObject {
 	public static SObjectType$<OauthCustomScope> SObjectType;
 	public static SObjectFields$<OauthCustomScope> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class WorkRewardFundTypeShare extends SObject {
 	public static SObjectType$<WorkRewardFundTypeShare> SObjectType;
 	public static SObjectFields$<WorkRewardFundTypeShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class WorkRewardFundTypeShare extends SObject {
 	public WorkRewardFundType Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public WorkRewardFundTypeShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkRewardFundTypeShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

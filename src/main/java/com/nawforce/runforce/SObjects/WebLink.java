@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class WebLink extends SObject {
 	public static SObjectType$<WebLink> SObjectType;
@@ -52,7 +51,7 @@ public class WebLink extends SObject {
 	public String Position;
 	public Boolean RequireRowSelection;
 	public Id ScontrolId;
-	public ApexPage Scontrol;
+	public SObject Scontrol;
 	public Boolean ShowsLocation;
 	public Boolean ShowsStatus;
 	public Datetime SystemModstamp;

@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class ListViewEvent extends SObject {
 	public static SObjectType$<ListViewEvent> SObjectType;
 	public static SObjectFields$<ListViewEvent> Fields;
+
 	public String AppName;
 	public String ColumnHeaders;
 	public Datetime CreatedDate;
@@ -45,7 +46,7 @@ public class ListViewEvent extends SObject {
 	public Integer NumberOfColumns;
 	public String OrderBy;
 	public Id OwnerId;
-	public Organization Owner;
+	public SObject Owner;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
 	public String PolicyOutcome;

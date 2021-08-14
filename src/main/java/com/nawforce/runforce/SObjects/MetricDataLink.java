@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class MetricDataLink extends SObject {
 	public static SObjectType$<MetricDataLink> SObjectType;
 	public static SObjectFields$<MetricDataLink> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id DataSourceId;
 	public Report DataSource;
 	public String DatasourceFieldName;

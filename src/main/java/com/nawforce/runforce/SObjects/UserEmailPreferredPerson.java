@@ -37,10 +37,12 @@ public class UserEmailPreferredPerson extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Id PersonRecordId;
-	public Contact PersonRecord;
+	public SObject PersonRecord;
 	public Datetime SystemModstamp;
+
+	public UserEmailPreferredPersonShare[] Shares;
 
 	public UserEmailPreferredPerson clone$() {throw new java.lang.UnsupportedOperationException();}
 	public UserEmailPreferredPerson clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

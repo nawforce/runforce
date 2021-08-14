@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class PaymentGroup extends SObject {
 	public static SObjectType$<PaymentGroup> SObjectType;
 	public static SObjectFields$<PaymentGroup> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

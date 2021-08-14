@@ -40,7 +40,7 @@ public class CollaborationInvitation extends SObject {
 	public Id ParentId;
 	public CollaborationInvitation Parent;
 	public Id SharedEntityId;
-	public CollaborationGroup SharedEntity;
+	public SObject SharedEntity;
 	public String Status;
 	public Datetime SystemModstamp;
 

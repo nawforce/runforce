@@ -25,9 +25,10 @@ import com.nawforce.runforce.System.*;
 public class FlowExecutionErrorEvent extends SObject {
 	public static SObjectType$<FlowExecutionErrorEvent> SObjectType;
 	public static SObjectFields$<FlowExecutionErrorEvent> Fields;
+
 	public String ContextObject;
 	public Id ContextRecordId;
-	public Account ContextRecord;
+	public SObject ContextRecord;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -38,6 +39,7 @@ public class FlowExecutionErrorEvent extends SObject {
 	public Datetime EventDate;
 	public String EventIdentifier;
 	public String EventType;
+	public String EventUuid;
 	public String ExtendedErrorCode;
 	public String FlowApiName;
 	public Datetime FlowExecutionEndDate;

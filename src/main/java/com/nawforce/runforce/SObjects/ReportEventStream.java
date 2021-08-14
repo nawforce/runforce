@@ -21,23 +21,26 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ReportEventStream extends SObject {
 	public static SObjectType$<ReportEventStream> SObjectType;
 	public static SObjectFields$<ReportEventStream> Fields;
+
 	public String ColumnHeaders;
 	public Datetime CreatedDate;
 	public String DashboardId;
 	public String DashboardName;
 	public String Description;
+	public String DisplayedFieldEntities;
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
 	public String EventIdentifier;
 	public String EventSource;
+	public String EventUuid;
 	public String ExecutionIdentifier;
 	public String ExportFileFormat;
 	public String Format;
+	public String GroupedColumnHeaders;
 	public Boolean IsScheduled;
 	public Id LoginHistoryId;
 	public LoginHistory LoginHistory;

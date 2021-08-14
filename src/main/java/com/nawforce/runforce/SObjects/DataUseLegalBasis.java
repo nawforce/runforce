@@ -38,7 +38,7 @@ public class DataUseLegalBasis extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String Source;
 	public Datetime SystemModstamp;
 
@@ -46,6 +46,7 @@ public class DataUseLegalBasis extends SObject {
 	public DataUseLegalBasisHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public DataUseLegalBasisShare[] Shares;
 
 	public DataUseLegalBasis clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DataUseLegalBasis clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

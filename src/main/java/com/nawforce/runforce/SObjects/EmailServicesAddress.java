@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class EmailServicesAddress extends SObject {
 	public static SObjectType$<EmailServicesAddress> SObjectType;

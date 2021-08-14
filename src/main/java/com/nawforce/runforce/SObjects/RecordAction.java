@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class RecordAction extends SObject {
 	public static SObjectType$<RecordAction> SObjectType;
@@ -46,7 +45,7 @@ public class RecordAction extends SObject {
 	public Integer Order;
 	public String Pinned;
 	public Id RecordId;
-	public Account Record;
+	public SObject Record;
 	public String Status;
 	public Datetime SystemModstamp;
 

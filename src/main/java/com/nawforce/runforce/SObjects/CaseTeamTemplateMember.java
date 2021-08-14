@@ -34,7 +34,7 @@ public class CaseTeamTemplateMember extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id MemberId;
-	public Contact Member;
+	public SObject Member;
 	public Datetime SystemModstamp;
 	public Id TeamRoleId;
 	public CaseTeamRole TeamRole;

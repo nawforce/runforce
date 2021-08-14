@@ -35,7 +35,7 @@ public class LeadShare extends SObject {
 	public Lead Lead;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public LeadShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public LeadShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

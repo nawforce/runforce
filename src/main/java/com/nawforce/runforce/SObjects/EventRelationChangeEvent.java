@@ -36,7 +36,7 @@ public class EventRelationChangeEvent extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id RelationId;
-	public Account Relation;
+	public SObject Relation;
 	public String ReplayId;
 	public Datetime RespondedDate;
 	public String Response;

@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class ApiEventStream extends SObject {
 	public static SObjectType$<ApiEventStream> SObjectType;
 	public static SObjectFields$<ApiEventStream> Fields;
+
 	public String AdditionalInfo;
 	public String ApiType;
 	public Decimal ApiVersion;
@@ -36,6 +37,7 @@ public class ApiEventStream extends SObject {
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
 	public String EventIdentifier;
+	public String EventUuid;
 	public Id LoginHistoryId;
 	public LoginHistory LoginHistory;
 	public String LoginKey;
@@ -50,6 +52,7 @@ public class ApiEventStream extends SObject {
 	public String RelatedEventIdentifier;
 	public String ReplayId;
 	public Decimal RowsProcessed;
+	public Decimal RowsReturned;
 	public String SessionKey;
 	public String SessionLevel;
 	public String SourceIp;

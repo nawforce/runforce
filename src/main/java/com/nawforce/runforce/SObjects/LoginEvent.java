@@ -20,15 +20,16 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class LoginEvent extends SObject {
 	public static SObjectType$<LoginEvent> SObjectType;
 	public static SObjectFields$<LoginEvent> Fields;
+
 	public String AdditionalInfo;
 	public String ApiType;
 	public String ApiVersion;
 	public String Application;
+	public String AuthMethodReference;
 	public Id AuthServiceId;
 	public SObject AuthService;
 	public String Browser;

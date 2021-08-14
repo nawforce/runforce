@@ -29,6 +29,7 @@ public class ActivityHistory extends SObject {
 	public Id AccountId;
 	public Account Account;
 	public Date ActivityDate;
+	public Datetime ActivityDateTime;
 	public String ActivitySubtype;
 	public String ActivityType;
 	public Id AlternateDetailId;
@@ -57,7 +58,7 @@ public class ActivityHistory extends SObject {
 	public Datetime LastModifiedDate;
 	public String Location;
 	public Id OwnerId;
-	public User Owner;
+	public SObject Owner;
 	public String Priority;
 	public Datetime ReminderDateTime;
 	public Datetime StartDateTime;
@@ -65,9 +66,9 @@ public class ActivityHistory extends SObject {
 	public String Subject;
 	public Datetime SystemModstamp;
 	public Id WhatId;
-	public Account What;
+	public SObject What;
 	public Id WhoId;
-	public Contact Who;
+	public SObject Who;
 
 	public ActivityHistory clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ActivityHistory clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

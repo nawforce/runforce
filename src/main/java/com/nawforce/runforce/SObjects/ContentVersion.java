@@ -51,7 +51,7 @@ public class ContentVersion extends SObject {
 	public String FileExtension;
 	public String FileType;
 	public Id FirstPublishLocationId;
-	public Account FirstPublishLocation;
+	public SObject FirstPublishLocation;
 	public Id Id;
 	public Boolean IsAssetEnabled;
 	public Boolean IsDeleted;
@@ -78,6 +78,7 @@ public class ContentVersion extends SObject {
 	public Blob VersionData;
 	public String VersionNumber;
 
+	public AuthorizationFormConsent[] AuthorizationFormConsents;
 	public ContentVersionHistory[] Histories;
 
 	public ContentVersion clone$() {throw new java.lang.UnsupportedOperationException();}

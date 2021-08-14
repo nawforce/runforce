@@ -29,22 +29,27 @@ public class FlowInterview extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrentElement;
+	public String FlowVersionViewId;
 	public String Guid;
 	public Id Id;
 	public String InterviewLabel;
+	public String InterviewStatus;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String PauseLabel;
 	public Datetime SystemModstamp;
+	public Boolean WasPausedFromScreen;
 
 	public RecordAction[] RecordActions;
 	public FlowRecordRelation[] RecordRelations;
+	public FlowInterviewShare[] Shares;
 	public FlowStageRelation[] StageRelations;
+	public WorkStep[] WorkSteps;
 
 	public FlowInterview clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FlowInterview clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -25,14 +25,17 @@ import com.nawforce.runforce.System.*;
 public class SurveyVersion extends SObject {
 	public static SObjectType$<SurveyVersion> SObjectType;
 	public static SObjectFields$<SurveyVersion> Fields;
+
 	public Id BrandingSetId;
 	public BrandingSet BrandingSet;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String Description;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsTemplate;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

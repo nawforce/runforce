@@ -26,6 +26,15 @@ public class LightningUsageByPageMetrics extends SObject {
 	public static SObjectType$<LightningUsageByPageMetrics> SObjectType;
 	public static SObjectFields$<LightningUsageByPageMetrics> Fields;
 
+	public Integer CoresBin2To4;
+	public Integer CoresBin4To8;
+	public Integer CoresBinOver8;
+	public Integer CoresBinUnder2;
+	public Integer DownlinkBin3To5;
+	public Integer DownlinkBin5To8;
+	public Integer DownlinkBin8To10;
+	public Integer DownlinkBinOver10;
+	public Integer DownlinkBinUnder3;
 	public Integer EptBin3To5;
 	public Integer EptBin5To8;
 	public Integer EptBin8To10;
@@ -35,6 +44,9 @@ public class LightningUsageByPageMetrics extends SObject {
 	public Date MetricsDate;
 	public String PageName;
 	public Integer RecordCountEPT;
+	public Integer RttBin50To150;
+	public Integer RttBinOver150;
+	public Integer RttBinUnder50;
 	public Integer SumEPT;
 	public Datetime SystemModstamp;
 	public Integer TotalCount;

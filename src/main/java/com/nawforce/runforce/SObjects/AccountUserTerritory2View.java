@@ -17,17 +17,18 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
-import com.nawforce.runforce.System.Id;
-import com.nawforce.runforce.System.SObject;
 import com.nawforce.runforce.System.String;
+import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class AccountUserTerritory2View extends SObject {
 	public static SObjectType$<AccountUserTerritory2View> SObjectType;
 	public static SObjectFields$<AccountUserTerritory2View> Fields;
 
-	public com.nawforce.runforce.System.Id AccountId;
+	public Id AccountId;
 	public Account Account;
+	public Id Id;
+	public Datetime LastModifiedDate;
 	public String RoleInTerritory2;
 	public Id Territory2Id;
 	public Territory2 Territory2;

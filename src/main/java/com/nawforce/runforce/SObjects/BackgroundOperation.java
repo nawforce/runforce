@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class BackgroundOperation extends SObject {
 	public static SObjectType$<BackgroundOperation> SObjectType;
@@ -56,6 +55,7 @@ public class BackgroundOperation extends SObject {
 	public Datetime SubmittedAt;
 	public Datetime SystemModstamp;
 	public Integer Timeout;
+	public String Type;
 	public String WorkerUri;
 
 	public BackgroundOperation[] MergedOperations;

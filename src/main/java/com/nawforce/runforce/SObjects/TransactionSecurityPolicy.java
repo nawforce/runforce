@@ -28,11 +28,13 @@ public class TransactionSecurityPolicy extends SObject {
 	public String ActionConfig;
 	public Id ApexPolicyId;
 	public ApexClass ApexPolicy;
+	public String BlockMessage;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String Description;
 	public String DeveloperName;
+	public String EventName;
 	public String EventType;
 	public Id ExecutionUserId;
 	public User ExecutionUser;

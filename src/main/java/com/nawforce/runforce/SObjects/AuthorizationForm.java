@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class AuthorizationForm extends SObject {
 	public static SObjectType$<AuthorizationForm> SObjectType;
 	public static SObjectFields$<AuthorizationForm> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -41,7 +42,7 @@ public class AuthorizationForm extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String RevisionNumber;
 	public Datetime SystemModstamp;
 

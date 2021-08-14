@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class ContactPointPhoneShare extends SObject {
 	public static SObjectType$<ContactPointPhoneShare> SObjectType;
 	public static SObjectFields$<ContactPointPhoneShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class ContactPointPhoneShare extends SObject {
 	public ContactPointPhone Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public ContactPointPhoneShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointPhoneShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

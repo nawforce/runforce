@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class QuickTextUsageShare extends SObject {
 	public static SObjectType$<QuickTextUsageShare> SObjectType;
 	public static SObjectFields$<QuickTextUsageShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -35,7 +35,7 @@ public class QuickTextUsageShare extends SObject {
 	public QuickTextUsage Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public QuickTextUsageShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public QuickTextUsageShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

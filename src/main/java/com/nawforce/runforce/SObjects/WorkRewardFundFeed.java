@@ -23,54 +23,41 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class WorkRewardFundFeed extends SObject {
-  public static SObjectType$<WorkRewardFundFeed> SObjectType;
-  public static SObjectFields$<WorkRewardFundFeed> Fields;
-  public Id BestCommentId;
-  public FeedComment BestComment;
-  public String Body;
-  public Integer CommentCount;
-  public Id CreatedById;
-  public User CreatedBy;
-  public Datetime CreatedDate;
-  public Id Id;
-  public Id InsertedById;
-  public User InsertedBy;
-  public Boolean IsDeleted;
-  public Boolean IsRichText;
-  public Datetime LastModifiedDate;
-  public Integer LikeCount;
-  public String LinkUrl;
-  public Id ParentId;
-  public WorkRewardFund Parent;
-  public Id RelatedRecordId;
-  public ContentVersion RelatedRecord;
-  public Datetime SystemModstamp;
-  public String Title;
-  public String Type;
+	public static SObjectType$<WorkRewardFundFeed> SObjectType;
+	public static SObjectFields$<WorkRewardFundFeed> Fields;
 
-  public FeedAttachment[] FeedAttachments;
-  public FeedComment[] FeedComments;
-  public FeedLike[] FeedLikes;
-  public FeedSignal[] FeedSignals;
-  public FeedTrackedChange[] FeedTrackedChanges;
+	public Id BestCommentId;
+	public FeedComment BestComment;
+	public String Body;
+	public Integer CommentCount;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public Id Id;
+	public Id InsertedById;
+	public User InsertedBy;
+	public Boolean IsDeleted;
+	public Boolean IsRichText;
+	public Datetime LastModifiedDate;
+	public Integer LikeCount;
+	public String LinkUrl;
+	public Id ParentId;
+	public WorkRewardFund Parent;
+	public Id RelatedRecordId;
+	public SObject RelatedRecord;
+	public Datetime SystemModstamp;
+	public String Title;
+	public String Type;
 
-  public WorkRewardFundFeed clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public FeedAttachment[] FeedAttachments;
+	public FeedComment[] FeedComments;
+	public FeedLike[] FeedLikes;
+	public FeedSignal[] FeedSignals;
+	public FeedTrackedChange[] FeedTrackedChanges;
 
-  public WorkRewardFundFeed clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkRewardFundFeed clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkRewardFundFeed clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkRewardFundFeed clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkRewardFundFeed clone$() {throw new java.lang.UnsupportedOperationException();}
+	public WorkRewardFundFeed clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkRewardFundFeed clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkRewardFundFeed clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkRewardFundFeed clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

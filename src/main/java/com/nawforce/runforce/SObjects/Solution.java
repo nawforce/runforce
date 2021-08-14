@@ -21,12 +21,13 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Solution extends SObject {
 	public static SObjectType$<Solution> SObjectType;
 	public static SObjectFields$<Solution> Fields;
 
+	public Id RecordTypeId;
+	public RecordType RecordType;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -65,6 +66,7 @@ public class Solution extends SObject {
 	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public SurveySubject[] SurveySubjectEntities;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 	public Vote[] Votes;

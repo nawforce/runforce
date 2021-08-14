@@ -34,7 +34,7 @@ public class ContentWorkspaceMember extends SObject {
 	public Datetime CreatedDate;
 	public Id Id;
 	public Id MemberId;
-	public Group Member;
+	public SObject Member;
 	public String MemberType;
 
 	public ContentWorkspaceMember clone$() {throw new java.lang.UnsupportedOperationException();}

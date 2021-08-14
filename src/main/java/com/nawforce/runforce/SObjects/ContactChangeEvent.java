@@ -31,6 +31,7 @@ public class ContactChangeEvent extends SObject {
 	public String AssistantPhone;
 	public Date Birthdate;
 	public Object ChangeEventHeader;
+	public String CleanStatus;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

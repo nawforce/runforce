@@ -20,12 +20,13 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class CampaignMember extends SObject {
 	public static SObjectType$<CampaignMember> SObjectType;
 	public static SObjectFields$<CampaignMember> Fields;
 
+	public Id RecordTypeId;
+	public RecordType RecordType;
 	public Id CampaignId;
 	public Campaign Campaign;
 	public String City;
@@ -55,9 +56,9 @@ public class CampaignMember extends SObject {
 	public Id LeadId;
 	public Lead Lead;
 	public Id LeadOrContactId;
-	public Contact LeadOrContact;
+	public SObject LeadOrContact;
 	public Id LeadOrContactOwnerId;
-	public Group LeadOrContactOwner;
+	public SObject LeadOrContactOwner;
 	public String LeadSource;
 	public String MobilePhone;
 	public String Name;
@@ -67,6 +68,7 @@ public class CampaignMember extends SObject {
 	public String State;
 	public String Status;
 	public String Street;
+	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;
 

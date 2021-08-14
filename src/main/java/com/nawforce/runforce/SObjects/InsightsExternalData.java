@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class InsightsExternalData extends SObject {
 	public static SObjectType$<InsightsExternalData> SObjectType;
@@ -46,6 +45,7 @@ public class InsightsExternalData extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public String LicenseType;
 	public Integer MetaDataLength;
 	public Blob MetadataJson;
 	public String NotificationEmail;

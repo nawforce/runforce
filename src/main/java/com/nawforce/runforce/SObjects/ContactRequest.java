@@ -25,7 +25,7 @@ public class ContactRequest extends SObject {
 	public static SObjectType$<ContactRequest> SObjectType;
 	public static SObjectFields$<ContactRequest> Fields;
 
-	public com.nawforce.runforce.System.Id CreatedById;
+	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
@@ -38,7 +38,7 @@ public class ContactRequest extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String PreferredChannel;
 	public String PreferredPhone;
 	public String RequestDescription;
@@ -46,9 +46,9 @@ public class ContactRequest extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 	public Id WhatId;
-	public Account What;
+	public SObject What;
 	public Id WhoId;
-	public Contact Who;
+	public SObject Who;
 
 	public ActivityHistory[] ActivityHistories;
 	public EmailMessage[] Emails;
@@ -56,6 +56,7 @@ public class ContactRequest extends SObject {
 	public OpenActivity[] OpenActivities;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public ContactRequestShare[] Shares;
 	public Task[] Tasks;
 
 	public ContactRequest clone$() {throw new java.lang.UnsupportedOperationException();}

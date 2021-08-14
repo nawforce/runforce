@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class CampaignMemberChangeEvent extends SObject {
 	public static SObjectType$<CampaignMemberChangeEvent> SObjectType;
 	public static SObjectFields$<CampaignMemberChangeEvent> Fields;
+
 	public Id CampaignId;
 	public Campaign Campaign;
 	public Object ChangeEventHeader;
@@ -33,6 +33,7 @@ public class CampaignMemberChangeEvent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Date FirstRespondedDate;
 	public Boolean HasResponded;
 	public Id Id;

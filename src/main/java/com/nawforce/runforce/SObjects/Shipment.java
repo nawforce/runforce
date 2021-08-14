@@ -1,8 +1,5 @@
 /*
- [The "BSD licence"]
- Copyright (c) 2019 Kevin Jones
- All rights reserved.
-
+ Copyright (c) 2019 Kevin Jones, All rights reserved.
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
@@ -13,18 +10,8 @@
     documentation and/or other materials provided with the distribution.
  3. The name of the author may not be used to endorse or promote products
     derived from this software without specific prior written permission.
+ */
 
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
@@ -37,12 +24,14 @@ import com.nawforce.runforce.System.*;
 public class Shipment extends SObject {
 	public static SObjectType$<Shipment> SObjectType;
 	public static SObjectFields$<Shipment> Fields;
+
 	public Datetime ActualDeliveryDate;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id DeliveredToId;
-	public Group DeliveredTo;
+	public SObject DeliveredTo;
 	public String Description;
 	public Id DestinationLocationId;
 	public Location DestinationLocation;
@@ -55,32 +44,37 @@ public class Shipment extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String Provider;
 	public Address ShipFromAddress;
 	public String ShipFromCity;
 	public String ShipFromCountry;
+	public String ShipFromCountryCode;
 	public String ShipFromGeocodeAccuracy;
 	public Decimal ShipFromLatitude;
 	public Decimal ShipFromLongitude;
 	public String ShipFromPostalCode;
 	public String ShipFromState;
+	public String ShipFromStateCode;
 	public String ShipFromStreet;
 	public Address ShipToAddress;
 	public String ShipToCity;
 	public String ShipToCountry;
+	public String ShipToCountryCode;
 	public String ShipToGeocodeAccuracy;
 	public Decimal ShipToLatitude;
 	public Decimal ShipToLongitude;
 	public String ShipToName;
 	public String ShipToPostalCode;
 	public String ShipToState;
+	public String ShipToStateCode;
 	public String ShipToStreet;
 	public String ShipmentNumber;
 	public Id SourceLocationId;
 	public Location SourceLocation;
 	public String Status;
 	public Datetime SystemModstamp;
+	public Decimal TotalItemsQuantity;
 	public String TrackingNumber;
 	public String TrackingUrl;
 
@@ -100,6 +94,7 @@ public class Shipment extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public ShipmentShare[] Shares;
+	public ShipmentItem[] ShipmentItems;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

@@ -24,8 +24,10 @@ import com.nawforce.runforce.System.*;
 public class DigitalWallet extends SObject {
 	public static SObjectType$<DigitalWallet> SObjectType;
 	public static SObjectFields$<DigitalWallet> Fields;
+
 	public Id AccountId;
 	public Account Account;
+	public String AuditEmail;
 	public String Comments;
 	public String CompanyName;
 	public Id CreatedById;
@@ -35,25 +37,33 @@ public class DigitalWallet extends SObject {
 	public String DigitalWalletNumber;
 	public String Email;
 	public String GatewayToken;
+	public String GatewayTokenDetails;
+	public Blob GatewayTokenEncrypted;
 	public Id Id;
+	public String IpAddress;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public String MacAddress;
 	public String NickName;
 	public Id PaymentGatewayId;
 	public PaymentGateway PaymentGateway;
 	public Address PaymentMethodAddress;
 	public String PaymentMethodCity;
 	public String PaymentMethodCountry;
+	public String PaymentMethodCountryCode;
 	public String PaymentMethodGeocodeAccuracy;
 	public Decimal PaymentMethodLatitude;
 	public Decimal PaymentMethodLongitude;
 	public String PaymentMethodPostalCode;
 	public String PaymentMethodState;
+	public String PaymentMethodStateCode;
 	public String PaymentMethodStreet;
+	public String Phone;
+	public String ProcessingMode;
 	public String Status;
 	public Datetime SystemModstamp;
 

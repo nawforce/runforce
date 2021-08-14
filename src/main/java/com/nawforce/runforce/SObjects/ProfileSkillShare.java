@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class ProfileSkillShare extends SObject {
 	public static SObjectType$<ProfileSkillShare> SObjectType;
 	public static SObjectFields$<ProfileSkillShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class ProfileSkillShare extends SObject {
 	public ProfileSkill Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public ProfileSkillShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ProfileSkillShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

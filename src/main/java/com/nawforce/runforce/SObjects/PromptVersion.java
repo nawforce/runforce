@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class PromptVersion extends SObject {
 	public static SObjectType$<PromptVersion> SObjectType;
 	public static SObjectFields$<PromptVersion> Fields;
+
 	public String ActionButtonLabel;
 	public String ActionButtonLink;
 	public String Body;
@@ -36,9 +37,14 @@ public class PromptVersion extends SObject {
 	public String DismissButtonLabel;
 	public String DisplayPosition;
 	public String DisplayType;
+	public String ElementRelativePosition;
 	public Date EndDate;
 	public String Header;
 	public Id Id;
+	public String ImageAltText;
+	public Id ImageId;
+	public ContentAsset Image;
+	public String ImageLocation;
 	public String IndexWithIsPublished;
 	public String IndexWithoutIsPublished;
 	public Boolean IsDeleted;
@@ -52,21 +58,29 @@ public class PromptVersion extends SObject {
 	public Id PublishedByUserId;
 	public User PublishedByUser;
 	public Date PublishedDate;
+	public String ReferenceElementContext;
 	public Boolean ShouldDisplayActionButton;
 	public Boolean ShouldIgnoreGlobalDelay;
 	public Date StartDate;
+	public Integer StepNumber;
 	public Datetime SystemModstamp;
 	public String TargetAppDeveloperName;
 	public String TargetAppNamespacePrefix;
 	public String TargetPageKey1;
+	public String TargetPageKey1Ref;
 	public String TargetPageKey2;
+	public String TargetPageKey3;
 	public String TargetPageType;
+	public String ThemeColor;
+	public String ThemeSaturation;
 	public Integer TimesToDisplay;
 	public String Title;
 	public String UserAccess;
 	public String UserProfileAccess;
 	public Integer VersionNumber;
 	public String VideoLink;
+
+	public PromptVersionLocalization[] Localization;
 
 	public PromptVersion clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PromptVersion clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

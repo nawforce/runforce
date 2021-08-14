@@ -35,7 +35,7 @@ public class StreamingChannelShare extends SObject {
 	public StreamingChannel Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public StreamingChannelShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public StreamingChannelShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

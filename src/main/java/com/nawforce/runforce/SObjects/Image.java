@@ -25,6 +25,7 @@ public class Image extends SObject {
 	public static SObjectType$<Image> SObjectType;
 	public static SObjectFields$<Image> Fields;
 
+	public String AlternateText;
 	public String CapturedAngle;
 	public Id ContentDocumentId;
 	public ContentDocument ContentDocument;
@@ -33,11 +34,8 @@ public class Image extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public Id Id;
-	public String ImageAlternateText;
 	public String ImageClass;
 	public String ImageClassObjectType;
-	public String ImageTitle;
-	public String ImageUrl;
 	public String ImageViewType;
 	public Boolean IsActive;
 	public Boolean IsDeleted;
@@ -48,11 +46,28 @@ public class Image extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
+	public String Title;
+	public String Url;
 
+	public ActivityHistory[] ActivityHistories;
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public Attachment[] Attachments;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public EmailMessage[] Emails;
+	public Event[] Events;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public ImageFeed[] Feeds;
+	public ImageHistory[] Histories;
+	public Note[] Notes;
+	public NoteAndAttachment[] NotesAndAttachments;
+	public OpenActivity[] OpenActivities;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ImageShare[] Shares;
+	public Task[] Tasks;
 
 	public Image clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Image clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

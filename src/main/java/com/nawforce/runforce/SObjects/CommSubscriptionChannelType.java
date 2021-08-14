@@ -24,11 +24,13 @@ import com.nawforce.runforce.System.*;
 public class CommSubscriptionChannelType extends SObject {
 	public static SObjectType$<CommSubscriptionChannelType> SObjectType;
 	public static SObjectFields$<CommSubscriptionChannelType> Fields;
+
 	public Id CommunicationSubscriptionId;
 	public CommSubscription CommunicationSubscription;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id EngagementChannelTypeId;
 	public EngagementChannelType EngagementChannelType;
 	public Id Id;
@@ -40,7 +42,7 @@ public class CommSubscriptionChannelType extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 
 	public AttachedContentDocument[] AttachedContentDocuments;

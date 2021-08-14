@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class OpportunityLineItem extends SObject {
 	public static SObjectType$<OpportunityLineItem> SObjectType;
@@ -43,6 +42,8 @@ public class OpportunityLineItem extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
 	public Decimal ListPrice;
 	public String Name;
 	public Id OpportunityId;

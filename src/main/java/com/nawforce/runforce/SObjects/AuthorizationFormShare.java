@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class AuthorizationFormShare extends SObject {
 	public static SObjectType$<AuthorizationFormShare> SObjectType;
 	public static SObjectFields$<AuthorizationFormShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class AuthorizationFormShare extends SObject {
 	public AuthorizationForm Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public AuthorizationFormShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AuthorizationFormShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

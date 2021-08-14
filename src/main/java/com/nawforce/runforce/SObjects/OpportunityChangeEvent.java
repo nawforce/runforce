@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class OpportunityChangeEvent extends SObject {
 	public static SObjectType$<OpportunityChangeEvent> SObjectType;
@@ -33,6 +32,8 @@ public class OpportunityChangeEvent extends SObject {
 	public Campaign Campaign;
 	public Object ChangeEventHeader;
 	public Date CloseDate;
+	public Id ContactId;
+	public Contact Contact;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -48,9 +49,14 @@ public class OpportunityChangeEvent extends SObject {
 	public Boolean IsPrivate;
 	public Boolean IsSplit;
 	public Boolean IsWon;
+	public Id LastAmountChangedHistoryId;
+	public OpportunityHistory LastAmountChangedHistory;
+	public Id LastCloseDateChangedHistoryId;
+	public OpportunityHistory LastCloseDateChangedHistory;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LastStageChangeDate;
 	public String LeadSource;
 	public String Name;
 	public String NextStep;

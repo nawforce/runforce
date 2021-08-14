@@ -23,21 +23,23 @@ import com.nawforce.runforce.System.*;
 public class EntityDefinition extends SObject {
 	public static SObjectType$<EntityDefinition> SObjectType;
 
-
-	public Id DataStewardId;
-	public Group DataSteward;
 	public String DefaultCompactLayoutId;
+	public String DefaultImplementation;
 	public String DeploymentStatus;
 	public String DetailUrl;
 	public String DeveloperName;
 	public String DurableId;
 	public String EditDefinitionUrl;
 	public String EditUrl;
+	public String ExtendedBy;
+	public String ExtendsInterfaces;
 	public String ExternalSharingModel;
 	public Boolean HasSubtypes;
 	public String HelpSettingPageName;
 	public String HelpSettingPageUrl;
 	public Id Id;
+	public String ImplementedBy;
+	public String ImplementsInterfaces;
 	public String InternalSharingModel;
 	public Boolean IsApexTriggerable;
 	public Boolean IsAutoActivityCaptureEnabled;
@@ -50,6 +52,7 @@ public class EntityDefinition extends SObject {
 	public Boolean IsEverUpdatable;
 	public Boolean IsFeedEnabled;
 	public Boolean IsIdEnabled;
+	public Boolean IsInterface;
 	public Boolean IsLayoutable;
 	public Boolean IsMruEnabled;
 	public Boolean IsProcessEnabled;

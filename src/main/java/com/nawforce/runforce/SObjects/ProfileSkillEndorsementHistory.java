@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class ProfileSkillEndorsementHistory extends SObject {
 	public static SObjectType$<ProfileSkillEndorsementHistory> SObjectType;
 	public static SObjectFields$<ProfileSkillEndorsementHistory> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

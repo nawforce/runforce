@@ -22,42 +22,30 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class OrgMetric extends SObject {
-  public static SObjectType$<OrgMetric> SObjectType;
-  public static SObjectFields$<OrgMetric> Fields;
-  public String Category;
-  public Id CreatedById;
-  public User CreatedBy;
-  public Datetime CreatedDate;
-  public String FeatureType;
-  public Id Id;
-  public Boolean IsDeleted;
-  public Id LastModifiedById;
-  public User LastModifiedBy;
-  public Datetime LastModifiedDate;
-  public Id LatestOrgMetricScanSummaryId;
-  public OrgMetricScanSummary LatestOrgMetricScanSummary;
-  public String Name;
-  public Datetime SystemModstamp;
+	public static SObjectType$<OrgMetric> SObjectType;
+	public static SObjectFields$<OrgMetric> Fields;
 
-  public OrgMetricScanSummary[] OrgMetric;
+	public String Category;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String FeatureType;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Id LatestOrgMetricScanSummaryId;
+	public OrgMetricScanSummary LatestOrgMetricScanSummary;
+	public String Name;
+	public Datetime SystemModstamp;
 
-  public OrgMetric clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public OrgMetricScanSummary[] OrgMetric;
 
-  public OrgMetric clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public OrgMetric clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public OrgMetric clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public OrgMetric clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public OrgMetric clone$() {throw new java.lang.UnsupportedOperationException();}
+	public OrgMetric clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public OrgMetric clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public OrgMetric clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public OrgMetric clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

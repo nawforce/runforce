@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class TaskChangeEvent extends SObject {
 	public static SObjectType$<TaskChangeEvent> SObjectType;
@@ -68,9 +67,9 @@ public class TaskChangeEvent extends SObject {
 	public String Status;
 	public String Subject;
 	public Id WhatId;
-	public Account What;
+	public SObject What;
 	public Id WhoId;
-	public Contact Who;
+	public SObject Who;
 
 	public TaskChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public TaskChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

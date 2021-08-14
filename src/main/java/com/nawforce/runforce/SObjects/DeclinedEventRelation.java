@@ -36,7 +36,7 @@ public class DeclinedEventRelation extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id RelationId;
-	public Contact Relation;
+	public SObject Relation;
 	public Datetime RespondedDate;
 	public String Response;
 	public Datetime SystemModstamp;

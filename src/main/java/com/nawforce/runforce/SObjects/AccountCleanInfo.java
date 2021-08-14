@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class AccountCleanInfo extends SObject {
 	public static SObjectType$<AccountCleanInfo> SObjectType;
 	public static SObjectFields$<AccountCleanInfo> Fields;
+
 	public Id AccountId;
 	public Account Account;
 	public String AccountSite;
@@ -36,9 +37,11 @@ public class AccountCleanInfo extends SObject {
 	public String CompanyName;
 	public String CompanyStatusDataDotCom;
 	public String Country;
+	public String CountryCode;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String DandBCompanyDunsNumber;
 	public String DataDotComId;
 	public String Description;
@@ -135,6 +138,7 @@ public class AccountCleanInfo extends SObject {
 	public String Sic;
 	public String SicDescription;
 	public String State;
+	public String StateCode;
 	public String Street;
 	public Datetime SystemModstamp;
 	public String TickerSymbol;

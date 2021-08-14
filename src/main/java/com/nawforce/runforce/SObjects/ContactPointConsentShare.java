@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class ContactPointConsentShare extends SObject {
 	public static SObjectType$<ContactPointConsentShare> SObjectType;
 	public static SObjectFields$<ContactPointConsentShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class ContactPointConsentShare extends SObject {
 	public ContactPointConsent Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public ContactPointConsentShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointConsentShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

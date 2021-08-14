@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class EventChangeEvent extends SObject {
 	public static SObjectType$<EventChangeEvent> SObjectType;
@@ -71,9 +70,9 @@ public class EventChangeEvent extends SObject {
 	public String ShowAs;
 	public String Subject;
 	public Id WhatId;
-	public Account What;
+	public SObject What;
 	public Id WhoId;
-	public Contact Who;
+	public SObject Who;
 
 	public EventChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public EventChangeEvent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

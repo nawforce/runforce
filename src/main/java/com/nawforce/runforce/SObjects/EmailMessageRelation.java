@@ -34,7 +34,7 @@ public class EmailMessageRelation extends SObject {
 	public Boolean IsDeleted;
 	public String RelationAddress;
 	public Id RelationId;
-	public Contact Relation;
+	public SObject Relation;
 	public String RelationObjectType;
 	public String RelationType;
 	public Datetime SystemModstamp;

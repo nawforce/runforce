@@ -30,9 +30,9 @@ public class FeedLike extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Id FeedEntityId;
-	public AccountFeed FeedEntity;
+	public SObject FeedEntity;
 	public Id FeedItemId;
-	public AccountFeed FeedItem;
+	public SObject FeedItem;
 	public Id Id;
 	public Id InsertedById;
 	public User InsertedBy;

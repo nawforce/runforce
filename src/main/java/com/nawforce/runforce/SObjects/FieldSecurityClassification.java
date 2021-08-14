@@ -21,11 +21,11 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class FieldSecurityClassification extends SObject {
 	public static SObjectType$<FieldSecurityClassification> SObjectType;
 	public static SObjectFields$<FieldSecurityClassification> Fields;
+
 	public String ApiName;
 	public Id CreatedById;
 	public User CreatedBy;

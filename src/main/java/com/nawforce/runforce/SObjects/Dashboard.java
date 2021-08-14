@@ -39,7 +39,7 @@ public class Dashboard extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public Id FolderId;
-	public Folder Folder;
+	public SObject Folder;
 	public String FolderName;
 	public Id Id;
 	public Boolean IsDeleted;

@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Macro extends SObject {
 	public static SObjectType$<Macro> SObjectType;
@@ -42,11 +41,12 @@ public class Macro extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String StartingContext;
 	public Datetime SystemModstamp;
 
 	public MacroHistory[] Histories;
+	public MacroShare[] Shares;
 
 	public Macro clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Macro clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -25,10 +25,12 @@ import com.nawforce.runforce.System.*;
 public class SurveyQuestionScore extends SObject {
 	public static SObjectType$<SurveyQuestionScore> SObjectType;
 	public static SObjectFields$<SurveyQuestionScore> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Decimal CumulativeScore;
+	public String CurrencyIsoCode;
 	public Date DateResponse;
 	public Id Id;
 	public Boolean IsDeleted;

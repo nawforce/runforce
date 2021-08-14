@@ -32,7 +32,7 @@ public class FeedPollVote extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Id FeedItemId;
-	public AccountFeed FeedItem;
+	public SObject FeedItem;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Datetime LastModifiedDate;

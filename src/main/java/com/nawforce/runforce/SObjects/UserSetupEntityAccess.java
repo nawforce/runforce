@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class UserSetupEntityAccess extends SObject {
 	public static SObjectType$<UserSetupEntityAccess> SObjectType;
 	public static SObjectFields$<UserSetupEntityAccess> Fields;
+
 	public String DeveloperName;
 	public String DurableId;
 	public Id Id;

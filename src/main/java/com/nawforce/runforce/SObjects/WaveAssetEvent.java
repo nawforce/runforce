@@ -31,6 +31,7 @@ public class WaveAssetEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String EventType;
+	public String EventUuid;
 	public String FolderId;
 	public Integer Index;
 	public String ItemId;

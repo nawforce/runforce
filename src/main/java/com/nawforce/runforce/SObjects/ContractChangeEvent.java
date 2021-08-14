@@ -21,11 +21,11 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ContractChangeEvent extends SObject {
 	public static SObjectType$<ContractChangeEvent> SObjectType;
 	public static SObjectFields$<ContractChangeEvent> Fields;
+
 	public Id AccountId;
 	public Account Account;
 	public Id ActivatedById;
@@ -34,11 +34,13 @@ public class ContractChangeEvent extends SObject {
 	public Address BillingAddress;
 	public String BillingCity;
 	public String BillingCountry;
+	public String BillingCountryCode;
 	public String BillingGeocodeAccuracy;
 	public Decimal BillingLatitude;
 	public Decimal BillingLongitude;
 	public String BillingPostalCode;
 	public String BillingState;
+	public String BillingStateCode;
 	public String BillingStreet;
 	public Object ChangeEventHeader;
 	public Date CompanySignedDate;
@@ -49,6 +51,7 @@ public class ContractChangeEvent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Date CustomerSignedDate;
 	public Id CustomerSignedId;
 	public Contact CustomerSigned;

@@ -21,11 +21,11 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ListViewEventStream extends SObject {
 	public static SObjectType$<ListViewEventStream> SObjectType;
 	public static SObjectFields$<ListViewEventStream> Fields;
+
 	public String AppName;
 	public String ColumnHeaders;
 	public Datetime CreatedDate;
@@ -34,6 +34,7 @@ public class ListViewEventStream extends SObject {
 	public Datetime EventDate;
 	public String EventIdentifier;
 	public String EventSource;
+	public String EventUuid;
 	public String ExecutionIdentifier;
 	public String FilterCriteria;
 	public String ListViewId;

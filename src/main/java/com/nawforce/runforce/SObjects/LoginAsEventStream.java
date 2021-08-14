@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class LoginAsEventStream extends SObject {
 	public static SObjectType$<LoginAsEventStream> SObjectType;
 	public static SObjectFields$<LoginAsEventStream> Fields;
+
 	public String Application;
 	public String Browser;
 	public Datetime CreatedDate;
@@ -32,6 +32,7 @@ public class LoginAsEventStream extends SObject {
 	public String DelegatedUsername;
 	public Datetime EventDate;
 	public String EventIdentifier;
+	public String EventUuid;
 	public String LoginAsCategory;
 	public Id LoginHistoryId;
 	public LoginHistory LoginHistory;

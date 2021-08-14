@@ -31,11 +31,13 @@ public class Domain extends SObject {
 	public Datetime CreatedDate;
 	public String Domain;
 	public String DomainType;
+	public String HttpsOption;
 	public Id Id;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
-	public Boolean OptionsExternalHttps;
+	public Boolean OptionsHstsHeaders;
+	public Boolean OptionsHstsPreload;
 	public Datetime SystemModstamp;
 
 	public DomainSite[] DomainSites;

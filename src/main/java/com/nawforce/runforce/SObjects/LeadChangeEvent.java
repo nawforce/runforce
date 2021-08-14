@@ -21,17 +21,16 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class LeadChangeEvent extends SObject {
 	public static SObjectType$<LeadChangeEvent> SObjectType;
 	public static SObjectFields$<LeadChangeEvent> Fields;
 
-
-	public com.nawforce.runforce.System.Address Address;
+	public Address Address;
 	public Decimal AnnualRevenue;
 	public Object ChangeEventHeader;
 	public String City;
+	public String CleanStatus;
 	public String Company;
 	public String CompanyDunsNumber;
 	public Id ConvertedAccountId;

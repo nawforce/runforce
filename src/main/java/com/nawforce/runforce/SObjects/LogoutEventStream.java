@@ -30,6 +30,7 @@ public class LogoutEventStream extends SObject {
 	public Datetime CreatedDate;
 	public Datetime EventDate;
 	public String EventIdentifier;
+	public String EventUuid;
 	public String LoginKey;
 	public String RelatedEventIdentifier;
 	public String ReplayId;

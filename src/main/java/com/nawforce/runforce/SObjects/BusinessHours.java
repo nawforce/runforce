@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class BusinessHours extends SObject {
 	public static SObjectType$<BusinessHours> SObjectType;
@@ -53,6 +52,8 @@ public class BusinessHours extends SObject {
 	public Time TuesdayStartTime;
 	public Time WednesdayEndTime;
 	public Time WednesdayStartTime;
+
+	public WorkOrder[] WorkOrders;
 
 	public BusinessHours clone$() {throw new java.lang.UnsupportedOperationException();}
 	public BusinessHours clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

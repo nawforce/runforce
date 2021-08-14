@@ -40,7 +40,7 @@ public class EmailStatus extends SObject {
 	public Task Task;
 	public Integer TimesOpened;
 	public Id WhoId;
-	public Contact Who;
+	public SObject Who;
 
 	public EmailStatus clone$() {throw new java.lang.UnsupportedOperationException();}
 	public EmailStatus clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

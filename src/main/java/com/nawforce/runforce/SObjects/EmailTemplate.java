@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class EmailTemplate extends SObject {
 	public static SObjectType$<EmailTemplate> SObjectType;
@@ -37,12 +36,15 @@ public class EmailTemplate extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public String Encoding;
+	public Id EnhancedLetterheadId;
+	public EnhancedLetterhead EnhancedLetterhead;
 	public Id FolderId;
-	public Folder Folder;
+	public SObject Folder;
 	public String FolderName;
 	public String HtmlValue;
 	public Id Id;
 	public Boolean IsActive;
+	public Boolean IsBuilderContent;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;

@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ProcessInstance extends SObject {
 	public static SObjectType$<ProcessInstance> SObjectType;
@@ -47,7 +46,7 @@ public class ProcessInstance extends SObject {
 	public User SubmittedBy;
 	public Datetime SystemModstamp;
 	public Id TargetObjectId;
-	public Account TargetObject;
+	public SObject TargetObject;
 
 	public ProcessInstanceNode[] Nodes;
 	public ProcessInstanceStep[] Steps;

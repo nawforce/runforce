@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-// To see Quote Enable on org via QuoteSettings
 @SuppressWarnings("unused")
 public class Quote extends SObject {
 	public static SObjectType$<Quote> SObjectType;
@@ -81,7 +80,7 @@ public class Quote extends SObject {
 	public Id OpportunityId;
 	public Opportunity Opportunity;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String Phone;
 	public Id Pricebook2Id;
 	public Pricebook2 Pricebook2;
@@ -135,6 +134,7 @@ public class Quote extends SObject {
 	public QuoteLineItem[] QuoteLineItems;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public QuoteShare[] Shares;
 	public Task[] Tasks;
 
 	public Quote clone$() {throw new java.lang.UnsupportedOperationException();}

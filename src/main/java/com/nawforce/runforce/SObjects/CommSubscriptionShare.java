@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class CommSubscriptionShare extends SObject {
 	public static SObjectType$<CommSubscriptionShare> SObjectType;
 	public static SObjectFields$<CommSubscriptionShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class CommSubscriptionShare extends SObject {
 	public CommSubscription Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public CommSubscriptionShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CommSubscriptionShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

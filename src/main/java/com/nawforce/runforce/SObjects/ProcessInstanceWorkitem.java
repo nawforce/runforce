@@ -25,7 +25,7 @@ public class ProcessInstanceWorkitem extends SObject {
 	public static SObjectFields$<ProcessInstanceWorkitem> Fields;
 
 	public Id ActorId;
-	public Group Actor;
+	public SObject Actor;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -35,7 +35,7 @@ public class ProcessInstanceWorkitem extends SObject {
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id OriginalActorId;
-	public Group OriginalActor;
+	public SObject OriginalActor;
 	public Id ProcessInstanceId;
 	public ProcessInstance ProcessInstance;
 	public Datetime SystemModstamp;

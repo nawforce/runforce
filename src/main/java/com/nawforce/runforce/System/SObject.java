@@ -22,18 +22,7 @@ import com.nawforce.runforce.Schema.SObjectType;
 
 @SuppressWarnings("unused")
 public class SObject {
-	// Future: Slim this set, move custom object specific to CustomSObject$
-	public Id Id;
-	public Id OwnerId;
-	public String Name;
-	public UserGroup Owner;
 	public UserRecordAccess UserRecordAccess;
-	public List<Task> Tasks;					// Future: Only if Allow Activities is selected
-	public RecordType RecordType;
-	public String CurrencyIsoCode;
-	public Datetime LastReferencedDate;
-	public Datetime LastViewedDate;
-	public Datetime LastActivityDate;		// Future: Only if Allow Activities is selected
 
 	public void addError(Exception exceptionError) {throw new java.lang.UnsupportedOperationException();}
 	public void addError(Exception exceptionError, Boolean escape) {throw new java.lang.UnsupportedOperationException();}

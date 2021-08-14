@@ -41,12 +41,14 @@ public class DataUsePurpose extends SObject {
 	public DataUseLegalBasis LegalBasis;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 
+	public AuthorizationFormDataUse[] AuthorizationFormDataUses;
 	public DataUsePurposeHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public DataUsePurposeShare[] Shares;
 
 	public DataUsePurpose clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DataUsePurpose clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

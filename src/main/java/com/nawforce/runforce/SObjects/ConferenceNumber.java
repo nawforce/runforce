@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class ConferenceNumber extends SObject {
 	public static SObjectType$<ConferenceNumber> SObjectType;
 	public static SObjectFields$<ConferenceNumber> Fields;
+
 	public String AccessCode;
 	public Id CreatedById;
 	public User CreatedBy;

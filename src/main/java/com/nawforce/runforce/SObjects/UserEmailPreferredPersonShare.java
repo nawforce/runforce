@@ -35,7 +35,7 @@ public class UserEmailPreferredPersonShare extends SObject {
 	public UserEmailPreferredPerson Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public UserEmailPreferredPersonShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public UserEmailPreferredPersonShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

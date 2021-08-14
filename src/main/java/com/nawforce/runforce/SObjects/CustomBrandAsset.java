@@ -27,7 +27,7 @@ public class CustomBrandAsset extends SObject {
 
 	public String AssetCategory;
 	public Id AssetSourceId;
-	public ContentAsset AssetSource;
+	public SObject AssetSource;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

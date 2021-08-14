@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Document extends SObject {
 	public static SObjectType$<Document> SObjectType;
@@ -38,7 +37,7 @@ public class Document extends SObject {
 	public String Description;
 	public String DeveloperName;
 	public Id FolderId;
-	public Folder Folder;
+	public SObject Folder;
 	public Id Id;
 	public Boolean IsBodySearchable;
 	public Boolean IsDeleted;

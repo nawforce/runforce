@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class PartyConsent extends SObject {
 	public static SObjectType$<PartyConsent> SObjectType;
 	public static SObjectFields$<PartyConsent> Fields;
+
 	public String Action;
 	public String CaptureContactPointType;
 	public Datetime CaptureDate;
@@ -31,6 +32,7 @@ public class PartyConsent extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -40,7 +42,7 @@ public class PartyConsent extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Id PartyId;
 	public Individual Party;
 	public String PrivacyConsentStatus;

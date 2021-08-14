@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class PricebookEntry extends SObject {
 	public static SObjectType$<PricebookEntry> SObjectType;
@@ -47,11 +46,14 @@ public class PricebookEntry extends SObject {
 	public Decimal UnitPrice;
 	public Boolean UseStandardPrice;
 
+	public PricebookEntryHistory[] Histories;
 	public OpportunityLineItem[] OpportunityLineItems;
 	public OrderItem[] OrderItems;
+	public ProductConsumed[] ProductsConsumed;
 	public QuoteLineItem[] QuoteLineItems;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public WorkOrderLineItem[] WorkOrderLineItems;
 
 	public PricebookEntry clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PricebookEntry clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

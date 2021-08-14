@@ -35,7 +35,7 @@ public class OrgDeleteRequestShare extends SObject {
 	public OrgDeleteRequest Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public OrgDeleteRequestShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OrgDeleteRequestShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

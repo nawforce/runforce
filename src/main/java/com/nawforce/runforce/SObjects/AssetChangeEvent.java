@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class AssetChangeEvent extends SObject {
 	public static SObjectType$<AssetChangeEvent> SObjectType;
@@ -39,7 +38,12 @@ public class AssetChangeEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
+	public Decimal CurrentAmount;
+	public Datetime CurrentLifecycleEndDate;
+	public Decimal CurrentMrr;
+	public Decimal CurrentQuantity;
 	public String Description;
+	public Boolean HasLifecycleManagement;
 	public Id Id;
 	public Date InstallDate;
 	public Boolean IsCompetitorProduct;
@@ -47,7 +51,13 @@ public class AssetChangeEvent extends SObject {
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
+	public Datetime LifecycleEndDate;
+	public Datetime LifecycleStartDate;
+	public Id LocationId;
+	public Location Location;
 	public String Name;
+	public Id OwnerId;
+	public User Owner;
 	public Id ParentId;
 	public Asset Parent;
 	public Decimal Price;
@@ -60,6 +70,7 @@ public class AssetChangeEvent extends SObject {
 	public Asset RootAsset;
 	public String SerialNumber;
 	public String Status;
+	public Decimal TotalLifecycleAmount;
 	public Date UsageEndDate;
 
 	public AssetChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

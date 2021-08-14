@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class WorkCoachingShare extends SObject {
 	public static SObjectType$<WorkCoachingShare> SObjectType;
 	public static SObjectFields$<WorkCoachingShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class WorkCoachingShare extends SObject {
 	public WorkCoaching Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public WorkCoachingShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkCoachingShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

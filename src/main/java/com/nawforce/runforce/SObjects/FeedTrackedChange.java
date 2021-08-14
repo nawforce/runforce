@@ -28,7 +28,7 @@ public class FeedTrackedChange extends SObject {
 
 	public String CurrencyIsoCode;
 	public Id FeedItemId;
-	public AccountFeed FeedItem;
+	public SObject FeedItem;
 	public String FieldName;
 	public Id Id;
 	public Object NewValue;

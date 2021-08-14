@@ -38,7 +38,7 @@ public class ListEmailIndividualRecipient extends SObject {
 	public ListEmail ListEmail;
 	public String Name;
 	public Id RecipientId;
-	public CampaignMember Recipient;
+	public SObject Recipient;
 	public Datetime SystemModstamp;
 
 	public ListEmailIndividualRecipient clone$() {throw new java.lang.UnsupportedOperationException();}

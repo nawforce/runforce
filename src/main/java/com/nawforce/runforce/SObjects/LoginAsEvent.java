@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class LoginAsEvent extends SObject {
 	public static SObjectType$<LoginAsEvent> SObjectType;
 	public static SObjectFields$<LoginAsEvent> Fields;
+
 	public String Application;
 	public String Browser;
 	public Datetime CreatedDate;

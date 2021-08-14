@@ -35,7 +35,7 @@ public class ImageShare extends SObject {
 	public Image Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public ImageShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ImageShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

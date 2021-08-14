@@ -27,11 +27,11 @@ public class FeedAttachment extends SObject {
 	public static SObjectFields$<FeedAttachment> Fields;
 
 	public Id FeedEntityId;
-	public AccountFeed FeedEntity;
+	public SObject FeedEntity;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id RecordId;
-	public ContentDocument Record;
+	public SObject Record;
 	public String Title;
 	public String Type;
 	public String Value;

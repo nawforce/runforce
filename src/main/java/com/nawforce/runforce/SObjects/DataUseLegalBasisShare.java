@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class DataUseLegalBasisShare extends SObject {
 	public static SObjectType$<DataUseLegalBasisShare> SObjectType;
@@ -36,7 +35,7 @@ public class DataUseLegalBasisShare extends SObject {
 	public DataUseLegalBasis Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public DataUseLegalBasisShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DataUseLegalBasisShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

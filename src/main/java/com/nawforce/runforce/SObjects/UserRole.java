@@ -17,9 +17,8 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
-import com.nawforce.runforce.System.Id;
-import com.nawforce.runforce.System.SObject;
 import com.nawforce.runforce.System.String;
+import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class UserRole extends SObject {
@@ -31,6 +30,10 @@ public class UserRole extends SObject {
 	public String DeveloperName;
 	public Id ForecastUserId;
 	public User ForecastUser;
+	public Id Id;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
 	public Boolean MayForecastManagerShare;
 	public String Name;
 	public String OpportunityAccessForAccountOwner;
@@ -42,6 +45,7 @@ public class UserRole extends SObject {
 	public User PortalAccountOwner;
 	public String PortalType;
 	public String RollupDescription;
+	public Datetime SystemModstamp;
 
 	public User[] Users;
 

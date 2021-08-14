@@ -36,11 +36,13 @@ public class TodayGoal extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 	public Id UserId;
 	public User User;
 	public Decimal Value;
+
+	public TodayGoalShare[] Shares;
 
 	public TodayGoal clone$() {throw new java.lang.UnsupportedOperationException();}
 	public TodayGoal clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

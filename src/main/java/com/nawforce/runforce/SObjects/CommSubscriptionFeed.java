@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class CommSubscriptionFeed extends SObject {
 	public static SObjectType$<CommSubscriptionFeed> SObjectType;
 	public static SObjectFields$<CommSubscriptionFeed> Fields;
+
 	public Id BestCommentId;
 	public FeedComment BestComment;
 	public String Body;
@@ -43,7 +44,7 @@ public class CommSubscriptionFeed extends SObject {
 	public Id ParentId;
 	public CommSubscription Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

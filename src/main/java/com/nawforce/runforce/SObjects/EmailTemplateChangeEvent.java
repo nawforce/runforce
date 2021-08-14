@@ -21,11 +21,11 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class EmailTemplateChangeEvent extends SObject {
 	public static SObjectType$<EmailTemplateChangeEvent> SObjectType;
 	public static SObjectFields$<EmailTemplateChangeEvent> Fields;
+
 	public Decimal ApiVersion;
 	public String Body;
 	public Id BrandTemplateId;
@@ -40,7 +40,7 @@ public class EmailTemplateChangeEvent extends SObject {
 	public Id EnhancedLetterheadId;
 	public EnhancedLetterhead EnhancedLetterhead;
 	public Id FolderId;
-	public Folder Folder;
+	public SObject Folder;
 	public String HtmlValue;
 	public Id Id;
 	public Boolean IsActive;

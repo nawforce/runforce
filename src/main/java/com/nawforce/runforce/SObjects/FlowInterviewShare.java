@@ -35,7 +35,7 @@ public class FlowInterviewShare extends SObject {
 	public FlowInterview Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public FlowInterviewShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FlowInterviewShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -38,9 +38,9 @@ public class Group extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public Organization Owner;
+	public SObject Owner;
 	public Id RelatedId;
-	public Territory2 Related;
+	public SObject Related;
 	public Datetime SystemModstamp;
 	public String Type;
 

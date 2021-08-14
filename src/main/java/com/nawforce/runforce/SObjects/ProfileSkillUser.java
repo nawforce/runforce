@@ -25,9 +25,11 @@ import com.nawforce.runforce.System.*;
 public class ProfileSkillUser extends SObject {
 	public static SObjectType$<ProfileSkillUser> SObjectType;
 	public static SObjectFields$<ProfileSkillUser> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Integer EndorsementCount;
 	public Id Id;
 	public Boolean IsDeleted;

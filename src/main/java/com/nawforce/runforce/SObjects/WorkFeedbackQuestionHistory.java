@@ -22,36 +22,24 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class WorkFeedbackQuestionHistory extends SObject {
-  public static SObjectType$<WorkFeedbackQuestionHistory> SObjectType;
-  public static SObjectFields$<WorkFeedbackQuestionHistory> Fields;
-  public Id CreatedById;
-  public User CreatedBy;
-  public Datetime CreatedDate;
-  public String Field;
-  public Id Id;
-  public Boolean IsDeleted;
-  public Object NewValue;
-  public Object OldValue;
-  public Id WorkFeedbackQuestionId;
-  public WorkFeedbackQuestion WorkFeedbackQuestion;
+	public static SObjectType$<WorkFeedbackQuestionHistory> SObjectType;
+	public static SObjectFields$<WorkFeedbackQuestionHistory> Fields;
 
-  public WorkFeedbackQuestionHistory clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String DataType;
+	public String Field;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Object NewValue;
+	public Object OldValue;
+	public Id WorkFeedbackQuestionId;
+	public WorkFeedbackQuestion WorkFeedbackQuestion;
 
-  public WorkFeedbackQuestionHistory clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedbackQuestionHistory clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedbackQuestionHistory clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkFeedbackQuestionHistory clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkFeedbackQuestionHistory clone$() {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackQuestionHistory clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackQuestionHistory clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackQuestionHistory clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkFeedbackQuestionHistory clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

@@ -25,6 +25,7 @@ public class IframeWhiteListUrl extends SObject {
 	public static SObjectType$<IframeWhiteListUrl> SObjectType;
 	public static SObjectFields$<IframeWhiteListUrl> Fields;
 
+	public String Context;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

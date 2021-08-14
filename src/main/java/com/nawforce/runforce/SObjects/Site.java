@@ -38,6 +38,8 @@ public class Site extends SObject {
 	public Integer DailyRequestTimeLimit;
 	public Integer DailyRequestTimeUsed;
 	public String Description;
+	public Id GuestRecordDefaultOwnerId;
+	public User GuestRecordDefaultOwner;
 	public Id GuestUserId;
 	public User GuestUser;
 	public Id Id;
@@ -47,6 +49,7 @@ public class Site extends SObject {
 	public String MasterLabel;
 	public Integer MonthlyPageViewsEntitlement;
 	public String Name;
+	public Boolean OptionsAllowGuestPaymentsApi;
 	public Boolean OptionsAllowGuestSupportApi;
 	public Boolean OptionsAllowHomePage;
 	public Boolean OptionsAllowStandardAnswersPages;
@@ -55,11 +58,13 @@ public class Site extends SObject {
 	public Boolean OptionsAllowStandardPortalPages;
 	public Boolean OptionsAllowStandardSearch;
 	public Boolean OptionsBrowserXssProtection;
+	public Boolean OptionsCachePublicVfPagesInProxies;
 	public Boolean OptionsContentSniffingProtection;
-	public Boolean OptionsCspUpgradeInsecureRequests;
+	public Boolean OptionsCookieConsent;
 	public Boolean OptionsEnableFeeds;
+	public Boolean OptionsHasStoredPathPrefix;
+	public Boolean OptionsRedirectToCustomDomain;
 	public Boolean OptionsReferrerPolicyOriginWhenCrossOrigin;
-	public Boolean OptionsRequireHttps;
 	public String SiteType;
 	public String Status;
 	public String Subdomain;

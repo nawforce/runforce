@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class AuthorizationFormText extends SObject {
 	public static SObjectType$<AuthorizationFormText> SObjectType;
 	public static SObjectFields$<AuthorizationFormText> Fields;
+
 	public Id AuthorizationFormId;
 	public AuthorizationForm AuthorizationForm;
 	public Id ContentDocumentId;
@@ -45,7 +46,12 @@ public class AuthorizationFormText extends SObject {
 	public String SummaryAuthFormText;
 	public Datetime SystemModstamp;
 
+	public AttachedContentDocument[] AttachedContentDocuments;
 	public AuthorizationFormConsent[] AuthorizationFormConsents;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public AuthorizationFormTextFeed[] Feeds;
 	public AuthorizationFormTextHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;

@@ -36,6 +36,7 @@ public class ApexLog extends SObject {
 	public User LogUser;
 	public String Operation;
 	public String Request;
+	public String RequestIdentifier;
 	public Datetime StartTime;
 	public String Status;
 	public Datetime SystemModstamp;

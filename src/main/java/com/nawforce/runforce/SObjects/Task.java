@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Task extends SObject {
 	public static SObjectType$<Task> SObjectType;
@@ -52,7 +51,7 @@ public class Task extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id OwnerId;
-	public User Owner;
+	public SObject Owner;
 	public String Priority;
 	public Id RecurrenceActivityId;
 	public Task RecurrenceActivity;
@@ -72,9 +71,9 @@ public class Task extends SObject {
 	public Datetime SystemModstamp;
 	public String TaskSubtype;
 	public Id WhatId;
-	public Account What;
+	public SObject What;
 	public Id WhoId;
-	public Contact Who;
+	public SObject Who;
 
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
@@ -82,9 +81,8 @@ public class Task extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public TaskFeed[] Feeds;
-	public RecordActionHistory[] RecordActionHistories;
-	public RecordAction[] RecordActions;
 	public Task[] RecurringTasks;
+	public SurveySubject[] SurveySubjectEntities;
 	public TopicAssignment[] TopicAssignments;
 
 	public Task clone$() {throw new java.lang.UnsupportedOperationException();}

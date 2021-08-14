@@ -24,10 +24,12 @@ import com.nawforce.runforce.System.*;
 public class Goal extends SObject {
 	public static SObjectType$<Goal> SObjectType;
 	public static SObjectFields$<Goal> Fields;
+
 	public Datetime CompletionDate;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public String Description;
 	public Date DueDate;
 	public Id Id;
@@ -41,7 +43,7 @@ public class Goal extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Decimal Progress;
 	public Date StartDate;
 	public String Status;

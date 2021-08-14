@@ -20,15 +20,16 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class LoginEventStream extends SObject {
 	public static SObjectType$<LoginEventStream> SObjectType;
 	public static SObjectFields$<LoginEventStream> Fields;
+
 	public String AdditionalInfo;
 	public String ApiType;
 	public String ApiVersion;
 	public String Application;
+	public String AuthMethodReference;
 	public String AuthServiceId;
 	public String Browser;
 	public String CipherSuite;
@@ -40,6 +41,7 @@ public class LoginEventStream extends SObject {
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
 	public String EventIdentifier;
+	public String EventUuid;
 	public String HttpMethod;
 	public String LoginGeoId;
 	public Id LoginHistoryId;

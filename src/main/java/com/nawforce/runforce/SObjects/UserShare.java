@@ -35,7 +35,7 @@ public class UserShare extends SObject {
 	public Id UserId;
 	public User User;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public UserShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public UserShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

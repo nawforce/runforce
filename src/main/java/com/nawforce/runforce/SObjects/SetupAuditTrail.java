@@ -26,8 +26,10 @@ public class SetupAuditTrail extends SObject {
 	public static SObjectFields$<SetupAuditTrail> Fields;
 
 	public String Action;
+	public String CreatedByContext;
 	public Id CreatedById;
 	public User CreatedBy;
+	public String CreatedByIssuer;
 	public Datetime CreatedDate;
 	public String DelegateUser;
 	public String Display;

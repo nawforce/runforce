@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class MutingPermissionSet extends SObject {
 	public static SObjectType$<MutingPermissionSet> SObjectType;
 	public static SObjectFields$<MutingPermissionSet> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -36,7 +36,10 @@ public class MutingPermissionSet extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String MasterLabel;
+	public Boolean PermissionsAICreateInsightObjects;
+	public Boolean PermissionsAIViewInsightObjects;
 	public Boolean PermissionsAccessCMC;
+	public Boolean PermissionsAccessContentBuilder;
 	public Boolean PermissionsAccountSwitcherUser;
 	public Boolean PermissionsActivateContract;
 	public Boolean PermissionsActivateOrder;
@@ -56,6 +59,8 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsAuthorApex;
 	public Boolean PermissionsAutomaticActivityCapture;
 	public Boolean PermissionsB2BMarketingAnalyticsUser;
+	public Boolean PermissionsBotManageBots;
+	public Boolean PermissionsBotManageBotsTrainingData;
 	public Boolean PermissionsBulkApiHardDelete;
 	public Boolean PermissionsBulkMacrosAllowed;
 	public Boolean PermissionsCampaignInfluence2;
@@ -79,7 +84,6 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsConnectOrgToEnvironmentHub;
 	public Boolean PermissionsConsentApiUpdate;
 	public Boolean PermissionsContentAdministrator;
-	public Boolean PermissionsContentHubOnPremiseUser;
 	public Boolean PermissionsContentHubUser;
 	public Boolean PermissionsContentWorkspaces;
 	public Boolean PermissionsConvertLeads;
@@ -126,6 +130,11 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsEnableNotifications;
 	public Boolean PermissionsExportReport;
 	public Boolean PermissionsFeedPinning;
+	public Boolean PermissionsFieldServiceAccess;
+	public Boolean PermissionsFieldServiceDispatcher;
+	public Boolean PermissionsFieldServiceLastMile;
+	public Boolean PermissionsFieldServiceMobileApp;
+	public Boolean PermissionsFieldServiceScheduling;
 	public Boolean PermissionsFlowUFLRequired;
 	public Boolean PermissionsForceTwoFactor;
 	public Boolean PermissionsGiveRecognitionBadge;
@@ -149,7 +158,10 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsIsotopeAccess;
 	public Boolean PermissionsIsotopeCToCUser;
 	public Boolean PermissionsIsotopeLEX;
+	public Boolean PermissionsLMEndMessagingSessionUserPerm;
 	public Boolean PermissionsLMOutboundMessagingUserPerm;
+	public Boolean PermissionsLearningManager;
+	public Boolean PermissionsLifecycleManagementAPIUser;
 	public Boolean PermissionsLightningConsoleAllowedForUser;
 	public Boolean PermissionsLightningExperienceUser;
 	public Boolean PermissionsListEmailSend;
@@ -157,6 +169,7 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsManageAnalyticSnapshots;
 	public Boolean PermissionsManageAuthProviders;
 	public Boolean PermissionsManageBusinessHourHolidays;
+	public Boolean PermissionsManageC360AConnections;
 	public Boolean PermissionsManageCMS;
 	public Boolean PermissionsManageCallCenters;
 	public Boolean PermissionsManageCases;
@@ -175,6 +188,7 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsManageEmailClientConfig;
 	public Boolean PermissionsManageEncryptionKeys;
 	public Boolean PermissionsManageExchangeConfig;
+	public Boolean PermissionsManageExternalConnections;
 	public Boolean PermissionsManageHealthCheck;
 	public Boolean PermissionsManageHubConnections;
 	public Boolean PermissionsManageInteraction;
@@ -183,6 +197,7 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsManageKnowledge;
 	public Boolean PermissionsManageKnowledgeImportExport;
 	public Boolean PermissionsManageLeads;
+	public Boolean PermissionsManageLearningReporting;
 	public Boolean PermissionsManageLoginAccessPolicies;
 	public Boolean PermissionsManageMobile;
 	public Boolean PermissionsManageNetworks;
@@ -190,7 +205,9 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsManageProfilesPermissionsets;
 	public Boolean PermissionsManagePropositions;
 	public Boolean PermissionsManagePvtRptsAndDashbds;
+	public Boolean PermissionsManageQuotas;
 	public Boolean PermissionsManageRecommendationStrategies;
+	public Boolean PermissionsManageReleaseUpdates;
 	public Boolean PermissionsManageRemoteAccess;
 	public Boolean PermissionsManageReportsInPubFolders;
 	public Boolean PermissionsManageRoles;
@@ -203,6 +220,8 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsManageSurveys;
 	public Boolean PermissionsManageSynonyms;
 	public Boolean PermissionsManageTemplatedApp;
+	public Boolean PermissionsManageTerritories;
+	public Boolean PermissionsManageTranslation;
 	public Boolean PermissionsManageTwoFactor;
 	public Boolean PermissionsManageUnlistedGroups;
 	public Boolean PermissionsManageUsers;
@@ -213,14 +232,21 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsModifyAllData;
 	public Boolean PermissionsModifyDataClassification;
 	public Boolean PermissionsModifyMetadata;
-	public Boolean PermissionsModifySecureAgents;
+	public Boolean PermissionsNativeWebviewScrolling;
 	public Boolean PermissionsNewReportBuilder;
+	public Boolean PermissionsOptOutGeoLocationTracking;
+	public Boolean PermissionsOverrideForecasts;
 	public Boolean PermissionsPackaging2;
+	public Boolean PermissionsPackaging2Delete;
+	public Boolean PermissionsPackaging2PromoteVersion;
 	public Boolean PermissionsPasswordNeverExpires;
+	public Boolean PermissionsPaymentsAPIUser;
 	public Boolean PermissionsPreventClassicExperience;
 	public Boolean PermissionsPrivacyDataAccess;
 	public Boolean PermissionsPublishPackaging;
 	public Boolean PermissionsQueryAllFiles;
+	public Boolean PermissionsQuipMetricsAccess;
+	public Boolean PermissionsQuipUserEngagementMetrics;
 	public Boolean PermissionsRecordVisibilityAPI;
 	public Boolean PermissionsRemoveDirectMessageMembers;
 	public Boolean PermissionsResetPasswords;
@@ -232,10 +258,12 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsScheduleReports;
 	public Boolean PermissionsSelectFilesFromSalesforce;
 	public Boolean PermissionsSendAnnouncementEmails;
+	public Boolean PermissionsSendCustomNotifications;
 	public Boolean PermissionsSendSitRequests;
 	public Boolean PermissionsServiceAnalyticsUser;
 	public Boolean PermissionsShareInternalArticles;
 	public Boolean PermissionsShowCompanyNameAsUserBadge;
+	public Boolean PermissionsSkipIdentityConfirmation;
 	public Boolean PermissionsSolutionImport;
 	public Boolean PermissionsStdAutomaticActivityCapture;
 	public Boolean PermissionsSubmitMacrosAllowed;
@@ -252,21 +280,24 @@ public class MutingPermissionSet extends SObject {
 	public Boolean PermissionsTransferAnyEntity;
 	public Boolean PermissionsTransferAnyLead;
 	public Boolean PermissionsTwoFactorApi;
+	public Boolean PermissionsUseSubscriptionEmails;
 	public Boolean PermissionsUseTeamReassignWizards;
 	public Boolean PermissionsUseTemplatedApp;
 	public Boolean PermissionsUseWebLink;
 	public Boolean PermissionsViewAllActivities;
 	public Boolean PermissionsViewAllCustomSettings;
 	public Boolean PermissionsViewAllData;
+	public Boolean PermissionsViewAllForecasts;
 	public Boolean PermissionsViewAllForeignKeyNames;
+	public Boolean PermissionsViewAllProfiles;
 	public Boolean PermissionsViewAllUsers;
+	public Boolean PermissionsViewAnomalyEvents;
 	public Boolean PermissionsViewContent;
 	public Boolean PermissionsViewDataAssessment;
 	public Boolean PermissionsViewDataCategories;
 	public Boolean PermissionsViewDataLeakageEvents;
 	public Boolean PermissionsViewEncryptedData;
 	public Boolean PermissionsViewEventLogFiles;
-	public Boolean PermissionsViewFlowUsageAndFlowEventData;
 	public Boolean PermissionsViewHealthCheck;
 	public Boolean PermissionsViewHelpLink;
 	public Boolean PermissionsViewMyTeamsDashboards;

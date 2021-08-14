@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class SurveyInvitationShare extends SObject {
 	public static SObjectType$<SurveyInvitationShare> SObjectType;
 	public static SObjectFields$<SurveyInvitationShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class SurveyInvitationShare extends SObject {
 	public SurveyInvitation Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public SurveyInvitationShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public SurveyInvitationShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

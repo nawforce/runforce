@@ -36,7 +36,7 @@ public class ForecastingShare extends SObject {
 	public Datetime LastModifiedDate;
 	public String RoleType;
 	public Id SharedForecastManagerRoleId;
-	public Territory2 SharedForecastManagerRole;
+	public SObject SharedForecastManagerRole;
 	public Datetime SystemModstamp;
 	public Id UserOrGroupId;
 	public User UserOrGroup;

@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class ExternalEventMapping extends SObject {
 	public static SObjectType$<ExternalEventMapping> SObjectType;
 	public static SObjectFields$<ExternalEventMapping> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -39,12 +40,13 @@ public class ExternalEventMapping extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Date StartDate;
 	public Datetime SystemModstamp;
 
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ExternalEventMappingShare[] Shares;
 
 	public ExternalEventMapping clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ExternalEventMapping clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

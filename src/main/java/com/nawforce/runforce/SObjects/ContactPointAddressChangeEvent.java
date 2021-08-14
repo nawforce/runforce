@@ -21,11 +21,11 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ContactPointAddressChangeEvent extends SObject {
 	public static SObjectType$<ContactPointAddressChangeEvent> SObjectType;
 	public static SObjectFields$<ContactPointAddressChangeEvent> Fields;
+
 	public Date ActiveFromDate;
 	public Date ActiveToDate;
 	public Address Address;
@@ -38,6 +38,7 @@ public class ContactPointAddressChangeEvent extends SObject {
 	public Id ContactPointPhoneId;
 	public ContactPointPhone ContactPointPhone;
 	public String Country;
+	public String CountryCode;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -54,11 +55,12 @@ public class ContactPointAddressChangeEvent extends SObject {
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentId;
-	public Account Parent;
+	public SObject Parent;
 	public String PostalCode;
 	public Integer PreferenceRank;
 	public String ReplayId;
 	public String State;
+	public String StateCode;
 	public String Street;
 	public String UsageType;
 

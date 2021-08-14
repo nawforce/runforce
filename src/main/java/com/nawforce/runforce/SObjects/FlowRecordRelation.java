@@ -38,7 +38,7 @@ public class FlowRecordRelation extends SObject {
 	public Id ParentId;
 	public FlowInterview Parent;
 	public Id RelatedRecordId;
-	public Account RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 
 	public FlowRecordRelation clone$() {throw new java.lang.UnsupportedOperationException();}

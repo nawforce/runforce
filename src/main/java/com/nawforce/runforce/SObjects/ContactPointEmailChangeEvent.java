@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ContactPointEmailChangeEvent extends SObject {
 	public static SObjectType$<ContactPointEmailChangeEvent> SObjectType;
 	public static SObjectFields$<ContactPointEmailChangeEvent> Fields;
+
 	public Date ActiveFromDate;
 	public Date ActiveToDate;
 	public Time BestTimeToContactEndTime;
@@ -48,7 +48,7 @@ public class ContactPointEmailChangeEvent extends SObject {
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentId;
-	public Account Parent;
+	public SObject Parent;
 	public String ReplayId;
 
 	public ContactPointEmailChangeEvent clone$() {throw new java.lang.UnsupportedOperationException();}

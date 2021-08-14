@@ -24,11 +24,13 @@ import com.nawforce.runforce.System.*;
 public class CommSubscriptionConsentHistory extends SObject {
 	public static SObjectType$<CommSubscriptionConsentHistory> SObjectType;
 	public static SObjectFields$<CommSubscriptionConsentHistory> Fields;
+
 	public Id CommSubscriptionConsentId;
 	public CommSubscriptionConsent CommSubscriptionConsent;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

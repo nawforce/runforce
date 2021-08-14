@@ -45,6 +45,8 @@ public class ContactPointTypeConsent extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public String Name;
+	public Id OwnerId;
+	public SObject Owner;
 	public Id PartyId;
 	public Individual Party;
 	public String PrivacyConsentStatus;
@@ -53,6 +55,7 @@ public class ContactPointTypeConsent extends SObject {
 	public ContactPointTypeConsentHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ContactPointTypeConsentShare[] Shares;
 
 	public ContactPointTypeConsent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointTypeConsent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

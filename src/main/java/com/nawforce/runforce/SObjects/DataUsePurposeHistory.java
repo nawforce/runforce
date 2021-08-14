@@ -28,6 +28,7 @@ public class DataUsePurposeHistory extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public Id DataUsePurposeId;
 	public DataUsePurpose DataUsePurpose;
 	public String Field;

@@ -43,7 +43,7 @@ public class AttachedContentDocument extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id LinkedEntityId;
-	public Account LinkedEntity;
+	public SObject LinkedEntity;
 	public String SharingOption;
 	public String Title;
 

@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class UriEvent extends SObject {
 	public static SObjectType$<UriEvent> SObjectType;
 	public static SObjectFields$<UriEvent> Fields;
+
 	public Datetime CreatedDate;
 	public Datetime EventDate;
 	public String EventIdentifier;

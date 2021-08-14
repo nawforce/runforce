@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class DeleteEvent extends SObject {
 	public static SObjectType$<DeleteEvent> SObjectType;
 	public static SObjectFields$<DeleteEvent> Fields;
+
 	public Id DeletedById;
 	public User DeletedBy;
 	public Datetime DeletedDate;

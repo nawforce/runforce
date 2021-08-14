@@ -25,6 +25,7 @@ public class AuthProvider extends SObject {
 	public static SObjectType$<AuthProvider> SObjectType;
 	public static SObjectFields$<AuthProvider> Fields;
 
+	public String AppleTeam;
 	public String AuthorizeUrl;
 	public String ConsumerKey;
 	public String ConsumerSecret;
@@ -32,6 +33,7 @@ public class AuthProvider extends SObject {
 	public String CustomMetadataTypeRecord;
 	public String DefaultScopes;
 	public String DeveloperName;
+	public String EcKey;
 	public String ErrorUrl;
 	public Id ExecutionUserId;
 	public User ExecutionUser;
@@ -45,6 +47,7 @@ public class AuthProvider extends SObject {
 	public Boolean OptionsIncludeOrgIdInId;
 	public Boolean OptionsSendAccessTokenInHeader;
 	public Boolean OptionsSendClientCredentialsInHeader;
+	public Boolean OptionsSendSecretInApis;
 	public Id PluginId;
 	public ApexClass Plugin;
 	public String ProviderType;

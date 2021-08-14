@@ -24,13 +24,12 @@ import com.nawforce.runforce.System.*;
 public class ContactPointConsent extends SObject {
 	public static SObjectType$<ContactPointConsent> SObjectType;
 	public static SObjectFields$<ContactPointConsent> Fields;
+
 	public String CaptureContactPointType;
 	public Datetime CaptureDate;
 	public String CaptureSource;
 	public Id ContactPointId;
-	public ContactPointEmail ContactPoint;
-	public Id ContactPointTypeConsentId;
-	public ContactPointTypeConsent ContactPointTypeConsent;
+	public SObject ContactPoint;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -48,13 +47,14 @@ public class ContactPointConsent extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String PrivacyConsentStatus;
 	public Datetime SystemModstamp;
 
 	public ContactPointConsentHistory[] Histories;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public ContactPointConsentShare[] Shares;
 
 	public ContactPointConsent clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointConsent clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class LegalEntityShare extends SObject {
 	public static SObjectType$<LegalEntityShare> SObjectType;
 	public static SObjectFields$<LegalEntityShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -35,7 +35,7 @@ public class LegalEntityShare extends SObject {
 	public LegalEntity Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public LegalEntityShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public LegalEntityShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

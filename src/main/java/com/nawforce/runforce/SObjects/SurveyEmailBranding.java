@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class SurveyEmailBranding extends SObject {
 	public static SObjectType$<SurveyEmailBranding> SObjectType;
 	public static SObjectFields$<SurveyEmailBranding> Fields;
+
 	public String Body;
 	public Id CreatedById;
 	public User CreatedBy;

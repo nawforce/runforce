@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class OrderItem extends SObject {
 	public static SObjectType$<OrderItem> SObjectType;
@@ -54,13 +53,18 @@ public class OrderItem extends SObject {
 	public Decimal TotalPrice;
 	public Decimal UnitPrice;
 
+	public AssetActionSource[] AssetActionSourceReferences;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public OrderItem[] ChildOrderItems;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OrderItemFeed[] Feeds;
+	public InvoiceLine[] GroupInvoiceLines;
 	public OrderItemHistory[] Histories;
+	public InvoiceLine[] InvoiceLines;
+	public ProcessException[] ProcessExceptions;
+	public ReturnOrderLineItem[] ReturnOrderLineItems;
 
 	public OrderItem clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OrderItem clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

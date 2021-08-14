@@ -29,7 +29,7 @@ public class SetupEntityAccess extends SObject {
 	public Id ParentId;
 	public PermissionSet Parent;
 	public Id SetupEntityId;
-	public ApexClass SetupEntity;
+	public SObject SetupEntity;
 	public String SetupEntityType;
 	public Datetime SystemModstamp;
 

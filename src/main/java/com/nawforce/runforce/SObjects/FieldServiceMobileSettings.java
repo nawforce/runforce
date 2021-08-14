@@ -1,8 +1,5 @@
 /*
- [The "BSD licence"]
- Copyright (c) 2019 Kevin Jones
- All rights reserved.
-
+ Copyright (c) 2019 Kevin Jones, All rights reserved.
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions
  are met:
@@ -13,18 +10,8 @@
     documentation and/or other materials provided with the distribution.
  3. The name of the author may not be used to endorse or promote products
     derived from this software without specific prior written permission.
+ */
 
- THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
- IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
- OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
- IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
- INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
- NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
- DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
- THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
- (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
- THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-*/
 package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
@@ -38,6 +25,14 @@ import com.nawforce.runforce.System.*;
 public class FieldServiceMobileSettings extends SObject {
 	public static SObjectType$<FieldServiceMobileSettings> SObjectType;
 	public static SObjectFields$<FieldServiceMobileSettings> Fields;
+
+	public String AscAutomaticMode;
+	public Integer AscCancellationTimerInSec;
+	public String AscCompletedStatus;
+	public String AscOnSiteStatus;
+	public Integer AscRadiusInMeters;
+	public Integer AscTimeLimitationInMin;
+	public String AscTravelStatus;
 	public String BgGeoLocationAccuracy;
 	public Integer BgGeoLocationMinUpdateFreqMins;
 	public String BrandInvertedColor;
@@ -66,6 +61,7 @@ public class FieldServiceMobileSettings extends SObject {
 	public Boolean IsSendLocationHistory;
 	public Boolean IsShowEditFullRecord;
 	public Boolean IsTimeSheetEnabled;
+	public Boolean IsTimeZoneEnabled;
 	public Boolean IsUseSalesforceMobileActions;
 	public String Language;
 	public Id LastModifiedById;
@@ -77,6 +73,7 @@ public class FieldServiceMobileSettings extends SObject {
 	public String NavbarInvertedColor;
 	public Integer PastDaysInDatePicker;
 	public String PrimaryBrandColor;
+	public String QuickStatusChangeFlowName;
 	public Integer RecordDataCacheTimeMins;
 	public String SecondaryBrandColor;
 	public Datetime SystemModstamp;

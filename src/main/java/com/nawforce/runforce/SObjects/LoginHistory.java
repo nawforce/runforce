@@ -28,8 +28,9 @@ public class LoginHistory extends SObject {
 	public String ApiType;
 	public String ApiVersion;
 	public String Application;
+	public String AuthMethodReference;
 	public Id AuthenticationServiceId;
-	public AuthProvider AuthenticationService;
+	public SObject AuthenticationService;
 	public String Browser;
 	public String CipherSuite;
 	public String ClientVersion;

@@ -35,7 +35,7 @@ public class UserAppMenuCustomizationShare extends SObject {
 	public UserAppMenuCustomization Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public UserAppMenuCustomizationShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public UserAppMenuCustomizationShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

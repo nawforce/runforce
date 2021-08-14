@@ -20,11 +20,11 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class AssetShare extends SObject {
 	public static SObjectType$<AssetShare> SObjectType;
 	public static SObjectFields$<AssetShare> Fields;
+
 	public String AssetAccessLevel;
 	public Id AssetId;
 	public Asset Asset;
@@ -35,7 +35,7 @@ public class AssetShare extends SObject {
 	public Datetime LastModifiedDate;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public AssetShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AssetShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

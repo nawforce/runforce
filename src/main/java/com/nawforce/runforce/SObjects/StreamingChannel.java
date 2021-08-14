@@ -20,7 +20,6 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class StreamingChannel extends SObject {
 	public static SObjectType$<StreamingChannel> SObjectType;
@@ -41,11 +40,12 @@ public class StreamingChannel extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime SystemModstamp;
 
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
+	public StreamingChannelShare[] Shares;
 
 	public StreamingChannel clone$() {throw new java.lang.UnsupportedOperationException();}
 	public StreamingChannel clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

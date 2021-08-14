@@ -24,11 +24,13 @@ import com.nawforce.runforce.System.*;
 public class ContactPointConsentHistory extends SObject {
 	public static SObjectType$<ContactPointConsentHistory> SObjectType;
 	public static SObjectFields$<ContactPointConsentHistory> Fields;
+
 	public Id ContactPointConsentId;
 	public ContactPointConsent ContactPointConsent;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

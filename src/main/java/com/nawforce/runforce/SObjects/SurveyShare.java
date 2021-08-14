@@ -22,37 +22,24 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class SurveyShare extends SObject {
-  public static SObjectType$<SurveyShare> SObjectType;
-  public static SObjectFields$<SurveyShare> Fields;
-  public String AccessLevel;
-  public Id Id;
-  public Boolean IsDeleted;
-  public Id LastModifiedById;
-  public User LastModifiedBy;
-  public Datetime LastModifiedDate;
-  public Id ParentId;
-  public Survey Parent;
-  public String RowCause;
-  public Id UserOrGroupId;
-  public Group UserOrGroup;
+	public static SObjectType$<SurveyShare> SObjectType;
+	public static SObjectFields$<SurveyShare> Fields;
 
-  public SurveyShare clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public String AccessLevel;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Id ParentId;
+	public Survey Parent;
+	public String RowCause;
+	public Id UserOrGroupId;
+	public SObject UserOrGroup;
 
-  public SurveyShare clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public SurveyShare clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public SurveyShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public SurveyShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public SurveyShare clone$() {throw new java.lang.UnsupportedOperationException();}
+	public SurveyShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public SurveyShare clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public SurveyShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public SurveyShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

@@ -24,11 +24,13 @@ import com.nawforce.runforce.System.*;
 public class AuthorizationFormTextHistory extends SObject {
 	public static SObjectType$<AuthorizationFormTextHistory> SObjectType;
 	public static SObjectFields$<AuthorizationFormTextHistory> Fields;
+
 	public Id AuthorizationFormTextId;
 	public AuthorizationFormText AuthorizationFormText;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;

@@ -25,6 +25,7 @@ import com.nawforce.runforce.System.*;
 public class MetricFeed extends SObject {
 	public static SObjectType$<MetricFeed> SObjectType;
 	public static SObjectFields$<MetricFeed> Fields;
+
 	public Id BestCommentId;
 	public FeedComment BestComment;
 	public String Body;
@@ -43,7 +44,7 @@ public class MetricFeed extends SObject {
 	public Id ParentId;
 	public Metric Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

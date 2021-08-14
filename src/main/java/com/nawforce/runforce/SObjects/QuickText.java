@@ -25,6 +25,8 @@ public class QuickText extends SObject {
 	public static SObjectType$<QuickText> SObjectType;
 	public static SObjectFields$<QuickText> Fields;
 
+	public Id RecordTypeId;
+	public RecordType RecordType;
 	public String Category;
 	public String Channel;
 	public Id CreatedById;
@@ -33,6 +35,7 @@ public class QuickText extends SObject {
 	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
+	public Boolean IsInsertable;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
@@ -41,10 +44,12 @@ public class QuickText extends SObject {
 	public String Message;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
+	public String SourceType;
 	public Datetime SystemModstamp;
 
 	public QuickTextHistory[] Histories;
+	public QuickTextShare[] Shares;
 
 	public QuickText clone$() {throw new java.lang.UnsupportedOperationException();}
 	public QuickText clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

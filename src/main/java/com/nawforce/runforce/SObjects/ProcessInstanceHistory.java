@@ -21,14 +21,13 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ProcessInstanceHistory extends SObject {
 	public static SObjectType$<ProcessInstanceHistory> SObjectType;
 	public static SObjectFields$<ProcessInstanceHistory> Fields;
 
 	public Id ActorId;
-	public Group Actor;
+	public SObject Actor;
 	public String Comments;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -40,7 +39,7 @@ public class ProcessInstanceHistory extends SObject {
 	public Boolean IsDeleted;
 	public Boolean IsPending;
 	public Id OriginalActorId;
-	public Group OriginalActor;
+	public SObject OriginalActor;
 	public Id ProcessInstanceId;
 	public ProcessInstance ProcessInstance;
 	public Id ProcessNodeId;
@@ -49,7 +48,7 @@ public class ProcessInstanceHistory extends SObject {
 	public String StepStatus;
 	public Datetime SystemModstamp;
 	public Id TargetObjectId;
-	public Account TargetObject;
+	public SObject TargetObject;
 
 	public ProcessInstanceHistory clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ProcessInstanceHistory clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

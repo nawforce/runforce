@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class GoalLink extends SObject {
 	public static SObjectType$<GoalLink> SObjectType;
 	public static SObjectFields$<GoalLink> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;

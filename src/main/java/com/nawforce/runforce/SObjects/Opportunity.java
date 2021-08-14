@@ -21,20 +21,21 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Opportunity extends SObject {
 	public static SObjectType$<Opportunity> SObjectType;
 	public static SObjectFields$<Opportunity> Fields;
 
 	public Id RecordTypeId;
+	public RecordType RecordType;
 	public Id AccountId;
 	public Account Account;
 	public Decimal Amount;
 	public Id CampaignId;
 	public Campaign Campaign;
 	public Date CloseDate;
-	public Id ContractId;
+	public Id ContactId;
+	public Contact Contact;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -57,10 +58,15 @@ public class Opportunity extends SObject {
 	public Boolean IsSplit;
 	public Boolean IsWon;
 	public Date LastActivityDate;
+	public Id LastAmountChangedHistoryId;
+	public OpportunityHistory LastAmountChangedHistory;
+	public Id LastCloseDateChangedHistoryId;
+	public OpportunityHistory LastCloseDateChangedHistory;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
+	public Datetime LastStageChangeDate;
 	public Datetime LastViewedDate;
 	public String LeadSource;
 	public String Name;
@@ -108,7 +114,10 @@ public class Opportunity extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
+	public WorkFeedbackRequest[] RelatedObjects;
+	public ServiceAppointment[] ServiceAppointments;
 	public OpportunityShare[] Shares;
+	public SurveySubject[] SurveySubjectEntities;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 

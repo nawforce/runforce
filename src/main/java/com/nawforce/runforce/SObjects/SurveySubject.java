@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class SurveySubject extends SObject {
 	public static SObjectType$<SurveySubject> SObjectType;
 	public static SObjectFields$<SurveySubject> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
@@ -36,10 +38,10 @@ public class SurveySubject extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id ParentId;
-	public SurveyInvitation Parent;
+	public SObject Parent;
 	public String SubjectEntityType;
 	public Id SubjectId;
-	public Account Subject;
+	public SObject Subject;
 	public Id SurveyId;
 	public Survey Survey;
 	public Id SurveyInvitationId;

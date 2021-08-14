@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class UiFormulaRule extends SObject {
 	public static SObjectType$<UiFormulaRule> SObjectType;
 	public static SObjectFields$<UiFormulaRule> Fields;
+
 	public Id AssociatedElementId;
 	public PromptVersion AssociatedElement;
 	public String BooleanFilter;

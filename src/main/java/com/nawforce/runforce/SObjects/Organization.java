@@ -21,13 +21,12 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Organization extends SObject {
 	public static SObjectType$<Organization> SObjectType;
 	public static SObjectFields$<Organization> Fields;
 
-	public com.nawforce.runforce.System.Address Address;
+	public Address Address;
 	public String City;
 	public String ComplianceBccEmail;
 	public String Country;
@@ -68,7 +67,6 @@ public class Organization extends SObject {
 	public String PostalCode;
 	public Boolean PreferencesAutoSelectIndividualOnMerge;
 	public Boolean PreferencesConsentManagementEnabled;
-	public Boolean PreferencesIndividualAutoCreateEnabled;
 	public Boolean PreferencesLightningLoginEnabled;
 	public Boolean PreferencesOnlyLLPermUserAllowed;
 	public Boolean PreferencesRequireOpportunityProducts;

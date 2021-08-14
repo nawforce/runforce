@@ -24,9 +24,13 @@ import com.nawforce.runforce.System.*;
 public class SurveyInvitation extends SObject {
 	public static SObjectType$<SurveyInvitation> SObjectType;
 	public static SObjectFields$<SurveyInvitation> Fields;
+
+	public Id ContactId;
+	public Contact Contact;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Id EmailBrandingId;
 	public SurveyEmailBranding EmailBranding;
 	public Id Id;
@@ -39,20 +43,27 @@ public class SurveyInvitation extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public Id LeadId;
+	public Lead Lead;
 	public String Name;
 	public Boolean OptionsAllowGuestUserResponse;
 	public Boolean OptionsAllowParticipantAccessTheirResponse;
 	public Boolean OptionsCollectAnonymousResponse;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Id ParticipantId;
-	public Contact Participant;
+	public SObject Participant;
 	public String ResponseStatus;
 	public Id SurveyId;
 	public Survey Survey;
 	public Datetime SystemModstamp;
 	public String UUID;
+	public Id UserId;
+	public User User;
 
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
 	public ProcessInstance[] ProcessInstances;
 	public ProcessInstanceHistory[] ProcessSteps;
 	public SurveyInvitationShare[] Shares;

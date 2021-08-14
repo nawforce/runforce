@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class CampaignFeed extends SObject {
 	public static SObjectType$<CampaignFeed> SObjectType;
@@ -45,7 +44,7 @@ public class CampaignFeed extends SObject {
 	public Id ParentId;
 	public Campaign Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class PaymentAuthorization extends SObject {
 	public static SObjectType$<PaymentAuthorization> SObjectType;
 	public static SObjectFields$<PaymentAuthorization> Fields;
+
 	public Id AccountId;
 	public Account Account;
 	public Decimal Amount;
@@ -32,6 +33,7 @@ public class PaymentAuthorization extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Datetime Date;
 	public Datetime EffectiveDate;
 	public String Email;
@@ -66,8 +68,10 @@ public class PaymentAuthorization extends SObject {
 	public Decimal TotalAuthReversalAmount;
 	public Decimal TotalPaymentCaptureAmount;
 
+	public PaymentAuthAdjustment[] PaymentAuthAdjustments;
 	public PaymentGatewayLog[] PaymentGatewayLogs;
 	public Payment[] Payments;
+	public ProcessException[] ProcessExceptions;
 
 	public PaymentAuthorization clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PaymentAuthorization clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

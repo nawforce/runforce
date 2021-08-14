@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class ListEmail extends SObject {
 	public static SObjectType$<ListEmail> SObjectType;
@@ -47,7 +46,7 @@ public class ListEmail extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public Datetime ScheduledDate;
 	public String Status;
 	public String Subject;
@@ -62,6 +61,7 @@ public class ListEmail extends SObject {
 	public EmailMessage[] Emails;
 	public Event[] Events;
 	public OpenActivity[] OpenActivities;
+	public ListEmailShare[] Shares;
 	public Task[] Tasks;
 
 	public ListEmail clone$() {throw new java.lang.UnsupportedOperationException();}

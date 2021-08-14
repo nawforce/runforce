@@ -22,37 +22,24 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class WorkBadgeDefinitionShare extends SObject {
-  public static SObjectType$<WorkBadgeDefinitionShare> SObjectType;
-  public static SObjectFields$<WorkBadgeDefinitionShare> Fields;
-  public String AccessLevel;
-  public Id Id;
-  public Boolean IsDeleted;
-  public Id LastModifiedById;
-  public User LastModifiedBy;
-  public Datetime LastModifiedDate;
-  public Id ParentId;
-  public WorkBadgeDefinition Parent;
-  public String RowCause;
-  public Id UserOrGroupId;
-  public Group UserOrGroup;
+	public static SObjectType$<WorkBadgeDefinitionShare> SObjectType;
+	public static SObjectFields$<WorkBadgeDefinitionShare> Fields;
 
-  public WorkBadgeDefinitionShare clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public String AccessLevel;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Id ParentId;
+	public WorkBadgeDefinition Parent;
+	public String RowCause;
+	public Id UserOrGroupId;
+	public SObject UserOrGroup;
 
-  public WorkBadgeDefinitionShare clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkBadgeDefinitionShare clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkBadgeDefinitionShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkBadgeDefinitionShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkBadgeDefinitionShare clone$() {throw new java.lang.UnsupportedOperationException();}
+	public WorkBadgeDefinitionShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkBadgeDefinitionShare clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkBadgeDefinitionShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkBadgeDefinitionShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

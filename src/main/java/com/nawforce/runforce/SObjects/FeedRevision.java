@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class FeedRevision extends SObject {
 	public static SObjectType$<FeedRevision> SObjectType;
@@ -33,7 +32,7 @@ public class FeedRevision extends SObject {
 	public Datetime CreatedDate;
 	public String EditedAttribute;
 	public Id FeedEntityId;
-	public FeedComment FeedEntity;
+	public SObject FeedEntity;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Boolean IsValueRichText;

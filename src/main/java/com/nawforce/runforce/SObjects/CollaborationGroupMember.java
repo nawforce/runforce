@@ -32,7 +32,6 @@ public class CollaborationGroupMember extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Id Id;
-	public Boolean IsActivityShared;
 	public Datetime LastFeedAccessDate;
 	public Id LastModifiedById;
 	public User LastModifiedBy;

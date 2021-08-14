@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class MetricShare extends SObject {
 	public static SObjectType$<MetricShare> SObjectType;
 	public static SObjectFields$<MetricShare> Fields;
+
 	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
@@ -34,7 +35,7 @@ public class MetricShare extends SObject {
 	public Metric Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public Group UserOrGroup;
+	public SObject UserOrGroup;
 
 	public MetricShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public MetricShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

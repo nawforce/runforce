@@ -22,58 +22,46 @@ import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
 public class WorkPerformanceCycle extends SObject {
-  public static SObjectType$<WorkPerformanceCycle> SObjectType;
-  public static SObjectFields$<WorkPerformanceCycle> Fields;
-  public Date ActivityFrom;
-  public Date ActivityTo;
-  public Id CreatedById;
-  public User CreatedBy;
-  public Datetime CreatedDate;
-  public String CurrentTask;
-  public Id Id;
-  public Boolean IsDeleted;
-  public Datetime LastManagerRequestsSharedDate;
-  public Id LastModifiedById;
-  public User LastModifiedBy;
-  public Datetime LastModifiedDate;
-  public Datetime LastReferencedDate;
-  public Datetime LastViewedDate;
-  public String Name;
-  public Id OwnerId;
-  public Group Owner;
-  public String State;
-  public Datetime SystemModstamp;
+	public static SObjectType$<WorkPerformanceCycle> SObjectType;
+	public static SObjectFields$<WorkPerformanceCycle> Fields;
 
-  public AttachedContentDocument[] AttachedContentDocuments;
-  public CombinedAttachment[] CombinedAttachments;
-  public ContentDocumentLink[] ContentDocumentLinks;
-  public EntitySubscription[] FeedSubscriptionsForEntity;
-  public WorkFeedbackQuestionSet[] FeedbackQuestionSets;
-  public WorkFeedbackRequest[] FeedbackRequests;
-  public WorkPerformanceCycleFeed[] Feeds;
-  public WorkPerformanceCycleHistory[] Histories;
-  public ProcessInstance[] ProcessInstances;
-  public ProcessInstanceHistory[] ProcessSteps;
-  public WorkFeedbackRequest[] RelatedObjects;
-  public WorkPerformanceCycleShare[] Shares;
+	public Date ActivityFrom;
+	public Date ActivityTo;
+	public Id CreatedById;
+	public User CreatedBy;
+	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String CurrentTask;
+	public Id Id;
+	public Boolean IsDeleted;
+	public Datetime LastManagerRequestsSharedDate;
+	public Id LastModifiedById;
+	public User LastModifiedBy;
+	public Datetime LastModifiedDate;
+	public Datetime LastReferencedDate;
+	public Datetime LastViewedDate;
+	public String Name;
+	public Id OwnerId;
+	public SObject Owner;
+	public String State;
+	public Datetime SystemModstamp;
 
-  public WorkPerformanceCycle clone$() {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public AttachedContentDocument[] AttachedContentDocuments;
+	public CombinedAttachment[] CombinedAttachments;
+	public ContentDocumentLink[] ContentDocumentLinks;
+	public EntitySubscription[] FeedSubscriptionsForEntity;
+	public WorkFeedbackQuestionSet[] FeedbackQuestionSets;
+	public WorkFeedbackRequest[] FeedbackRequests;
+	public WorkPerformanceCycleFeed[] Feeds;
+	public WorkPerformanceCycleHistory[] Histories;
+	public ProcessInstance[] ProcessInstances;
+	public ProcessInstanceHistory[] ProcessSteps;
+	public WorkFeedbackRequest[] RelatedObjects;
+	public WorkPerformanceCycleShare[] Shares;
 
-  public WorkPerformanceCycle clone$(Boolean preserveId) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkPerformanceCycle clone$(Boolean preserveId, Boolean isDeepClone) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkPerformanceCycle clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {
-    throw new java.lang.UnsupportedOperationException();
-  }
-
-  public WorkPerformanceCycle clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {
-    throw new java.lang.UnsupportedOperationException();
-  }
+	public WorkPerformanceCycle clone$() {throw new java.lang.UnsupportedOperationException();}
+	public WorkPerformanceCycle clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public WorkPerformanceCycle clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public WorkPerformanceCycle clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public WorkPerformanceCycle clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

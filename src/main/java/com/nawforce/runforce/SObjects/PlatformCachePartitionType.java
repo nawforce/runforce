@@ -27,6 +27,7 @@ public class PlatformCachePartitionType extends SObject {
 	public static SObjectFields$<PlatformCachePartitionType> Fields;
 
 	public Integer AllocatedCapacity;
+	public Integer AllocatedPartnerCapacity;
 	public Integer AllocatedPurchasedCapacity;
 	public Integer AllocatedTrialCapacity;
 	public String CacheType;

@@ -41,7 +41,7 @@ public class CombinedAttachment extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id ParentId;
-	public Account Parent;
+	public SObject Parent;
 	public String RecordType;
 	public String SharingOption;
 	public String Title;

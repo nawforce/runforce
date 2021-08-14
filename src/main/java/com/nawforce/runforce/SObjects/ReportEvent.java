@@ -25,12 +25,14 @@ import com.nawforce.runforce.System.*;
 public class ReportEvent extends SObject {
 	public static SObjectType$<ReportEvent> SObjectType;
 	public static SObjectFields$<ReportEvent> Fields;
+
 	public String ColumnHeaders;
 	public Datetime CreatedDate;
 	public Id DashboardId;
 	public Dashboard Dashboard;
 	public String DashboardName;
 	public String Description;
+	public String DisplayedFieldEntities;
 	public Decimal EvaluationTime;
 	public Datetime EventDate;
 	public String EventIdentifier;
@@ -38,6 +40,7 @@ public class ReportEvent extends SObject {
 	public String ExecutionIdentifier;
 	public String ExportFileFormat;
 	public String Format;
+	public String GroupedColumnHeaders;
 	public Id Id;
 	public Boolean IsScheduled;
 	public Id LoginHistoryId;
@@ -47,7 +50,7 @@ public class ReportEvent extends SObject {
 	public Integer NumberOfColumns;
 	public String Operation;
 	public Id OwnerId;
-	public Folder Owner;
+	public SObject Owner;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
 	public String PolicyOutcome;

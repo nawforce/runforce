@@ -28,6 +28,7 @@ public class OrgLifecycleNotification extends SObject {
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String EventUuid;
 	public String LifecycleRequestId;
 	public String LifecycleRequestType;
 	public String OrgId;

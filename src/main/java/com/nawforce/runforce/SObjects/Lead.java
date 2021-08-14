@@ -21,16 +21,17 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class Lead extends SObject {
 	public static SObjectType$<Lead> SObjectType;
 	public static SObjectFields$<Lead> Fields;
 
 	public Id RecordTypeId;
-	public com.nawforce.runforce.System.Address Address;
+	public RecordType RecordType;
+	public Address Address;
 	public Decimal AnnualRevenue;
 	public String City;
+	public String CleanStatus;
 	public String Company;
 	public String CompanyDunsNumber;
 	public Id ConvertedAccountId;
@@ -83,7 +84,7 @@ public class Lead extends SObject {
 	public String Name;
 	public Integer NumberOfEmployees;
 	public Id OwnerId;
-	public Group Owner;
+	public SObject Owner;
 	public String Phone;
 	public String PhotoUrl;
 	public String PostalCode;
@@ -104,6 +105,7 @@ public class Lead extends SObject {
 	public CampaignMember[] CampaignMembers;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContactRequest[] ContactRequests;
+	public SurveyInvitation[] ContactSurveyInvitations;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public DeclinedEventRelation[] DeclinedEventRelations;
 	public DuplicateRecordItem[] DuplicateRecordItems;
@@ -114,6 +116,7 @@ public class Lead extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public LeadFeed[] Feeds;
 	public LeadHistory[] Histories;
+	public LeadCleanInfo[] LeadCleanInfos;
 	public ListEmailIndividualRecipient[] ListEmailIndividualRecipients;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
@@ -125,7 +128,11 @@ public class Lead extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public CollaborationGroupRecord[] RecordAssociatedGroups;
+	public WorkFeedbackRequest[] RelatedObjects;
+	public ServiceAppointment[] ServiceAppointments;
 	public LeadShare[] Shares;
+	public SurveyInvitation[] SurveyInvitations;
+	public SurveySubject[] SurveySubjectEntities;
 	public Task[] Tasks;
 	public TopicAssignment[] TopicAssignments;
 	public UndecidedEventRelation[] UndecidedEventRelations;

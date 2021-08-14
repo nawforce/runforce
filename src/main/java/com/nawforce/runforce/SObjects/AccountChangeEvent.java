@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class AccountChangeEvent extends SObject {
 	public static SObjectType$<AccountChangeEvent> SObjectType;
@@ -42,6 +41,7 @@ public class AccountChangeEvent extends SObject {
 	public String BillingStateCode;
 	public String BillingStreet;
 	public Object ChangeEventHeader;
+	public String CleanStatus;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -64,6 +64,8 @@ public class AccountChangeEvent extends SObject {
 	public String NaicsDesc;
 	public String Name;
 	public Integer NumberOfEmployees;
+	public Id OperatingHoursId;
+	public OperatingHours OperatingHours;
 	public Id OwnerId;
 	public User Owner;
 	public String Ownership;

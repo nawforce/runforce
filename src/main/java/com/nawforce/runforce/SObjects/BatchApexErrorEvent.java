@@ -30,6 +30,7 @@ public class BatchApexErrorEvent extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Boolean DoesExceedJobScopeMaxLength;
+	public String EventUuid;
 	public String ExceptionType;
 	public String JobScope;
 	public String Message;

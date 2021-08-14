@@ -20,15 +20,16 @@ import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class RemoteKeyCalloutEvent extends SObject {
 	public static SObjectType$<RemoteKeyCalloutEvent> SObjectType;
 	public static SObjectFields$<RemoteKeyCalloutEvent> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public String Details;
+	public String EventUuid;
 	public String ReplayId;
 	public String RequestIdentifier;
 	public String StatusCode;

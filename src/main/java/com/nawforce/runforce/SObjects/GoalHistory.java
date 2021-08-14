@@ -24,9 +24,11 @@ import com.nawforce.runforce.System.*;
 public class GoalHistory extends SObject {
 	public static SObjectType$<GoalHistory> SObjectType;
 	public static SObjectFields$<GoalHistory> Fields;
+
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
 	public String Field;
 	public Id GoalId;
 	public Goal Goal;

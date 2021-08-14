@@ -32,7 +32,7 @@ public class FeedComment extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Id FeedItemId;
-	public AccountFeed FeedItem;
+	public SObject FeedItem;
 	public Boolean HasEntityLinks;
 	public Id Id;
 	public Id InsertedById;
@@ -44,9 +44,9 @@ public class FeedComment extends SObject {
 	public User LastEditBy;
 	public Datetime LastEditDate;
 	public Id ParentId;
-	public Account Parent;
+	public SObject Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Integer Revision;
 	public String Status;
 	public Datetime SystemModstamp;

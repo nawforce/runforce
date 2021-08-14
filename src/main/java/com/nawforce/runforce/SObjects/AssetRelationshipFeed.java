@@ -21,7 +21,6 @@ import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
-
 @SuppressWarnings("unused")
 public class AssetRelationshipFeed extends SObject {
 	public static SObjectType$<AssetRelationshipFeed> SObjectType;
@@ -45,7 +44,7 @@ public class AssetRelationshipFeed extends SObject {
 	public Id ParentId;
 	public AssetRelationship Parent;
 	public Id RelatedRecordId;
-	public ContentVersion RelatedRecord;
+	public SObject RelatedRecord;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Type;

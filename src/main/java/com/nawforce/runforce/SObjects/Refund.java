@@ -24,6 +24,7 @@ import com.nawforce.runforce.System.*;
 public class Refund extends SObject {
 	public static SObjectType$<Refund> SObjectType;
 	public static SObjectFields$<Refund> Fields;
+
 	public Id AccountId;
 	public Account Account;
 	public Decimal Amount;
@@ -34,10 +35,12 @@ public class Refund extends SObject {
 	public String CancellationGatewayRefNumber;
 	public String CancellationGatewayResultCode;
 	public String CancellationSfResultCode;
+	public String ClientContext;
 	public String Comments;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
 	public Datetime Date;
 	public Datetime EffectiveDate;
 	public String Email;
@@ -72,8 +75,14 @@ public class Refund extends SObject {
 	public Decimal TotalUnapplied;
 	public String Type;
 
+	public FinanceTransaction[] DestinationFinanceTransactions;
+	public FinanceBalanceSnapshot[] FinanceBalanceSnapshots;
+	public FinanceTransaction[] FinanceTransactions;
+	public FinanceTransaction[] ParentFinanceTransactions;
 	public PaymentGatewayLog[] PaymentGatewayLogs;
+	public ProcessException[] ProcessExceptions;
 	public RefundLinePayment[] RefundLinePayments;
+	public FinanceTransaction[] SourceFinanceTransactions;
 
 	public Refund clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Refund clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
