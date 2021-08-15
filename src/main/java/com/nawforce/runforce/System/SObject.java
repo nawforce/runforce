@@ -22,6 +22,7 @@ import com.nawforce.runforce.Schema.SObjectType;
 
 @SuppressWarnings("unused")
 public class SObject {
+	public Id Id;
 	public UserRecordAccess UserRecordAccess;
 
 	public void addError(Exception exceptionError) {throw new java.lang.UnsupportedOperationException();}
