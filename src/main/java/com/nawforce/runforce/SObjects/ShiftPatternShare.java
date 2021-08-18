@@ -35,7 +35,7 @@ public class ShiftPatternShare extends SObject {
 	public ShiftPattern Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ShiftPatternShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ShiftPatternShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

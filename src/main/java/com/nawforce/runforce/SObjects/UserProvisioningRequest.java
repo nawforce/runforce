@@ -44,7 +44,7 @@ public class UserProvisioningRequest extends SObject {
 	public String Name;
 	public String Operation;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentId;
 	public UserProvisioningRequest Parent;
 	public Integer RetryCount;

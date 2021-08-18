@@ -38,7 +38,7 @@ public class ListEmailRecipientSource extends SObject {
 	public ListEmail ListEmail;
 	public String Name;
 	public Id SourceListId;
-	public SObject SourceList;
+	public Name SourceList;
 	public String SourceType;
 	public Datetime SystemModstamp;
 

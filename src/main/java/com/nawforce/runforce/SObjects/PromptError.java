@@ -38,7 +38,7 @@ public class PromptError extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id PromptActionId;
 	public PromptAction PromptAction;
 	public Integer StepNumber;

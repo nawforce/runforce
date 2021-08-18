@@ -40,7 +40,7 @@ public class WorkThanks extends SObject {
 	public Datetime LastModifiedDate;
 	public String Message;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Datetime SystemModstamp;
 
 	public WorkBadge[] Badges;

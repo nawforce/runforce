@@ -41,7 +41,7 @@ public class ShiftPattern extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Integer PatternLength;
 	public Datetime SystemModstamp;
 

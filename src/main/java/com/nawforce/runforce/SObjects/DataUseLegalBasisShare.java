@@ -35,7 +35,7 @@ public class DataUseLegalBasisShare extends SObject {
 	public DataUseLegalBasis Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public DataUseLegalBasisShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public DataUseLegalBasisShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

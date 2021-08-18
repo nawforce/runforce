@@ -59,7 +59,7 @@ public class ScratchOrgInfo extends SObject {
 	public String Namespace;
 	public String OrgName;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Package2AncestorIds;
 	public String Release;
 	public String ScratchOrg;

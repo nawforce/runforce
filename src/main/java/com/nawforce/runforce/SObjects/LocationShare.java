@@ -35,7 +35,7 @@ public class LocationShare extends SObject {
 	public Location Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public LocationShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public LocationShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

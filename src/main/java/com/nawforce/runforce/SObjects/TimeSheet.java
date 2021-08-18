@@ -39,7 +39,7 @@ public class TimeSheet extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ServiceResourceId;
 	public ServiceResource ServiceResource;
 	public Date StartDate;

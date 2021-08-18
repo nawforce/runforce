@@ -58,7 +58,7 @@ public class Case extends SObject {
 	public Case MasterRecord;
 	public String Origin;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentId;
 	public Case Parent;
 	public String Priority;

@@ -74,7 +74,7 @@ public class WorkOrder extends SObject {
 	public MaintenanceWorkRule MaintenanceWorkRule;
 	public Integer MinimumCrewSize;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentWorkOrderId;
 	public WorkOrder ParentWorkOrder;
 	public String PostalCode;

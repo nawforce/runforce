@@ -41,9 +41,9 @@ public class Attachment extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentId;
-	public SObject Parent;
+	public Name Parent;
 	public Datetime SystemModstamp;
 
 	public Attachment clone$() {throw new java.lang.UnsupportedOperationException();}

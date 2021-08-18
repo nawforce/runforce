@@ -55,9 +55,9 @@ public class ContactPointAddress extends SObject {
 	public Decimal Longitude;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentId;
-	public SObject Parent;
+	public Name Parent;
 	public String PostalCode;
 	public Integer PreferenceRank;
 	public String State;

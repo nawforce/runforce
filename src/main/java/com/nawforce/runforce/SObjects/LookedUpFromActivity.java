@@ -56,7 +56,7 @@ public class LookedUpFromActivity extends SObject {
 	public Datetime LastModifiedDate;
 	public String Location;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Priority;
 	public Datetime ReminderDateTime;
 	public Datetime StartDateTime;
@@ -64,9 +64,9 @@ public class LookedUpFromActivity extends SObject {
 	public String Subject;
 	public Datetime SystemModstamp;
 	public Id WhatId;
-	public SObject What;
+	public Name What;
 	public Id WhoId;
-	public SObject Who;
+	public Name Who;
 
 	public LookedUpFromActivity clone$() {throw new java.lang.UnsupportedOperationException();}
 	public LookedUpFromActivity clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

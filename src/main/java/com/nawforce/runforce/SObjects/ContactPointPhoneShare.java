@@ -35,7 +35,7 @@ public class ContactPointPhoneShare extends SObject {
 	public ContactPointPhone Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ContactPointPhoneShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointPhoneShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

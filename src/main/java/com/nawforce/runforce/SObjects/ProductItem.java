@@ -40,7 +40,7 @@ public class ProductItem extends SObject {
 	public Id LocationId;
 	public Location Location;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id Product2Id;
 	public Product2 Product2;
 	public String ProductItemNumber;

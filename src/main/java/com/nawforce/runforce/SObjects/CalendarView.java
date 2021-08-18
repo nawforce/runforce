@@ -42,9 +42,9 @@ public class CalendarView extends SObject {
 	public ListView ListViewFilter;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id PublisherId;
-	public SObject Publisher;
+	public Name Publisher;
 	public String SobjectType;
 	public String StartField;
 	public Datetime SystemModstamp;

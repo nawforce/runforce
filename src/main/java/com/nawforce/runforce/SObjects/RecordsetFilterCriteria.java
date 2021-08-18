@@ -41,7 +41,7 @@ public class RecordsetFilterCriteria extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String SourceObject;
 	public Datetime SystemModstamp;
 

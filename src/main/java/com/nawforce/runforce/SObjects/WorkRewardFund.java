@@ -40,7 +40,7 @@ public class WorkRewardFund extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id RewardFundTypeId;
 	public WorkRewardFundType RewardFundType;
 	public Datetime SystemModstamp;

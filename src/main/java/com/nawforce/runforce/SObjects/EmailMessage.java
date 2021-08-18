@@ -57,7 +57,7 @@ public class EmailMessage extends SObject {
 	public Id ParentId;
 	public Case Parent;
 	public Id RelatedToId;
-	public SObject RelatedTo;
+	public Name RelatedTo;
 	public Id ReplyToEmailMessageId;
 	public EmailMessage ReplyToEmailMessage;
 	public String Status;

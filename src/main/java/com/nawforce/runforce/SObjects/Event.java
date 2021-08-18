@@ -57,7 +57,7 @@ public class Event extends SObject {
 	public Datetime LastModifiedDate;
 	public String Location;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Datetime Recurrence2PatternStartDate;
 	public String Recurrence2PatternText;
 	public String Recurrence2PatternTimeZone;
@@ -79,9 +79,9 @@ public class Event extends SObject {
 	public String Subject;
 	public Datetime SystemModstamp;
 	public Id WhatId;
-	public SObject What;
+	public Name What;
 	public Id WhoId;
-	public SObject Who;
+	public Name Who;
 
 	public AcceptedEventRelation[] AcceptedEventRelations;
 	public AttachedContentDocument[] AttachedContentDocuments;

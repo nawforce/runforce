@@ -49,7 +49,7 @@ public class WorkFeedbackRequest extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id PerformanceCycleId;
 	public WorkPerformanceCycle PerformanceCycle;
 	public Id QuestionSetId;
@@ -57,7 +57,7 @@ public class WorkFeedbackRequest extends SObject {
 	public Id RecipientId;
 	public User Recipient;
 	public Id RelatedObjectId;
-	public SObject RelatedObject;
+	public Name RelatedObject;
 	public String SharingScope;
 	public Id SubjectId;
 	public User Subject;

@@ -35,7 +35,7 @@ public class OrderShare extends SObject {
 	public Order Order;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public OrderShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OrderShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

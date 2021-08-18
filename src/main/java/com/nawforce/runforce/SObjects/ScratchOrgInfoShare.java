@@ -35,7 +35,7 @@ public class ScratchOrgInfoShare extends SObject {
 	public ScratchOrgInfo Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ScratchOrgInfoShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ScratchOrgInfoShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

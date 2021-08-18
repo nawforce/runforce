@@ -44,7 +44,7 @@ public class WorkType extends SObject {
 	public Integer MinimumCrewSize;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Integer RecommendedCrewSize;
 	public Id ServiceReportTemplateId;
 	public ServiceReportLayout ServiceReportTemplate;

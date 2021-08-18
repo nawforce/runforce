@@ -36,7 +36,7 @@ public class WorkReward extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id RecipientId;
 	public User Recipient;
 	public String RedemptionDisclaimer;

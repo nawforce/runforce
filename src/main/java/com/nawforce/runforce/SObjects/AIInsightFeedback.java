@@ -43,7 +43,7 @@ public class AIInsightFeedback extends SObject {
 	public Integer Rank;
 	public Datetime SystemModstamp;
 	public Id ValueId;
-	public SObject Value;
+	public Name Value;
 
 	public AIInsightFeedback clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AIInsightFeedback clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

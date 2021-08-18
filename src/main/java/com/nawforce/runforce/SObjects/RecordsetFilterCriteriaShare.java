@@ -35,7 +35,7 @@ public class RecordsetFilterCriteriaShare extends SObject {
 	public RecordsetFilterCriteria Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public RecordsetFilterCriteriaShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public RecordsetFilterCriteriaShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

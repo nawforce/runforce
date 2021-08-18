@@ -58,7 +58,7 @@ public class OpenActivity extends SObject {
 	public Datetime LastModifiedDate;
 	public String Location;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Priority;
 	public Datetime ReminderDateTime;
 	public Datetime StartDateTime;
@@ -66,9 +66,9 @@ public class OpenActivity extends SObject {
 	public String Subject;
 	public Datetime SystemModstamp;
 	public Id WhatId;
-	public SObject What;
+	public Name What;
 	public Id WhoId;
-	public SObject Who;
+	public Name Who;
 
 	public OpenActivity clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OpenActivity clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

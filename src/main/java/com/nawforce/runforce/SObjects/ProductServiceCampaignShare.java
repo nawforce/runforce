@@ -35,7 +35,7 @@ public class ProductServiceCampaignShare extends SObject {
 	public ProductServiceCampaign Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ProductServiceCampaignShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ProductServiceCampaignShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

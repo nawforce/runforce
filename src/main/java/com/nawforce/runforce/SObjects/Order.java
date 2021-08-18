@@ -74,7 +74,7 @@ public class Order extends SObject {
 	public Id OriginalOrderId;
 	public Order OriginalOrder;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Date PoDate;
 	public String PoNumber;
 	public Id Pricebook2Id;

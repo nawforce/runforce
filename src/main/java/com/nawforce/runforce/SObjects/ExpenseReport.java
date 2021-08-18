@@ -39,7 +39,7 @@ public class ExpenseReport extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Datetime SystemModstamp;
 	public String Title;
 	public Decimal TotalExpenseAmount;

@@ -35,7 +35,7 @@ public class WorkBadgeDefinitionShare extends SObject {
 	public WorkBadgeDefinition Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public WorkBadgeDefinitionShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkBadgeDefinitionShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

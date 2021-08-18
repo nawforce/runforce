@@ -36,7 +36,7 @@ public class EventRelation extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id RelationId;
-	public SObject Relation;
+	public Name Relation;
 	public Datetime RespondedDate;
 	public String Response;
 	public String Status;

@@ -31,7 +31,7 @@ public class Shipment extends SObject {
 	public Datetime CreatedDate;
 	public String CurrencyIsoCode;
 	public Id DeliveredToId;
-	public SObject DeliveredTo;
+	public Name DeliveredTo;
 	public String Description;
 	public Id DestinationLocationId;
 	public Location DestinationLocation;
@@ -44,7 +44,7 @@ public class Shipment extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Provider;
 	public Address ShipFromAddress;
 	public String ShipFromCity;

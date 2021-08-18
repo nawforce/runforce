@@ -39,7 +39,7 @@ public class ProductServiceCampaign extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Priority;
 	public Id Product2Id;
 	public Product2 Product2;

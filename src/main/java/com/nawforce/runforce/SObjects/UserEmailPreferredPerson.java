@@ -37,9 +37,9 @@ public class UserEmailPreferredPerson extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id PersonRecordId;
-	public SObject PersonRecord;
+	public Name PersonRecord;
 	public Datetime SystemModstamp;
 
 	public UserEmailPreferredPersonShare[] Shares;

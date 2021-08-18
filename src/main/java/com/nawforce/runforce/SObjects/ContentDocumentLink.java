@@ -30,7 +30,7 @@ public class ContentDocumentLink extends SObject {
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LinkedEntityId;
-	public SObject LinkedEntity;
+	public Name LinkedEntity;
 	public String ShareType;
 	public Datetime SystemModstamp;
 	public String Visibility;

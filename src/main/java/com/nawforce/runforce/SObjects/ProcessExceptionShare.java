@@ -35,7 +35,7 @@ public class ProcessExceptionShare extends SObject {
 	public ProcessException Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ProcessExceptionShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ProcessExceptionShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

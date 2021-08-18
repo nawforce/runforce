@@ -30,9 +30,9 @@ public class CommSubscriptionConsent extends SObject {
 	public Datetime ConsentCapturedDateTime;
 	public String ConsentCapturedSource;
 	public Id ConsentGiverId;
-	public SObject ConsentGiver;
+	public Name ConsentGiver;
 	public Id ContactPointId;
-	public SObject ContactPoint;
+	public Name ContactPoint;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -47,7 +47,7 @@ public class CommSubscriptionConsent extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Datetime SystemModstamp;
 
 	public ActivityHistory[] ActivityHistories;

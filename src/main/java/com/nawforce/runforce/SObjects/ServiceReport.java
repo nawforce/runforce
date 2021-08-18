@@ -43,7 +43,7 @@ public class ServiceReport extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id ParentId;
-	public SObject Parent;
+	public Name Parent;
 	public String ServiceReportLanguage;
 	public String ServiceReportNumber;
 	public Datetime SystemModstamp;

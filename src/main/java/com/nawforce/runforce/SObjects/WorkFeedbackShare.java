@@ -35,7 +35,7 @@ public class WorkFeedbackShare extends SObject {
 	public WorkFeedback Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public WorkFeedbackShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkFeedbackShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -44,7 +44,7 @@ public class WorkRewardFundType extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String RedemptionDisclaimer;
 	public String RedemptionInfo;
 	public String RedemptionUrl;

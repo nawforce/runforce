@@ -42,7 +42,7 @@ public class WorkFeedbackQuestion extends SObject {
 	public String Name;
 	public Integer Number;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id QuestionSetId;
 	public WorkFeedbackQuestionSet QuestionSet;
 	public Datetime SystemModstamp;

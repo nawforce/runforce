@@ -38,7 +38,7 @@ public class CommSubscription extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Datetime SystemModstamp;
 
 	public AttachedContentDocument[] AttachedContentDocuments;

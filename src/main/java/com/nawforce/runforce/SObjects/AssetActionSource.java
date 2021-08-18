@@ -46,7 +46,7 @@ public class AssetActionSource extends SObject {
 	public Decimal ProductAmount;
 	public Decimal Quantity;
 	public Id ReferenceEntityItemId;
-	public SObject ReferenceEntityItem;
+	public Name ReferenceEntityItem;
 	public Datetime StartDate;
 	public Decimal Subtotal;
 	public Datetime SystemModstamp;

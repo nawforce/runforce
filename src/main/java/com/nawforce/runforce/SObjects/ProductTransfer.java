@@ -43,7 +43,7 @@ public class ProductTransfer extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id Product2Id;
 	public Product2 Product2;
 	public Id ProductRequestId;
@@ -55,7 +55,7 @@ public class ProductTransfer extends SObject {
 	public Decimal QuantitySent;
 	public String QuantityUnitOfMeasure;
 	public Id ReceivedById;
-	public SObject ReceivedBy;
+	public Name ReceivedBy;
 	public Id ReturnOrderId;
 	public ReturnOrder ReturnOrder;
 	public Id ReturnOrderLineItemId;

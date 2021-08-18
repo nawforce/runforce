@@ -35,7 +35,7 @@ public class TimeSheetShare extends SObject {
 	public TimeSheet Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public TimeSheetShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public TimeSheetShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

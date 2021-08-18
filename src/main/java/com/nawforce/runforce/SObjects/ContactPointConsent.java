@@ -29,7 +29,7 @@ public class ContactPointConsent extends SObject {
 	public Datetime CaptureDate;
 	public String CaptureSource;
 	public Id ContactPointId;
-	public SObject ContactPoint;
+	public Name ContactPoint;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -47,7 +47,7 @@ public class ContactPointConsent extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String PrivacyConsentStatus;
 	public Datetime SystemModstamp;
 

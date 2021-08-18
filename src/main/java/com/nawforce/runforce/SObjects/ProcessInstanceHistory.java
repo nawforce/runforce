@@ -27,7 +27,7 @@ public class ProcessInstanceHistory extends SObject {
 	public static SObjectFields$<ProcessInstanceHistory> Fields;
 
 	public Id ActorId;
-	public SObject Actor;
+	public Name Actor;
 	public String Comments;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -39,7 +39,7 @@ public class ProcessInstanceHistory extends SObject {
 	public Boolean IsDeleted;
 	public Boolean IsPending;
 	public Id OriginalActorId;
-	public SObject OriginalActor;
+	public Name OriginalActor;
 	public Id ProcessInstanceId;
 	public ProcessInstance ProcessInstance;
 	public Id ProcessNodeId;
@@ -48,7 +48,7 @@ public class ProcessInstanceHistory extends SObject {
 	public String StepStatus;
 	public Datetime SystemModstamp;
 	public Id TargetObjectId;
-	public SObject TargetObject;
+	public Name TargetObject;
 
 	public ProcessInstanceHistory clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ProcessInstanceHistory clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

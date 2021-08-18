@@ -35,7 +35,7 @@ public class WorkTypeGroupShare extends SObject {
 	public WorkTypeGroup Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public WorkTypeGroupShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkTypeGroupShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

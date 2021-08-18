@@ -40,7 +40,7 @@ public class PromptAction extends SObject {
 	public Datetime LastResultDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id PromptVersionId;
 	public PromptVersion PromptVersion;
 	public Datetime SnoozeUntil;

@@ -45,7 +45,7 @@ public class ConsumptionSchedule extends SObject {
 	public String Name;
 	public Integer NumberOfRates;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String RatingMethod;
 	public Datetime SystemModstamp;
 	public String Type;

@@ -35,7 +35,7 @@ public class CommSubscriptionConsentShare extends SObject {
 	public CommSubscriptionConsent Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public CommSubscriptionConsentShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CommSubscriptionConsentShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

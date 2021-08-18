@@ -50,7 +50,7 @@ public class SurveyResponse extends SObject {
 	public String Name;
 	public String Status;
 	public Id SubmitterId;
-	public SObject Submitter;
+	public Name Submitter;
 	public Id SurveyId;
 	public Survey Survey;
 	public Id SurveyVersionId;

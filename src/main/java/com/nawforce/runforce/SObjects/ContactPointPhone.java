@@ -51,9 +51,9 @@ public class ContactPointPhone extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentId;
-	public SObject Parent;
+	public Name Parent;
 	public String PhoneType;
 	public Datetime SystemModstamp;
 	public String TelephoneNumber;

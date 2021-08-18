@@ -37,7 +37,7 @@ public class ProductRequired extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id ParentRecordId;
-	public SObject ParentRecord;
+	public Name ParentRecord;
 	public String ParentRecordType;
 	public Id Product2Id;
 	public Product2 Product2;

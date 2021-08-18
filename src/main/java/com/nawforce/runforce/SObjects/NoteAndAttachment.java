@@ -38,7 +38,7 @@ public class NoteAndAttachment extends SObject {
 	public Id OwnerId;
 	public User Owner;
 	public Id ParentId;
-	public SObject Parent;
+	public Name Parent;
 	public Datetime SystemModstamp;
 	public String Title;
 

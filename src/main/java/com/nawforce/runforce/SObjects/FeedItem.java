@@ -50,7 +50,7 @@ public class FeedItem extends SObject {
 	public Integer LikeCount;
 	public String LinkUrl;
 	public Id ParentId;
-	public SObject Parent;
+	public Name Parent;
 	public Id RelatedRecordId;
 	public SObject RelatedRecord;
 	public Integer Revision;

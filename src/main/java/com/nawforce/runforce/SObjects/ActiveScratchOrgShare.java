@@ -35,7 +35,7 @@ public class ActiveScratchOrgShare extends SObject {
 	public ActiveScratchOrg Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ActiveScratchOrgShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ActiveScratchOrgShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

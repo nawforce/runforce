@@ -58,7 +58,7 @@ public class CampaignMember extends SObject {
 	public Id LeadOrContactId;
 	public SObject LeadOrContact;
 	public Id LeadOrContactOwnerId;
-	public SObject LeadOrContactOwner;
+	public Name LeadOrContactOwner;
 	public String LeadSource;
 	public String MobilePhone;
 	public String Name;

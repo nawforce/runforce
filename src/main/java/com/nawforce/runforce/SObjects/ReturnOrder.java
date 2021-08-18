@@ -50,7 +50,7 @@ public class ReturnOrder extends SObject {
 	public Id OrderId;
 	public Order Order;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ProductRequestId;
 	public ProductRequest ProductRequest;
 	public Id ProductServiceCampaignId;

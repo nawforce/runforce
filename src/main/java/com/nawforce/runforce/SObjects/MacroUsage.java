@@ -49,7 +49,7 @@ public class MacroUsage extends SObject {
 	public Macro Macro;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Datetime SystemModstamp;
 	public Id UserId;
 	public User User;

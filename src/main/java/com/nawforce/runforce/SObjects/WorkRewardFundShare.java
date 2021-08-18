@@ -35,7 +35,7 @@ public class WorkRewardFundShare extends SObject {
 	public WorkRewardFund Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public WorkRewardFundShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkRewardFundShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

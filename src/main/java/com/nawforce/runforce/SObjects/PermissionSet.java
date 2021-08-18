@@ -38,7 +38,7 @@ public class PermissionSet extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id LicenseId;
-	public SObject License;
+	public Name License;
 	public String Name;
 	public String NamespacePrefix;
 	public Id PermissionSetGroupId;

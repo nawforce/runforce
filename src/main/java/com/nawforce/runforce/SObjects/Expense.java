@@ -46,7 +46,7 @@ public class Expense extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Decimal Quantity;
 	public Decimal Subtotal;
 	public Datetime SystemModstamp;

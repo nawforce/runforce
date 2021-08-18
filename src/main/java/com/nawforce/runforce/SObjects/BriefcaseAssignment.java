@@ -38,7 +38,7 @@ public class BriefcaseAssignment extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime SystemModstamp;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public BriefcaseAssignment clone$() {throw new java.lang.UnsupportedOperationException();}
 	public BriefcaseAssignment clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

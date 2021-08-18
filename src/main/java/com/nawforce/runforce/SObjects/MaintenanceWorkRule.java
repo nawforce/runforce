@@ -40,7 +40,7 @@ public class MaintenanceWorkRule extends SObject {
 	public String Name;
 	public Date NextSuggestedMaintenanceDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentMaintenancePlanId;
 	public MaintenancePlan ParentMaintenancePlan;
 	public Id ParentMaintenanceRecordId;

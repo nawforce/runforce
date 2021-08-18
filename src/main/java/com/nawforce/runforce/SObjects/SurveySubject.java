@@ -38,7 +38,7 @@ public class SurveySubject extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id ParentId;
-	public SObject Parent;
+	public Name Parent;
 	public String SubjectEntityType;
 	public Id SubjectId;
 	public SObject Subject;

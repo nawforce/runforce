@@ -34,7 +34,7 @@ public class Vote extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id ParentId;
-	public SObject Parent;
+	public Name Parent;
 	public Datetime SystemModstamp;
 	public String Type;
 

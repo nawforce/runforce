@@ -62,9 +62,9 @@ public class ServiceAppointment extends SObject {
 	public Decimal Latitude;
 	public Decimal Longitude;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentRecordId;
-	public SObject ParentRecord;
+	public Name ParentRecord;
 	public String ParentRecordStatusCategory;
 	public String ParentRecordType;
 	public String PostalCode;

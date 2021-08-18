@@ -48,7 +48,7 @@ public class AlternativePaymentMethod extends SObject {
 	public String MacAddress;
 	public String NickName;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id PaymentGatewayId;
 	public PaymentGateway PaymentGateway;
 	public Address PaymentMethodAddress;

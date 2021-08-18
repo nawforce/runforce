@@ -58,7 +58,7 @@ public class MaintenancePlan extends SObject {
 	public Integer MaintenanceWindowStartDays;
 	public Date NextSuggestedMaintenanceDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Date StartDate;
 	public String SvcApptGenerationMethod;
 	public Datetime SystemModstamp;

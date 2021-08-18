@@ -35,7 +35,7 @@ public class PromptErrorShare extends SObject {
 	public PromptError Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public PromptErrorShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PromptErrorShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

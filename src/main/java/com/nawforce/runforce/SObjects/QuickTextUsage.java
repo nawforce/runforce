@@ -40,7 +40,7 @@ public class QuickTextUsage extends SObject {
 	public Datetime LoggedTime;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id QuickTextId;
 	public QuickText QuickText;
 	public Datetime SystemModstamp;

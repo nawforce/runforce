@@ -35,7 +35,7 @@ public class ServiceCrewShare extends SObject {
 	public ServiceCrew Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ServiceCrewShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ServiceCrewShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

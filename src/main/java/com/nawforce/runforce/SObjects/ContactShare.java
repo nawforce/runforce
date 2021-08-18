@@ -35,7 +35,7 @@ public class ContactShare extends SObject {
 	public Datetime LastModifiedDate;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ContactShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

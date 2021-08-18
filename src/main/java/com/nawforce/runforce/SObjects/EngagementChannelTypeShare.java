@@ -35,7 +35,7 @@ public class EngagementChannelTypeShare extends SObject {
 	public EngagementChannelType Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public EngagementChannelTypeShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public EngagementChannelTypeShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

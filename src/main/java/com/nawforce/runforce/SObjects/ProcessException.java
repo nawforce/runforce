@@ -26,7 +26,7 @@ public class ProcessException extends SObject {
 	public static SObjectFields$<ProcessException> Fields;
 
 	public Id AttachedToId;
-	public SObject AttachedTo;
+	public Name AttachedTo;
 	public Id CaseId;
 	public Case Case;
 	public String Category;
@@ -45,7 +45,7 @@ public class ProcessException extends SObject {
 	public Datetime LastViewedDate;
 	public String Message;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Priority;
 	public String ProcessExceptionNumber;
 	public String Severity;

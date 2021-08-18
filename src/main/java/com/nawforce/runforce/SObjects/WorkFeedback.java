@@ -37,7 +37,7 @@ public class WorkFeedback extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id QuestionId;
 	public WorkFeedbackQuestion Question;
 	public Id RequestId;

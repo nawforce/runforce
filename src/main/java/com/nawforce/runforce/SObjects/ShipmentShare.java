@@ -35,7 +35,7 @@ public class ShipmentShare extends SObject {
 	public Shipment Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ShipmentShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ShipmentShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

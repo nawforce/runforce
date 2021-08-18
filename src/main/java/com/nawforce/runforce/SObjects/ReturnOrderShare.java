@@ -35,7 +35,7 @@ public class ReturnOrderShare extends SObject {
 	public ReturnOrder Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ReturnOrderShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ReturnOrderShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

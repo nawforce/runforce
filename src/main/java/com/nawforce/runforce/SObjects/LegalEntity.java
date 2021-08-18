@@ -51,7 +51,7 @@ public class LegalEntity extends SObject {
 	public String LegalEntityStreet;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Status;
 	public Datetime SystemModstamp;
 

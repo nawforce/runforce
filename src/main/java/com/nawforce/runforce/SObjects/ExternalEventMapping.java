@@ -40,7 +40,7 @@ public class ExternalEventMapping extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Date StartDate;
 	public Datetime SystemModstamp;
 

@@ -35,7 +35,7 @@ public class AlternativePaymentMethodShare extends SObject {
 	public AlternativePaymentMethod Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public AlternativePaymentMethodShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AlternativePaymentMethodShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

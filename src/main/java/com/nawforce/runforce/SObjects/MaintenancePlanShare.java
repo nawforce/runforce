@@ -35,7 +35,7 @@ public class MaintenancePlanShare extends SObject {
 	public MaintenancePlan Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public MaintenancePlanShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public MaintenancePlanShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

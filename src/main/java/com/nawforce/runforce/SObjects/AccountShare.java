@@ -38,7 +38,7 @@ public class AccountShare extends SObject {
 	public String OpportunityAccessLevel;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public AccountShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AccountShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

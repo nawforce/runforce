@@ -42,7 +42,7 @@ public class ShiftTemplate extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String ShiftTemplateDurationType;
 	public Time StartTime;
 	public Datetime SystemModstamp;

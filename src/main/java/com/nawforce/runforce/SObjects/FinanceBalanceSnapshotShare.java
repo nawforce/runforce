@@ -35,7 +35,7 @@ public class FinanceBalanceSnapshotShare extends SObject {
 	public FinanceBalanceSnapshot Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public FinanceBalanceSnapshotShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FinanceBalanceSnapshotShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

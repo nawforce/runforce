@@ -35,7 +35,7 @@ public class ServiceResourceShare extends SObject {
 	public ServiceResource Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ServiceResourceShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ServiceResourceShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

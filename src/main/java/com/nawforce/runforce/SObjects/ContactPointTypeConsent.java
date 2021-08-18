@@ -46,7 +46,7 @@ public class ContactPointTypeConsent extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id PartyId;
 	public Individual Party;
 	public String PrivacyConsentStatus;

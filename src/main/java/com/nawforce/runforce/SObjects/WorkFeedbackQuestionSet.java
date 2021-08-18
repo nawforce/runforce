@@ -38,7 +38,7 @@ public class WorkFeedbackQuestionSet extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id PerformanceCycleId;
 	public WorkPerformanceCycle PerformanceCycle;
 	public Datetime SystemModstamp;

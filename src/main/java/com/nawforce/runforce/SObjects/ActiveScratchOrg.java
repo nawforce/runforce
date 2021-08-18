@@ -47,7 +47,7 @@ public class ActiveScratchOrg extends SObject {
 	public String Namespace;
 	public String OrgName;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String ScratchOrg;
 	public Id ScratchOrgInfoId;
 	public ScratchOrgInfo ScratchOrgInfo;

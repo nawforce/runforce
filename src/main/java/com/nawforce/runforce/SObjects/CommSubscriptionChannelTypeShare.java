@@ -35,7 +35,7 @@ public class CommSubscriptionChannelTypeShare extends SObject {
 	public CommSubscriptionChannelType Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public CommSubscriptionChannelTypeShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CommSubscriptionChannelTypeShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -31,7 +31,7 @@ public class OutgoingEmailRelation extends SObject {
 	public String OutgoingEmailId;
 	public String RelationAddress;
 	public Id RelationId;
-	public SObject Relation;
+	public Name Relation;
 
 	public OutgoingEmailRelation clone$() {throw new java.lang.UnsupportedOperationException();}
 	public OutgoingEmailRelation clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

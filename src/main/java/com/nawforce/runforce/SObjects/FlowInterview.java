@@ -40,7 +40,7 @@ public class FlowInterview extends SObject {
 	public Datetime LastModifiedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String PauseLabel;
 	public Datetime SystemModstamp;
 	public Boolean WasPausedFromScreen;

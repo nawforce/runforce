@@ -49,7 +49,7 @@ public class ServiceTerritory extends SObject {
 	public Id OperatingHoursId;
 	public OperatingHours OperatingHours;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentTerritoryId;
 	public ServiceTerritory ParentTerritory;
 	public String PostalCode;

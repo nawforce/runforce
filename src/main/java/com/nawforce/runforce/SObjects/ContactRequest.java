@@ -38,7 +38,7 @@ public class ContactRequest extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String PreferredChannel;
 	public String PreferredPhone;
 	public String RequestDescription;
@@ -46,9 +46,9 @@ public class ContactRequest extends SObject {
 	public String Status;
 	public Datetime SystemModstamp;
 	public Id WhatId;
-	public SObject What;
+	public Name What;
 	public Id WhoId;
-	public SObject Who;
+	public Name Who;
 
 	public ActivityHistory[] ActivityHistories;
 	public EmailMessage[] Emails;

@@ -35,7 +35,7 @@ public class SurveyEngagementContextShare extends SObject {
 	public SurveyEngagementContext Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public SurveyEngagementContextShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public SurveyEngagementContextShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

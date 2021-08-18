@@ -80,7 +80,7 @@ public class Quote extends SObject {
 	public Id OpportunityId;
 	public Opportunity Opportunity;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Phone;
 	public Id Pricebook2Id;
 	public Pricebook2 Pricebook2;

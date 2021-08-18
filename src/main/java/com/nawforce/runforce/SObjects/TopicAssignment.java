@@ -29,7 +29,7 @@ public class TopicAssignment extends SObject {
 	public User CreatedBy;
 	public Datetime CreatedDate;
 	public Id EntityId;
-	public SObject Entity;
+	public Name Entity;
 	public String EntityKeyPrefix;
 	public String EntityType;
 	public Id Id;

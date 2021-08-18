@@ -55,7 +55,7 @@ public class Location extends SObject {
 	public String Name;
 	public Date OpenDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentLocationId;
 	public Location ParentLocation;
 	public Date PossessionDate;

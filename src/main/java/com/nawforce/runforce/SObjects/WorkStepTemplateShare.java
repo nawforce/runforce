@@ -35,7 +35,7 @@ public class WorkStepTemplateShare extends SObject {
 	public WorkStepTemplate Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public WorkStepTemplateShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkStepTemplateShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

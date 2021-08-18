@@ -35,7 +35,7 @@ public class ProductItemShare extends SObject {
 	public ProductItem Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ProductItemShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ProductItemShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

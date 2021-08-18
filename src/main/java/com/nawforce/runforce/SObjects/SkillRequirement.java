@@ -37,7 +37,7 @@ public class SkillRequirement extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id RelatedRecordId;
-	public SObject RelatedRecord;
+	public Name RelatedRecord;
 	public Id SkillId;
 	public Skill Skill;
 	public Decimal SkillLevel;

@@ -26,7 +26,7 @@ public class ProcessInstanceStep extends SObject {
 	public static SObjectFields$<ProcessInstanceStep> Fields;
 
 	public Id ActorId;
-	public SObject Actor;
+	public Name Actor;
 	public String Comments;
 	public Id CreatedById;
 	public User CreatedBy;
@@ -36,7 +36,7 @@ public class ProcessInstanceStep extends SObject {
 	public Decimal ElapsedTimeInMinutes;
 	public Id Id;
 	public Id OriginalActorId;
-	public SObject OriginalActor;
+	public Name OriginalActor;
 	public Id ProcessInstanceId;
 	public ProcessInstance ProcessInstance;
 	public Id StepNodeId;

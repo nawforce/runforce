@@ -45,7 +45,7 @@ public class ProductRequest extends SObject {
 	public Datetime LastViewedDate;
 	public Datetime NeedByDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String ProductRequestNumber;
 	public Address ShipToAddress;
 	public String ShipToCity;

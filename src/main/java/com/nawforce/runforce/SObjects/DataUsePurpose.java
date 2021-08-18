@@ -41,7 +41,7 @@ public class DataUsePurpose extends SObject {
 	public DataUseLegalBasis LegalBasis;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Datetime SystemModstamp;
 
 	public AuthorizationFormDataUse[] AuthorizationFormDataUses;

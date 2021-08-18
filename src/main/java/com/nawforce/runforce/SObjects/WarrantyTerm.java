@@ -51,7 +51,7 @@ public class WarrantyTerm extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Decimal PartsCovered;
 	public Integer PartsCoveredDuration;
 	public String PartsCoveredUnitOfTime;

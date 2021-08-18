@@ -36,7 +36,7 @@ public class WorkAccess extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentId;
 	public WorkBadgeDefinition Parent;
 	public Datetime SystemModstamp;

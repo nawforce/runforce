@@ -26,7 +26,7 @@ public class AIInsightAction extends SObject {
 	public static SObjectFields$<AIInsightAction> Fields;
 
 	public Id ActionId;
-	public SObject Action;
+	public Name Action;
 	public String ActionName;
 	public Id AiRecordInsightId;
 	public AIRecordInsight AiRecordInsight;

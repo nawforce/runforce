@@ -51,7 +51,7 @@ public class ContentVersion extends SObject {
 	public String FileExtension;
 	public String FileType;
 	public Id FirstPublishLocationId;
-	public SObject FirstPublishLocation;
+	public Name FirstPublishLocation;
 	public Id Id;
 	public Boolean IsAssetEnabled;
 	public Boolean IsDeleted;

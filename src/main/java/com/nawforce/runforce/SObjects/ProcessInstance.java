@@ -46,7 +46,7 @@ public class ProcessInstance extends SObject {
 	public User SubmittedBy;
 	public Datetime SystemModstamp;
 	public Id TargetObjectId;
-	public SObject TargetObject;
+	public Name TargetObject;
 
 	public ProcessInstanceNode[] Nodes;
 	public ProcessInstanceStep[] Steps;

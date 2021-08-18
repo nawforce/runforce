@@ -35,7 +35,7 @@ public class FinanceTransactionShare extends SObject {
 	public FinanceTransaction Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public FinanceTransactionShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public FinanceTransactionShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

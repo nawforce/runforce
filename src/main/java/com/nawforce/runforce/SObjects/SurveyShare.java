@@ -35,7 +35,7 @@ public class SurveyShare extends SObject {
 	public Survey Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public SurveyShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public SurveyShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

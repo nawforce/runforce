@@ -38,7 +38,7 @@ public class UserAppMenuCustomization extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Integer SortOrder;
 	public Datetime SystemModstamp;
 

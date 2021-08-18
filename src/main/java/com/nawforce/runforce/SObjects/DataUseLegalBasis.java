@@ -38,7 +38,7 @@ public class DataUseLegalBasis extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Source;
 	public Datetime SystemModstamp;
 

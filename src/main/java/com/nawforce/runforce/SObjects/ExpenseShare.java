@@ -35,7 +35,7 @@ public class ExpenseShare extends SObject {
 	public Expense Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ExpenseShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ExpenseShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

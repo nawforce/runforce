@@ -38,7 +38,7 @@ public class WorkFeedbackTemplate extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id QuestionSetId;
 	public WorkFeedbackQuestionSet QuestionSet;
 	public Datetime SystemModstamp;

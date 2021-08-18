@@ -35,7 +35,7 @@ public class QuickTextUsageShare extends SObject {
 	public QuickTextUsage Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public QuickTextUsageShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public QuickTextUsageShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

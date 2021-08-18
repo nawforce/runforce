@@ -58,13 +58,13 @@ public class FinanceBalanceSnapshot extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id LegalEntityId;
-	public SObject LegalEntity;
+	public Name LegalEntity;
 	public String OriginalEventType;
 	public String OriginalReferenceEntityType;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ReferenceEntityId;
-	public SObject ReferenceEntity;
+	public Name ReferenceEntity;
 	public String ReferenceEntityType;
 	public Decimal Subtotal;
 	public Datetime SystemModstamp;

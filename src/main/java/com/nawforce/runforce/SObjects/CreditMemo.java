@@ -46,7 +46,7 @@ public class CreditMemo extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Status;
 	public Datetime SystemModstamp;
 	public Decimal TotalAdjustmentAmount;

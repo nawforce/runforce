@@ -49,7 +49,7 @@ public class ServiceResource extends SObject {
 	public Location Location;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id RelatedRecordId;
 	public User RelatedRecord;
 	public String ResourceType;

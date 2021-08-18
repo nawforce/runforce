@@ -35,7 +35,7 @@ public class CaseShare extends SObject {
 	public Datetime LastModifiedDate;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public CaseShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CaseShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

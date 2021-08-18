@@ -48,7 +48,7 @@ public class PaymentGatewayLog extends SObject {
 	public PaymentGateway PaymentGateway;
 	public String PaymentGatewayLogNumber;
 	public Id ReferencedEntityId;
-	public SObject ReferencedEntity;
+	public Name ReferencedEntity;
 	public String Request;
 	public String Response;
 	public String SfRefNumber;

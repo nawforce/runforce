@@ -35,7 +35,7 @@ public class WorkOrderShare extends SObject {
 	public WorkOrder Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public WorkOrderShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkOrderShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

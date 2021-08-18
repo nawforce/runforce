@@ -35,7 +35,7 @@ public class PartyConsentShare extends SObject {
 	public PartyConsent Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public PartyConsentShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public PartyConsentShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

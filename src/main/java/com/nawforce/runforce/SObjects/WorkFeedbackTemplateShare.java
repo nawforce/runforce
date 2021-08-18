@@ -35,7 +35,7 @@ public class WorkFeedbackTemplateShare extends SObject {
 	public WorkFeedbackTemplate Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public WorkFeedbackTemplateShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkFeedbackTemplateShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -47,7 +47,7 @@ public class Metric extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Decimal Progress;
 	public Id RecordTypeId;
 	public RecordType RecordType;

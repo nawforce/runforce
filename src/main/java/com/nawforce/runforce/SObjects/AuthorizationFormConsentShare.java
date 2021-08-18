@@ -35,7 +35,7 @@ public class AuthorizationFormConsentShare extends SObject {
 	public AuthorizationFormConsent Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public AuthorizationFormConsentShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public AuthorizationFormConsentShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

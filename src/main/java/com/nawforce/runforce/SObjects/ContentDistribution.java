@@ -57,7 +57,7 @@ public class ContentDistribution extends SObject {
 	public Boolean PreferencesNotifyRndtnComplete;
 	public Boolean PreferencesPasswordRequired;
 	public Id RelatedRecordId;
-	public SObject RelatedRecord;
+	public Name RelatedRecord;
 	public Datetime SystemModstamp;
 	public Integer ViewCount;
 

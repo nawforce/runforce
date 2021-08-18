@@ -37,13 +37,13 @@ public class OutgoingEmail extends SObject {
 	public String MessageId;
 	public String References;
 	public Id RelatedToId;
-	public SObject RelatedTo;
+	public Name RelatedTo;
 	public String Subject;
 	public String TextBody;
 	public String ToAddress;
 	public String ValidatedFromAddress;
 	public Id WhoId;
-	public SObject Who;
+	public Name Who;
 
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public OutgoingEmailRelation[] OutgoingEmailRelations;

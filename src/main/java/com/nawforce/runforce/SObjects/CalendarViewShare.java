@@ -35,7 +35,7 @@ public class CalendarViewShare extends SObject {
 	public CalendarView Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public CalendarViewShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public CalendarViewShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

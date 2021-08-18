@@ -27,7 +27,7 @@ public class FieldDefinition extends SObject {
 	public static SObjectFields$<FieldDefinition> Fields;
 
 	public Id BusinessOwnerId;
-	public SObject BusinessOwner;
+	public Name BusinessOwner;
 	public String BusinessStatus;
 	public String ComplianceGroup;
 	public String ControllingFieldDefinitionId;

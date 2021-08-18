@@ -35,7 +35,7 @@ public class ContactPointTypeConsentShare extends SObject {
 	public ContactPointTypeConsent Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ContactPointTypeConsentShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointTypeConsentShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

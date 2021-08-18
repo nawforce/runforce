@@ -40,7 +40,7 @@ public class FinanceTransaction extends SObject {
 	public String CreationMode;
 	public String CurrencyIsoCode;
 	public Id DestinationEntityId;
-	public SObject DestinationEntity;
+	public Name DestinationEntity;
 	public Datetime DueDate;
 	public Datetime EffectiveDate;
 	public String EventAction;
@@ -59,7 +59,7 @@ public class FinanceTransaction extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id LegalEntityId;
-	public SObject LegalEntity;
+	public Name LegalEntity;
 	public String OriginalCreditGlAccountName;
 	public String OriginalCreditGlAccountNumber;
 	public String OriginalDebitGlAccountName;
@@ -75,15 +75,15 @@ public class FinanceTransaction extends SObject {
 	public String OriginalGlTreatmentName;
 	public String OriginalReferenceEntityType;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParentReferenceEntityId;
-	public SObject ParentReferenceEntity;
+	public Name ParentReferenceEntity;
 	public Id ReferenceEntityId;
-	public SObject ReferenceEntity;
+	public Name ReferenceEntity;
 	public String ReferenceEntityType;
 	public Decimal ResultingBalance;
 	public Id SourceEntityId;
-	public SObject SourceEntity;
+	public Name SourceEntity;
 	public Decimal Subtotal;
 	public Datetime SystemModstamp;
 	public Decimal TaxAmount;

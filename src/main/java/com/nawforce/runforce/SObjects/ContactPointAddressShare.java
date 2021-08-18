@@ -35,7 +35,7 @@ public class ContactPointAddressShare extends SObject {
 	public ContactPointAddress Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ContactPointAddressShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ContactPointAddressShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

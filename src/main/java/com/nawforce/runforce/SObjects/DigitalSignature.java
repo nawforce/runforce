@@ -41,7 +41,7 @@ public class DigitalSignature extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id ParentId;
-	public SObject Parent;
+	public Name Parent;
 	public String Place;
 	public String SignatureType;
 	public String SignedBy;

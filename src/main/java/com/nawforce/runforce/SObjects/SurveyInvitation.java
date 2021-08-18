@@ -50,9 +50,9 @@ public class SurveyInvitation extends SObject {
 	public Boolean OptionsAllowParticipantAccessTheirResponse;
 	public Boolean OptionsCollectAnonymousResponse;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ParticipantId;
-	public SObject Participant;
+	public Name Participant;
 	public String ResponseStatus;
 	public Id SurveyId;
 	public Survey Survey;

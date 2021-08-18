@@ -44,7 +44,7 @@ public class QuickText extends SObject {
 	public String Message;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String SourceType;
 	public Datetime SystemModstamp;
 

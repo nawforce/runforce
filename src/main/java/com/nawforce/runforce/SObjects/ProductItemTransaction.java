@@ -42,7 +42,7 @@ public class ProductItemTransaction extends SObject {
 	public String ProductItemTransactionNumber;
 	public Decimal Quantity;
 	public Id RelatedRecordId;
-	public SObject RelatedRecord;
+	public Name RelatedRecord;
 	public Datetime SystemModstamp;
 	public String TransactionType;
 

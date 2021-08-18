@@ -50,7 +50,7 @@ public class ReportEvent extends SObject {
 	public Integer NumberOfColumns;
 	public String Operation;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id PolicyId;
 	public TransactionSecurityPolicy Policy;
 	public String PolicyOutcome;

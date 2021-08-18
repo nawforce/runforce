@@ -42,7 +42,7 @@ public class AuthorizationForm extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String RevisionNumber;
 	public Datetime SystemModstamp;
 

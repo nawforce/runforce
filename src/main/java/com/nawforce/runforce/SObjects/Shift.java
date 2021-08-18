@@ -41,7 +41,7 @@ public class Shift extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id RecordsetFilterCriteriaId;
 	public RecordsetFilterCriteria RecordsetFilterCriteria;
 	public Id ServiceResourceId;

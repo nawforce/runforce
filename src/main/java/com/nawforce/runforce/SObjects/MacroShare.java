@@ -35,7 +35,7 @@ public class MacroShare extends SObject {
 	public Macro Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public MacroShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public MacroShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -46,7 +46,7 @@ public class Image extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Datetime SystemModstamp;
 	public String Title;
 	public String Url;

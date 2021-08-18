@@ -46,7 +46,7 @@ public class Survey extends SObject {
 	public String Name;
 	public String NamespacePrefix;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String SurveyType;
 	public Datetime SystemModstamp;
 	public Integer TotalVersionsCount;

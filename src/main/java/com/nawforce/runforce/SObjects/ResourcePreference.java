@@ -38,7 +38,7 @@ public class ResourcePreference extends SObject {
 	public Datetime LastViewedDate;
 	public String PreferenceType;
 	public Id RelatedRecordId;
-	public SObject RelatedRecord;
+	public Name RelatedRecord;
 	public String ResourcePreferenceNumber;
 	public Id ServiceResourceId;
 	public ServiceResource ServiceResource;

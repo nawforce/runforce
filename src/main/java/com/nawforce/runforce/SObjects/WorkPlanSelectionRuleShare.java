@@ -35,7 +35,7 @@ public class WorkPlanSelectionRuleShare extends SObject {
 	public WorkPlanSelectionRule Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public WorkPlanSelectionRuleShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public WorkPlanSelectionRuleShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

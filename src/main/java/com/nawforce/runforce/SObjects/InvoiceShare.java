@@ -35,7 +35,7 @@ public class InvoiceShare extends SObject {
 	public Invoice Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public InvoiceShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public InvoiceShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

@@ -37,7 +37,7 @@ public class ThreatDetectionFeedback extends SObject {
 	public String Response;
 	public Datetime SystemModstamp;
 	public Id ThreatDetectionEventId;
-	public SObject ThreatDetectionEvent;
+	public Name ThreatDetectionEvent;
 	public String ThreatDetectionFeedbackNumber;
 	public Id UserId;
 	public User User;

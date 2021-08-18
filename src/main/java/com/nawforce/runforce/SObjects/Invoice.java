@@ -46,7 +46,7 @@ public class Invoice extends SObject {
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id ReferenceEntityId;
 	public Order ReferenceEntity;
 	public String Status;

@@ -35,7 +35,7 @@ public class ServiceTerritoryShare extends SObject {
 	public ServiceTerritory Parent;
 	public String RowCause;
 	public Id UserOrGroupId;
-	public SObject UserOrGroup;
+	public Name UserOrGroup;
 
 	public ServiceTerritoryShare clone$() {throw new java.lang.UnsupportedOperationException();}
 	public ServiceTerritoryShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

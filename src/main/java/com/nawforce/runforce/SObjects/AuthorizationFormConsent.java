@@ -31,7 +31,7 @@ public class AuthorizationFormConsent extends SObject {
 	public String ConsentCapturedSource;
 	public String ConsentCapturedSourceType;
 	public Id ConsentGiverId;
-	public SObject ConsentGiver;
+	public Name ConsentGiver;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
@@ -46,7 +46,7 @@ public class AuthorizationFormConsent extends SObject {
 	public Datetime LastViewedDate;
 	public String Name;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public Id RelatedRecordId;
 	public Account RelatedRecord;
 	public String Status;

@@ -84,7 +84,7 @@ public class Lead extends SObject {
 	public String Name;
 	public Integer NumberOfEmployees;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Phone;
 	public String PhotoUrl;
 	public String PostalCode;
