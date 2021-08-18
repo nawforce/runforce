@@ -36,6 +36,8 @@ public class Opportunity extends SObject {
 	public Date CloseDate;
 	public Id ContactId;
 	public Contact Contact;
+	public Id ContractId;
+	public Contract Contract;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;

@@ -14,12 +14,12 @@
 
 package com.nawforce.runforce.Database;
 
-import com.nawforce.runforce.System.Iterable;
 import com.nawforce.runforce.System.List;
 
 @SuppressWarnings("unused")
 public interface Batchable<T> {
 	void execute(BatchableContext param1, List<T> param2);
 	void finish(BatchableContext param1);
-	Iterable<T> start(BatchableContext param1);
+	// The Iterable<T> version is allowed to override this via special exception
+	QueryLocator start(BatchableContext param1);
 }
