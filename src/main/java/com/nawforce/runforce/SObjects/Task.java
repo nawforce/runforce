@@ -51,7 +51,7 @@ public class Task extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public Id OwnerId;
-	public SObject Owner;
+	public Name Owner;
 	public String Priority;
 	public Id RecurrenceActivityId;
 	public Task RecurrenceActivity;
@@ -71,9 +71,9 @@ public class Task extends SObject {
 	public Datetime SystemModstamp;
 	public String TaskSubtype;
 	public Id WhatId;
-	public SObject What;
+	public Name What;
 	public Id WhoId;
-	public SObject Who;
+	public Name Who;
 
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
