@@ -24,6 +24,7 @@ public class Id {
 	public void addError(String msg, Boolean escape) {throw new java.lang.UnsupportedOperationException();}
 	public Boolean equals$(String o) {throw new java.lang.UnsupportedOperationException();}
 	public SObjectType getSobjectType() {throw new java.lang.UnsupportedOperationException();}
+	public String to15() {throw new java.lang.UnsupportedOperationException();}
 
 	public static Id valueOf(String str) {throw new java.lang.UnsupportedOperationException();}
 }
