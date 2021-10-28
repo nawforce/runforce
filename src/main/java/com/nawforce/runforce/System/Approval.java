@@ -30,8 +30,8 @@ public class Approval {
 	public static List<LockResult> lock(List<Object> objects, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
 	public static LockResult lock(SObject sobject) {throw new java.lang.UnsupportedOperationException();}
 	public static LockResult lock(SObject sobject, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
-	public static List<ProcessResult> process(ProcessRequest approvalRequest) {throw new java.lang.UnsupportedOperationException();}
-	public static List<ProcessResult> process(ProcessRequest approvalRequest, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
+	public static ProcessResult process(ProcessRequest approvalRequest) {throw new java.lang.UnsupportedOperationException();}
+	public static ProcessResult process(ProcessRequest approvalRequest, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
 	public static List<ProcessResult> process(List<ProcessRequest> approvalRequests) {throw new java.lang.UnsupportedOperationException();}
 	public static List<ProcessResult> process(List<ProcessRequest> approvalRequests, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
 	public static UnlockResult unlock(Id id) {throw new java.lang.UnsupportedOperationException();}
