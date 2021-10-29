@@ -21,26 +21,25 @@ import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
-public class SearchPromotionRule extends SObject {
-	public static SObjectType$<SearchPromotionRule> SObjectType;
-	public static SObjectFields$<SearchPromotionRule> Fields;
+public class LinkedArticleHistory extends SObject {
+	public static SObjectType$<LinkedArticleHistory> SObjectType;
+	public static SObjectFields$<LinkedArticleHistory> Fields;
 
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String DataType;
+	public String Field;
 	public Id Id;
 	public Boolean IsDeleted;
-	public Id LastModifiedById;
-	public User LastModifiedBy;
-	public Datetime LastModifiedDate;
-	public Id PromotedEntityId;
-	public Knowledge__kav PromotedEntity;
-	public String Query;
-	public Datetime SystemModstamp;
+	public Id LinkedArticleId;
+	public LinkedArticle LinkedArticle;
+	public Object NewValue;
+	public Object OldValue;
 
-	public SearchPromotionRule clone$() {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public LinkedArticleHistory clone$() {throw new java.lang.UnsupportedOperationException();}
+	public LinkedArticleHistory clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public LinkedArticleHistory clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public LinkedArticleHistory clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public LinkedArticleHistory clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

@@ -129,6 +129,7 @@ public class WorkOrder extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkOrderFeed[] Feeds;
 	public WorkOrderHistory[] Histories;
+	public LinkedArticle[] LinkedArticles;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

@@ -21,26 +21,31 @@ import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
-public class SearchPromotionRule extends SObject {
-	public static SObjectType$<SearchPromotionRule> SObjectType;
-	public static SObjectFields$<SearchPromotionRule> Fields;
+public class CaseExternalDocument extends SObject {
+	public static SObjectType$<CaseExternalDocument> SObjectType;
+	public static SObjectFields$<CaseExternalDocument> Fields;
 
+	public Id CaseId;
+	public Case Case;
 	public Id CreatedById;
 	public User CreatedBy;
 	public Datetime CreatedDate;
+	public String CurrencyIsoCode;
+	public String DisplayUrl;
+	public String ExternalDocumentUid;
+	public String ExternalId;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
-	public Id PromotedEntityId;
-	public Knowledge__kav PromotedEntity;
-	public String Query;
+	public String Name;
 	public Datetime SystemModstamp;
+	public String Title;
 
-	public SearchPromotionRule clone$() {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public CaseExternalDocument clone$() {throw new java.lang.UnsupportedOperationException();}
+	public CaseExternalDocument clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public CaseExternalDocument clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public CaseExternalDocument clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public CaseExternalDocument clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

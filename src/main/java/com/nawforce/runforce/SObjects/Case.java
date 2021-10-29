@@ -75,8 +75,10 @@ public class Case extends SObject {
 	public ActivityHistory[] ActivityHistories;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public Attachment[] Attachments;
+	public CaseArticle[] CaseArticles;
 	public CaseComment[] CaseComments;
 	public CaseContactRole[] CaseContactRoles;
+	public CaseExternalDocument[] CaseExternalDocuments;
 	public CaseSolution[] CaseSolutions;
 	public Case[] Cases;
 	public CombinedAttachment[] CombinedAttachments;

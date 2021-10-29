@@ -241,6 +241,7 @@ public class PermissionSet extends SObject {
 	public Boolean PermissionsModifyMetadata;
 	public Boolean PermissionsNativeWebviewScrolling;
 	public Boolean PermissionsNewReportBuilder;
+	public Boolean PermissionsOmnichannelInventorySync;
 	public Boolean PermissionsOptOutGeoLocationTracking;
 	public Boolean PermissionsOverrideForecasts;
 	public Boolean PermissionsPackaging2;
@@ -287,6 +288,7 @@ public class PermissionSet extends SObject {
 	public Boolean PermissionsTransferAnyEntity;
 	public Boolean PermissionsTransferAnyLead;
 	public Boolean PermissionsTwoFactorApi;
+	public Boolean PermissionsUseOmnichannelInventoryAPIs;
 	public Boolean PermissionsUseSubscriptionEmails;
 	public Boolean PermissionsUseTeamReassignWizards;
 	public Boolean PermissionsUseTemplatedApp;

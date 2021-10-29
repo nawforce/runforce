@@ -21,26 +21,25 @@ import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
 @SuppressWarnings("unused")
-public class SearchPromotionRule extends SObject {
-	public static SObjectType$<SearchPromotionRule> SObjectType;
-	public static SObjectFields$<SearchPromotionRule> Fields;
+public class LocationGroupShare extends SObject {
+	public static SObjectType$<LocationGroupShare> SObjectType;
+	public static SObjectFields$<LocationGroupShare> Fields;
 
-	public Id CreatedById;
-	public User CreatedBy;
-	public Datetime CreatedDate;
+	public String AccessLevel;
 	public Id Id;
 	public Boolean IsDeleted;
 	public Id LastModifiedById;
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
-	public Id PromotedEntityId;
-	public Knowledge__kav PromotedEntity;
-	public String Query;
-	public Datetime SystemModstamp;
+	public Id ParentId;
+	public LocationGroup Parent;
+	public String RowCause;
+	public Id UserOrGroupId;
+	public Name UserOrGroup;
 
-	public SearchPromotionRule clone$() {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
-	public SearchPromotionRule clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
+	public LocationGroupShare clone$() {throw new java.lang.UnsupportedOperationException();}
+	public LocationGroupShare clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
+	public LocationGroupShare clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}
+	public LocationGroupShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps) {throw new java.lang.UnsupportedOperationException();}
+	public LocationGroupShare clone$(Boolean preserveId, Boolean isDeepClone, Boolean preserveReadonlyTimestamps, Boolean preserveAutonumber) {throw new java.lang.UnsupportedOperationException();}
 }

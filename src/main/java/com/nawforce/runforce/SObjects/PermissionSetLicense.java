@@ -237,6 +237,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsModifyMetadata;
 	public Boolean MaximumPermissionsNativeWebviewScrolling;
 	public Boolean MaximumPermissionsNewReportBuilder;
+	public Boolean MaximumPermissionsOmnichannelInventorySync;
 	public Boolean MaximumPermissionsOptOutGeoLocationTracking;
 	public Boolean MaximumPermissionsOverrideForecasts;
 	public Boolean MaximumPermissionsPackaging2;
@@ -283,6 +284,7 @@ public class PermissionSetLicense extends SObject {
 	public Boolean MaximumPermissionsTransferAnyEntity;
 	public Boolean MaximumPermissionsTransferAnyLead;
 	public Boolean MaximumPermissionsTwoFactorApi;
+	public Boolean MaximumPermissionsUseOmnichannelInventoryAPIs;
 	public Boolean MaximumPermissionsUseSubscriptionEmails;
 	public Boolean MaximumPermissionsUseTeamReassignWizards;
 	public Boolean MaximumPermissionsUseTemplatedApp;

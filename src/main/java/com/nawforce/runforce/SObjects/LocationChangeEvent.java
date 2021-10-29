@@ -62,6 +62,7 @@ public class LocationChangeEvent extends SObject {
 	public String ReplayId;
 	public Id RootLocationId;
 	public Location RootLocation;
+	public Boolean ShouldSyncWithOci;
 	public String TimeZone;
 	public Id VisitorAddressId;
 	public Address VisitorAddress;

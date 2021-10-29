@@ -123,6 +123,7 @@ public class WorkOrderLineItem extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkOrderLineItemFeed[] Feeds;
 	public WorkOrderLineItemHistory[] Histories;
+	public LinkedArticle[] LinkedArticles;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;
 	public OpenActivity[] OpenActivities;

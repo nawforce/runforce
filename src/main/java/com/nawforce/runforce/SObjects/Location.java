@@ -63,6 +63,7 @@ public class Location extends SObject {
 	public Date RemodelStartDate;
 	public Id RootLocationId;
 	public Location RootLocation;
+	public Boolean ShouldSyncWithOci;
 	public Datetime SystemModstamp;
 	public String TimeZone;
 	public Id VisitorAddressId;
@@ -88,6 +89,7 @@ public class Location extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public LocationFeed[] Feeds;
 	public LocationHistory[] Histories;
+	public LocationGroupAssignment[] Locations;
 	public MaintenancePlan[] MaintenancePlans;
 	public Note[] Notes;
 	public NoteAndAttachment[] NotesAndAttachments;

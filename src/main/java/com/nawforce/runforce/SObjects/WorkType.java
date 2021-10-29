@@ -58,6 +58,7 @@ public class WorkType extends SObject {
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public WorkTypeFeed[] Feeds;
 	public WorkTypeHistory[] Histories;
+	public LinkedArticle[] LinkedArticles;
 	public MaintenanceAsset[] MaintenanceAssets;
 	public MaintenancePlan[] MaintenancePlans;
 	public MaintenanceWorkRule[] MaintenanceWorkRules;

@@ -17,6 +17,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -37,7 +38,9 @@ public class SurveyQuestion extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String Name;
+	public String PageName;
 	public String QuestionName;
+	public Integer QuestionOrder;
 	public String QuestionType;
 	public Id SurveyPageId;
 	public SurveyPage SurveyPage;
