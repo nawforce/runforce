@@ -15,10 +15,11 @@
 package com.nawforce.runforce.Database;
 
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Iterator;
 import com.nawforce.runforce.System.SObject;
 
 @SuppressWarnings("unused")
-public class QueryLocatorIterator {
+public class QueryLocatorIterator implements Iterator<SObject> {
 	public Boolean hasNext() {throw new java.lang.UnsupportedOperationException();}
 	public SObject next() {throw new java.lang.UnsupportedOperationException();}
 }
