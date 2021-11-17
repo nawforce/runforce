@@ -68,6 +68,7 @@ public class Contract extends SObject {
 	public Datetime LastModifiedDate;
 	public Datetime LastReferencedDate;
 	public Datetime LastViewedDate;
+	public String Name;
 	public String OwnerExpirationNotice;
 	public Id OwnerId;
 	public User Owner;
