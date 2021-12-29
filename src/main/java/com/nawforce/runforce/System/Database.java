@@ -31,8 +31,9 @@ public class Database {
 	public static Integer countQuery(String query) {throw new java.lang.UnsupportedOperationException();}
 	public static DeleteResult delete(Id id) {throw new java.lang.UnsupportedOperationException();}
 	public static DeleteResult delete(Id id, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
-	public static List<DeleteResult> delete(List<SObject> objects) {throw new java.lang.UnsupportedOperationException();}
-	public static List<DeleteResult> delete(List<SObject> objects, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
+	// Using Object here as List<SObject> & List<Id> have same erasure
+	public static List<DeleteResult> delete(List<Object> objects) {throw new java.lang.UnsupportedOperationException();}
+	public static List<DeleteResult> delete(List<Object> objects, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
 	public static DeleteResult delete(SObject sobject) {throw new java.lang.UnsupportedOperationException();}
 	public static DeleteResult delete(SObject sobject, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
 	public static List<DeleteResult> deleteAsync(List<SObject> sobjects) {throw new java.lang.UnsupportedOperationException();}
