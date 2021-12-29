@@ -21,10 +21,10 @@ import com.nawforce.runforce.Schema.SObjectField;
 @SuppressWarnings("unused")
 public class Database {
 	public static LeadConvertResult convertLead(LeadConvert leadConvert) {throw new java.lang.UnsupportedOperationException();}
-	public static LeadConvertResult convertLead(LeadConvert leadConvert, Object DmlOptions) {throw new java.lang.UnsupportedOperationException();}
+	public static LeadConvertResult convertLead(LeadConvert leadConvert, DMLOptions DmlOptions) {throw new java.lang.UnsupportedOperationException();}
 	public static LeadConvertResult convertLead(LeadConvert leadConvert, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
 	public static List<LeadConvertResult> convertLead(List<LeadConvert> leadConverts) {throw new java.lang.UnsupportedOperationException();}
-	public static List<LeadConvertResult> convertLead(List<LeadConvert> leadConverts, Object DmlOptions) {throw new java.lang.UnsupportedOperationException();}
+	public static List<LeadConvertResult> convertLead(List<LeadConvert> leadConverts, DMLOptions DmlOptions) {throw new java.lang.UnsupportedOperationException();}
 	public static List<LeadConvertResult> convertLead(List<LeadConvert> leadConverts, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
 	public static Integer countQuery(String query) {throw new java.lang.UnsupportedOperationException();}
 	public static DeleteResult delete(Id id) {throw new java.lang.UnsupportedOperationException();}
@@ -53,10 +53,10 @@ public class Database {
 	public static QueryLocator getQueryLocator(String query) {throw new java.lang.UnsupportedOperationException();}
 	public static GetUpdatedResult getUpdated(String sobjectType, Datetime startDate, Datetime endDate) {throw new java.lang.UnsupportedOperationException();}
 	public static List<SaveResult> insert(List<SObject> sobjects) {throw new java.lang.UnsupportedOperationException();}
-	public static List<SaveResult> insert(List<SObject> sobjects, Object DmlOptions) {throw new java.lang.UnsupportedOperationException();}
+	public static List<SaveResult> insert(List<SObject> sobjects, DMLOptions DmlOptions) {throw new java.lang.UnsupportedOperationException();}
 	public static List<SaveResult> insert(List<SObject> sobjects, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
 	public static SaveResult insert(SObject sobject) {throw new java.lang.UnsupportedOperationException();}
-	public static SaveResult insert(SObject sobject, Object DmlOptions) {throw new java.lang.UnsupportedOperationException();}
+	public static SaveResult insert(SObject sobject, DMLOptions DmlOptions) {throw new java.lang.UnsupportedOperationException();}
 	public static SaveResult insert(SObject sobject, Boolean allOrNothing) {throw new java.lang.UnsupportedOperationException();}
 	public static List<SaveResult> insertAsync(List<SObject> sobjects) {throw new java.lang.UnsupportedOperationException();}
 	public static List<SaveResult> insertAsync(List<SObject> sobjects, Object callback) {throw new java.lang.UnsupportedOperationException();}
