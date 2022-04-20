@@ -27,4 +27,5 @@ public class Id {
 	public String to15() {throw new java.lang.UnsupportedOperationException();}
 
 	public static Id valueOf(String str) {throw new java.lang.UnsupportedOperationException();}
+	public static Id valueOf(String str, Boolean restoreCasing) {throw new java.lang.UnsupportedOperationException();}
 }
