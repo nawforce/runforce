@@ -53,6 +53,8 @@ public class ServiceResourceChangeEvent extends SObject {
 	public User RelatedRecord;
 	public String ReplayId;
 	public String ResourceType;
+	public Id SchedulingConstraintId;
+	public SchedulingConstraint SchedulingConstraint;
 	public Id ServiceCrewId;
 	public ServiceCrew ServiceCrew;
 

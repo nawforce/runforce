@@ -45,12 +45,16 @@ public class RecordsetFilterCriteria extends SObject {
 	public String SourceObject;
 	public Datetime SystemModstamp;
 
+	public ApptBundleAggrPolicy[] ApptBundleAggrPolicies;
+	public ApptBundleConfig[] ApptBundleConfigs;
+	public ApptBundlePolicy[] ApptBundlePolicies;
 	public AttachedContentDocument[] AttachedContentDocuments;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public RecordsetFilterCriteriaFeed[] Feeds;
 	public RecordsetFilterCriteriaHistory[] Histories;
+	public MaintenanceWorkRule[] MaintenanceWorkRules;
 	public RecordsetFilterCriteriaRule[] RecordsetFilterCriteriaRules;
 	public RecordsetFilterCriteriaShare[] Shares;
 	public Shift[] ShiftRecordsetFilterCriteria;

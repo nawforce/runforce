@@ -105,6 +105,7 @@ public class Asset extends SObject {
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
 	public AssetRelationship[] RelatedAssets;
+	public ResourcePreference[] ResourcePreferences;
 	public ReturnOrderLineItem[] ReturnOrderLineItems;
 	public ServiceAppointment[] ServiceAppointments;
 	public AssetShare[] Shares;

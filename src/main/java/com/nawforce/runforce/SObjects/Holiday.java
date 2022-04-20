@@ -50,6 +50,8 @@ public class Holiday extends SObject {
 	public Integer StartTimeInMinutes;
 	public Datetime SystemModstamp;
 
+	public OperatingHoursHoliday[] OperatingHoursHolidays;
+
 	public Holiday clone$() {throw new java.lang.UnsupportedOperationException();}
 	public Holiday clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}
 	public Holiday clone$(Boolean preserveId, Boolean isDeepClone) {throw new java.lang.UnsupportedOperationException();}

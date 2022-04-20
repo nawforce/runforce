@@ -99,6 +99,7 @@ public class Location extends SObject {
 	public ProductItem[] ProductItems;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public ResourcePreference[] ResourcePreferences;
 	public ServiceResource[] ServiceResources;
 	public ServiceTerritoryLocation[] ServiceTerritories;
 	public LocationShare[] Shares;

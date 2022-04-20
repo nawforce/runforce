@@ -45,10 +45,13 @@ public class MaintenanceWorkRule extends SObject {
 	public MaintenancePlan ParentMaintenancePlan;
 	public Id ParentMaintenanceRecordId;
 	public MaintenanceAsset ParentMaintenanceRecord;
+	public Id RecordsetFilterCriteriaId;
+	public RecordsetFilterCriteria RecordsetFilterCriteria;
 	public String RecurrencePattern;
 	public Integer SortOrder;
 	public Datetime SystemModstamp;
 	public String Title;
+	public String Type;
 	public Id WorkTypeId;
 	public WorkType WorkType;
 

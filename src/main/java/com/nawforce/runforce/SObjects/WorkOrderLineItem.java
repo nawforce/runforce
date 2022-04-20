@@ -135,6 +135,7 @@ public class WorkOrderLineItem extends SObject {
 	public ProductRequired[] ProductsRequired;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public ResourcePreference[] ResourcePreferences;
 	public ServiceAppointment[] ServiceAppointments;
 	public ServiceReport[] ServiceReports;
 	public SkillRequirement[] SkillRequirements;

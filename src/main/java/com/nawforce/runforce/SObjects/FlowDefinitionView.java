@@ -17,6 +17,7 @@ package com.nawforce.runforce.SObjects;
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
 import com.nawforce.runforce.System.Boolean;
+import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
 import com.nawforce.runforce.System.*;
 
@@ -43,6 +44,7 @@ public class FlowDefinitionView extends SObject {
 	public String ManageableState;
 	public String NamespacePrefix;
 	public String ProcessType;
+	public Integer TriggerOrder;
 	public String TriggerType;
 
 	public FlowVersionView[] Versions;

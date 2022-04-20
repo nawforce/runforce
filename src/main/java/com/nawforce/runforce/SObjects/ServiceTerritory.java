@@ -53,6 +53,8 @@ public class ServiceTerritory extends SObject {
 	public Id ParentTerritoryId;
 	public ServiceTerritory ParentTerritory;
 	public String PostalCode;
+	public Id SchedulingConstraintId;
+	public SchedulingConstraint SchedulingConstraint;
 	public String State;
 	public String StateCode;
 	public String Street;
@@ -62,6 +64,7 @@ public class ServiceTerritory extends SObject {
 	public Decimal TypicalInTerritoryTravelTime;
 
 	public AttachedContentDocument[] AttachedContentDocuments;
+	public ApptBundlePolicySvcTerr[] BundlePolicySvcTerrs;
 	public ServiceTerritory[] ChildServiceTerritories;
 	public CombinedAttachment[] CombinedAttachments;
 	public ContentDocumentLink[] ContentDocumentLinks;

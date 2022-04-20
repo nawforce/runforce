@@ -53,6 +53,8 @@ public class ServiceResource extends SObject {
 	public Id RelatedRecordId;
 	public User RelatedRecord;
 	public String ResourceType;
+	public Id SchedulingConstraintId;
+	public SchedulingConstraint SchedulingConstraint;
 	public Id ServiceCrewId;
 	public ServiceCrew ServiceCrew;
 	public Datetime SystemModstamp;
@@ -79,6 +81,7 @@ public class ServiceResource extends SObject {
 	public AssignedResource[] ServiceAppointments;
 	public ServiceCrewMember[] ServiceCrewMembers;
 	public ServiceResourceCapacity[] ServiceResourceCapacities;
+	public ServiceResourcePreference[] ServiceResourcePreferences;
 	public ServiceResourceSkill[] ServiceResourceSkills;
 	public ServiceTerritoryMember[] ServiceTerritories;
 	public ServiceResourceShare[] Shares;

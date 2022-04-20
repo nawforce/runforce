@@ -48,8 +48,10 @@ public class OperatingHours extends SObject {
 	public ContentDocumentLink[] ContentDocumentLinks;
 	public EntitySubscription[] FeedSubscriptionsForEntity;
 	public OperatingHoursFeed[] Feeds;
+	public OperatingHoursHoliday[] OperatingHoursHolidays;
 	public RecordActionHistory[] RecordActionHistories;
 	public RecordAction[] RecordActions;
+	public ServiceResourcePreference[] ServiceResourcePreferences;
 	public ServiceTerritory[] ServiceTerritories;
 	public TimeSlot[] TimeSlots;
 

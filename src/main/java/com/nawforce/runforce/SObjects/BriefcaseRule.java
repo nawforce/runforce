@@ -39,12 +39,17 @@ public class BriefcaseRule extends SObject {
 	public User LastModifiedBy;
 	public Datetime LastModifiedDate;
 	public String OrderBy;
+	public Id ParentRuleId;
+	public BriefcaseRule ParentRule;
 	public String QueryScope;
 	public Integer RecordLimit;
+	public String RelationshipField;
+	public String RelationshipType;
 	public Datetime SystemModstamp;
 	public String TargetEntity;
 
 	public BriefcaseRuleFilter[] BriefcaseRuleFilters;
+	public BriefcaseRule[] RelatedBriefcaseRules;
 
 	public BriefcaseRule clone$() {throw new java.lang.UnsupportedOperationException();}
 	public BriefcaseRule clone$(Boolean preserveId) {throw new java.lang.UnsupportedOperationException();}

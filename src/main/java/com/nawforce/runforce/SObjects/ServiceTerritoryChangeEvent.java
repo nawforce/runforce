@@ -52,6 +52,8 @@ public class ServiceTerritoryChangeEvent extends SObject {
 	public ServiceTerritory ParentTerritory;
 	public String PostalCode;
 	public String ReplayId;
+	public Id SchedulingConstraintId;
+	public SchedulingConstraint SchedulingConstraint;
 	public String State;
 	public String StateCode;
 	public String Street;
