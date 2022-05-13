@@ -15,9 +15,9 @@ package com.nawforce.runforce.System;
 
 @SuppressWarnings("unused")
 public class Set<T> {
-    Set() {throw new java.lang.UnsupportedOperationException();}
-    Set(Set<T> setToCopy) {throw new java.lang.UnsupportedOperationException();}
-    Set(List<T> listToCopy) {throw new java.lang.UnsupportedOperationException();}
+    public Set() {throw new java.lang.UnsupportedOperationException();}
+    public Set(Set<T> setToCopy) {throw new java.lang.UnsupportedOperationException();}
+    public Set(List<T> listToCopy) {throw new java.lang.UnsupportedOperationException();}
 
     public Boolean add(T setElement) {throw new java.lang.UnsupportedOperationException();}
     public Boolean addAll(List<T> fromList) {throw new java.lang.UnsupportedOperationException();}
