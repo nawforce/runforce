@@ -17,9 +17,9 @@ import com.nawforce.runforce.Schema.SObjectType;
 
 @SuppressWarnings("unused")
 public class Map<K, V> {
-    Map() {throw new java.lang.UnsupportedOperationException();}
-    Map(Map<K,V> mapToCopy) {throw new java.lang.UnsupportedOperationException();}
-    Map(List<SObject> recordList) {throw new java.lang.UnsupportedOperationException();}
+    public Map() {throw new java.lang.UnsupportedOperationException();}
+    public Map(Map<K,V> mapToCopy) {throw new java.lang.UnsupportedOperationException();}
+    public Map(List<SObject> recordList) {throw new java.lang.UnsupportedOperationException();}
 
     public void clear() {throw new java.lang.UnsupportedOperationException();}
     public Boolean containsKey(K key) {throw new java.lang.UnsupportedOperationException();}
