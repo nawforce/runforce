@@ -36,6 +36,7 @@ public class UserInfo {
 	public static String getUserName() {throw new java.lang.UnsupportedOperationException();}
 	public static String getUserRoleId() {throw new java.lang.UnsupportedOperationException();}
 	public static String getUserType() {throw new java.lang.UnsupportedOperationException();}
+	public static Boolean hasPackageLicense(Id packageID) {throw new java.lang.UnsupportedOperationException();}
 	public static Boolean isCurrentUserLicensed(String namespacePrefix) {throw new java.lang.UnsupportedOperationException();}
 	public static Boolean isCurrentUserLicensedForPackage(Id  packageID) {throw new java.lang.UnsupportedOperationException();}
 	public static Boolean isMultiCurrencyOrganization() {throw new java.lang.UnsupportedOperationException();}
