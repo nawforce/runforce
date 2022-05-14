@@ -22,8 +22,11 @@ import com.nawforce.runforce.eventbus.TestBroker;
 public class Test {
 	public Test() {throw new java.lang.UnsupportedOperationException();}
 
+	public static void calculatePermissionSetGroup(List<String> psgIds) {throw new java.lang.UnsupportedOperationException();}
+	public static void calculatePermissionSetGroup(String psgId) {throw new java.lang.UnsupportedOperationException();}
 	public static void clearApexPageMessages() {throw new java.lang.UnsupportedOperationException();}
 	public static Object createStub(Type parentType, StubProvider stubProvider) {throw new java.lang.UnsupportedOperationException();}
+	public static void enableChangeDataCapture() {throw new java.lang.UnsupportedOperationException();}
 	public static List<Id> enqueueBatchJobs(Integer n) {throw new java.lang.UnsupportedOperationException();}
 	public static TestBroker getEventBus() {throw new java.lang.UnsupportedOperationException();}
 	public static List<Id> getFlexQueueOrder() {throw new java.lang.UnsupportedOperationException();}
