@@ -14,6 +14,6 @@ To use the jar in a maven project add the following to your pom.xml
     <dependency>
         <groupId>com.github.nawforce</groupId>
         <artifactId>runforce</artifactId>
-        <version>55.0.0</version>
+        <version>55.1.0</version>
     </dependency>
 
