@@ -20,6 +20,7 @@ public class List<T> implements Iterable<T> {
     public List() {throw new java.lang.UnsupportedOperationException();}
     public List(List<T> listToCopy) {throw new java.lang.UnsupportedOperationException();}
     public List(Set<T> setToCopy) {throw new java.lang.UnsupportedOperationException();}
+    public List(Integer size) {throw new java.lang.UnsupportedOperationException();}
 
     public void add(T listElement) {throw new java.lang.UnsupportedOperationException();}
     public void add(Integer index, T listElement) {throw new java.lang.UnsupportedOperationException();}
