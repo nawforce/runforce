@@ -17,8 +17,6 @@ package com.nawforce.runforce.System;
 @SuppressWarnings("unused")
 public class WebServiceCalloutFuture {
 
-	public WebServiceCalloutFuture() {throw new java.lang.UnsupportedOperationException();}
-
-
-
+    private WebServiceCalloutFuture() {throw new java.lang.UnsupportedOperationException();}
+    public static void invoke(Object stub, Object request, Map<String,Object> response, List<String> infoArray) {throw new java.lang.UnsupportedOperationException();}
 }
