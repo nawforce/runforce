@@ -18,6 +18,8 @@ import com.nawforce.runforce.QuickAction.*;
 
 @SuppressWarnings("unused")
 public class QuickAction {
+    private QuickAction(){throw new java.lang.UnsupportedOperationException();}
+
 	public static List<DescribeAvailableQuickActionResult> describeAvailableQuickActions(String parentType) {throw new java.lang.UnsupportedOperationException();}
 	public static List<DescribeQuickActionResult> describeQuickActions(List<String> actions) {throw new java.lang.UnsupportedOperationException();}
 	public static QuickActionResult performQuickAction(QuickActionRequest performQuickAction) {throw new java.lang.UnsupportedOperationException();}

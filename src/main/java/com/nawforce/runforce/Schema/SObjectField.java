@@ -16,6 +16,8 @@ package com.nawforce.runforce.Schema;
 
 @SuppressWarnings("unused")
 public class SObjectField {
+    private SObjectField(){throw new java.lang.UnsupportedOperationException();}
+
 	public DescribeFieldResult getDescribe() {throw new java.lang.UnsupportedOperationException();}
 	public DescribeFieldResult getDescribe(Object options) {throw new java.lang.UnsupportedOperationException();}
 }

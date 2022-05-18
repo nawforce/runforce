@@ -29,6 +29,8 @@ public class ChildRelationship {
 	public String RelationshipName;
 	public Boolean RestrictedDelete;
 
+    private ChildRelationship(){throw new java.lang.UnsupportedOperationException();}
+
 	public SObjectType getChildSObject() {throw new java.lang.UnsupportedOperationException();}
 	public SObjectField getField() {throw new java.lang.UnsupportedOperationException();}
 	public List<String> getJunctionIdListNames() {throw new java.lang.UnsupportedOperationException();}

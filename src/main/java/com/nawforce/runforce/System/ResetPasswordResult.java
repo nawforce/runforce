@@ -18,5 +18,7 @@ package com.nawforce.runforce.System;
 public class ResetPasswordResult {
 	public String password;
 
+    private ResetPasswordResult(){throw new java.lang.UnsupportedOperationException();}
+
 	public String getPassword() {throw new java.lang.UnsupportedOperationException();}
 }

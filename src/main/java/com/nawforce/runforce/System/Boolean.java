@@ -16,6 +16,8 @@ package com.nawforce.runforce.System;
 
 @SuppressWarnings("unused")
 public class Boolean {
+    private Boolean(){throw new java.lang.UnsupportedOperationException();}
+
 	public void addError(Exception msg) {throw new java.lang.UnsupportedOperationException();}
 	public void addError(Exception msg, Boolean escape) {throw new java.lang.UnsupportedOperationException();}
 	public void addError(String msg) {throw new java.lang.UnsupportedOperationException();}

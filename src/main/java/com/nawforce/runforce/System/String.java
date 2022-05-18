@@ -16,6 +16,8 @@ package com.nawforce.runforce.System;
 
 @SuppressWarnings("unused")
 public class String {
+    private String(){throw new java.lang.UnsupportedOperationException();}
+
 	public String abbreviate(Integer maxWidth) {throw new java.lang.UnsupportedOperationException();}
 	public String abbreviate(Integer maxWidth, Integer offset) {throw new java.lang.UnsupportedOperationException();}
 	public void addError(Exception msg) {throw new java.lang.UnsupportedOperationException();}

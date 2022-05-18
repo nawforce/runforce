@@ -25,6 +25,8 @@ public class DescribeDataCategoryGroupResult {
 	public String Name;
 	public String Sobject;
 
+    private DescribeDataCategoryGroupResult(){throw new java.lang.UnsupportedOperationException();}
+
 	public Integer getCategoryCount() {throw new java.lang.UnsupportedOperationException();}
 	public String getDescription() {throw new java.lang.UnsupportedOperationException();}
 	public String getLabel() {throw new java.lang.UnsupportedOperationException();}

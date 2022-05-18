@@ -23,6 +23,8 @@ public class DataCategory {
 	public String Label;
 	public String Name;
 
+    private DataCategory(){throw new java.lang.UnsupportedOperationException();}
+
 	public List<DataCategory> getChildCategories() {throw new java.lang.UnsupportedOperationException();}
 	public String getLabel() {throw new java.lang.UnsupportedOperationException();}
 	public String getName() {throw new java.lang.UnsupportedOperationException();}

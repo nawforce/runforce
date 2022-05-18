@@ -26,6 +26,8 @@ public class FieldSet {
 	public String NameSpace;
 	public SObjectType SObjectType;
 
+    private FieldSet(){throw new java.lang.UnsupportedOperationException();}
+
 	public String getDescription() {throw new java.lang.UnsupportedOperationException();}
 	public List<FieldSetMember> getFields() {throw new java.lang.UnsupportedOperationException();}
 	public String getLabel() {throw new java.lang.UnsupportedOperationException();}

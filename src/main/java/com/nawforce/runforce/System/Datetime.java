@@ -16,6 +16,8 @@ package com.nawforce.runforce.System;
 
 @SuppressWarnings("unused")
 public class Datetime {
+    private Datetime(){throw new java.lang.UnsupportedOperationException();}
+
 	public Datetime addDays(Integer days) {throw new java.lang.UnsupportedOperationException();}
 	public void addError(Exception msg) {throw new java.lang.UnsupportedOperationException();}
 	public void addError(Exception msg, Boolean escape) {throw new java.lang.UnsupportedOperationException();}

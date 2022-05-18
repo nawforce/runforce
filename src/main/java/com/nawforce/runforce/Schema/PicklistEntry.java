@@ -24,6 +24,8 @@ public class PicklistEntry {
 	public String Label;
 	public String Value;
 
+    private PicklistEntry(){throw new java.lang.UnsupportedOperationException();}
+
 	public String getLabel() {throw new java.lang.UnsupportedOperationException();}
 	public String getValue() {throw new java.lang.UnsupportedOperationException();}
 	public Boolean isActive() {throw new java.lang.UnsupportedOperationException();}
