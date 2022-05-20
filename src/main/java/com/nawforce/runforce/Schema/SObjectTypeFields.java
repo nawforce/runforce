@@ -19,7 +19,7 @@ import com.nawforce.runforce.System.String;
 
 @SuppressWarnings("unused")
 public class SObjectTypeFields {
-    private SObjectTypeFields(){throw new java.lang.UnsupportedOperationException();}
+    protected SObjectTypeFields(){throw new java.lang.UnsupportedOperationException();}
 
     public Map<String, SObjectField> getMap() {throw new java.lang.UnsupportedOperationException();}
 }

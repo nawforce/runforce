@@ -49,7 +49,7 @@ public class DescribeSObjectResult {
 	public Boolean Undeletable;
 	public Boolean Updateable;
 
-    private DescribeSObjectResult(){throw new java.lang.UnsupportedOperationException();}
+    protected DescribeSObjectResult(){throw new java.lang.UnsupportedOperationException();}
 
 	public List<ChildRelationship> getChildRelationships() {throw new java.lang.UnsupportedOperationException();}
 	public SObjectTypeFieldSets getFieldSets() {throw new java.lang.UnsupportedOperationException();}
