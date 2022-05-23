@@ -80,6 +80,8 @@ public class DescribeFieldResult {
 	public Boolean Updateable;
 	public Boolean WriteRequiresMasterRead;
 
+    private DescribeFieldResult(){throw new java.lang.UnsupportedOperationException();}
+
 	public Integer getByteLength() {throw new java.lang.UnsupportedOperationException();}
 	public String getCalculatedFormula() {throw new java.lang.UnsupportedOperationException();}
 	public String getCompoundFieldName() {throw new java.lang.UnsupportedOperationException();}

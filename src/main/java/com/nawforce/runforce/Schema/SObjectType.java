@@ -20,6 +20,8 @@ import com.nawforce.runforce.System.SObject;
 
 @SuppressWarnings("unused")
 public class SObjectType {
+    protected SObjectType(){throw new java.lang.UnsupportedOperationException();}
+
 	public DescribeSObjectResult getDescribe() {throw new java.lang.UnsupportedOperationException();}
 	public DescribeSObjectResult getDescribe(Object options) {throw new java.lang.UnsupportedOperationException();}
 	public SObject newSObject() {throw new java.lang.UnsupportedOperationException();}

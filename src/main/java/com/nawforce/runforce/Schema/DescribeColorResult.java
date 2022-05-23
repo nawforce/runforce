@@ -22,6 +22,8 @@ public class DescribeColorResult {
 	public String Context;
 	public String Theme;
 
+    private DescribeColorResult(){throw new java.lang.UnsupportedOperationException();}
+
 	public String getColor() {throw new java.lang.UnsupportedOperationException();}
 	public String getContext() {throw new java.lang.UnsupportedOperationException();}
 	public String getTheme() {throw new java.lang.UnsupportedOperationException();}

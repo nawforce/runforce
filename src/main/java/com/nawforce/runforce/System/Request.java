@@ -29,6 +29,8 @@ package com.nawforce.runforce.System;
 
 @SuppressWarnings("unused")
 public class Request {
+    private Request(){throw new java.lang.UnsupportedOperationException();}
+
   public static Request getCurrent() {throw new java.lang.UnsupportedOperationException();}
 
   public Quiddity getQuiddity() {throw new java.lang.UnsupportedOperationException();}

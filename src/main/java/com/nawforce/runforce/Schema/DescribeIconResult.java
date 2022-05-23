@@ -25,6 +25,8 @@ public class DescribeIconResult {
 	public String Url;
 	public Integer Width;
 
+    private DescribeIconResult(){throw new java.lang.UnsupportedOperationException();}
+
 	public String getContentType() {throw new java.lang.UnsupportedOperationException();}
 	public Integer getHeight() {throw new java.lang.UnsupportedOperationException();}
 	public String getTheme() {throw new java.lang.UnsupportedOperationException();}

@@ -28,6 +28,8 @@ public class DescribeTabSetResult {
 	public List<DescribeTabResult> Tabs;
 	public String TabSetId;
 
+    private DescribeTabSetResult(){throw new java.lang.UnsupportedOperationException();}
+
 	public String getDescription() {throw new java.lang.UnsupportedOperationException();}
 	public String getLabel() {throw new java.lang.UnsupportedOperationException();}
 	public String getLogoUrl() {throw new java.lang.UnsupportedOperationException();}

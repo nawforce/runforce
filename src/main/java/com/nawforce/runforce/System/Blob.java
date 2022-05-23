@@ -16,6 +16,8 @@ package com.nawforce.runforce.System;
 
 @SuppressWarnings("unused")
 public class Blob {
+    private Blob(){throw new java.lang.UnsupportedOperationException();}
+
 	public Integer size() {throw new java.lang.UnsupportedOperationException();}
 	public String toString$() {throw new java.lang.UnsupportedOperationException();}
 

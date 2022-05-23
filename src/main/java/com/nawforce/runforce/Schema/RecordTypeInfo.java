@@ -28,6 +28,8 @@ public class RecordTypeInfo {
 	public String Name;
 	public Id RecordTypeId;
 
+    private RecordTypeInfo(){throw new java.lang.UnsupportedOperationException();}
+
 	public String getDeveloperName() {throw new java.lang.UnsupportedOperationException();}
 	public String getName() {throw new java.lang.UnsupportedOperationException();}
 	public Id getRecordTypeId() {throw new java.lang.UnsupportedOperationException();}

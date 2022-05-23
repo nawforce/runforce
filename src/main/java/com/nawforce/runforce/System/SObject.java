@@ -25,6 +25,8 @@ public class SObject {
 	public Id Id;
 	public UserRecordAccess UserRecordAccess;
 
+    protected SObject(){throw new java.lang.UnsupportedOperationException();}
+
 	public void addError(Exception exceptionError) {throw new java.lang.UnsupportedOperationException();}
 	public void addError(Exception exceptionError, Boolean escape) {throw new java.lang.UnsupportedOperationException();}
 	public void addError(String msg) {throw new java.lang.UnsupportedOperationException();}

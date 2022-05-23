@@ -25,6 +25,8 @@ public class DescribeDataCategoryGroupStructureResult {
 	public String Sobject;
 	public List<DataCategory> TopCategories;
 
+    private DescribeDataCategoryGroupStructureResult(){throw new java.lang.UnsupportedOperationException();}
+
 	public String getDescription() {throw new java.lang.UnsupportedOperationException();}
 	public String getLabel() {throw new java.lang.UnsupportedOperationException();}
 	public String getName() {throw new java.lang.UnsupportedOperationException();}

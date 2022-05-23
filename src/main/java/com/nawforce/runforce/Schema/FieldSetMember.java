@@ -25,6 +25,8 @@ public class FieldSetMember {
 	public Boolean Required;
 	public DisplayType Type;
 
+    private FieldSetMember(){throw new java.lang.UnsupportedOperationException();}
+
 	public Boolean getDbRequired() {throw new java.lang.UnsupportedOperationException();}
 	public String getFieldPath() {throw new java.lang.UnsupportedOperationException();}
 	public String getLabel() {throw new java.lang.UnsupportedOperationException();}

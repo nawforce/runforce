@@ -24,6 +24,8 @@ public class FilteredLookupInfo {
 	public Boolean Dependent;
 	public Boolean OptionalFilter;
 
+    private FilteredLookupInfo(){throw new java.lang.UnsupportedOperationException();}
+
 	public List<String> getControllingFields() {throw new java.lang.UnsupportedOperationException();}
 	public Boolean isDependent() {throw new java.lang.UnsupportedOperationException();}
 	public Boolean isOptionalFilter() {throw new java.lang.UnsupportedOperationException();}

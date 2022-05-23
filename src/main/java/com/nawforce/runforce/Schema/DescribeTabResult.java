@@ -31,6 +31,8 @@ public class DescribeTabResult {
 	public String TabEnumOrId;
 	public String Url;
 
+    private DescribeTabResult(){throw new java.lang.UnsupportedOperationException();}
+
 	public List<DescribeColorResult> getColors() {throw new java.lang.UnsupportedOperationException();}
 	public String getIconUrl() {throw new java.lang.UnsupportedOperationException();}
 	public List<DescribeIconResult> getIcons() {throw new java.lang.UnsupportedOperationException();}

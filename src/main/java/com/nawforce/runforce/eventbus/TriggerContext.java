@@ -22,6 +22,8 @@ public class TriggerContext {
 	public String lastError;
 	public Integer retries;
 
+    private TriggerContext(){throw new java.lang.UnsupportedOperationException();}
+
 	public static TriggerContext currentContext() {throw new java.lang.UnsupportedOperationException();}
 
 	public String getResumeCheckpoint() {throw new java.lang.UnsupportedOperationException();}

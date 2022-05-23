@@ -16,6 +16,8 @@ package com.nawforce.runforce.System;
 
 @SuppressWarnings("unused")
 public class SandboxContext {
+    private SandboxContext(){throw new java.lang.UnsupportedOperationException();}
+
 	public Id organizationId() {throw new java.lang.UnsupportedOperationException();}
 	public Id sandboxId() {throw new java.lang.UnsupportedOperationException();}
 	public String sandboxName() {throw new java.lang.UnsupportedOperationException();}
