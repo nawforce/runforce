@@ -16,8 +16,5 @@ package com.nawforce.runforce.System;
 
 @SuppressWarnings("unused")
 public class AuraHandledException extends Exception {
-    public AuraHandledException() {throw new java.lang.UnsupportedOperationException();}
-    public AuraHandledException(Exception param1) {throw new java.lang.UnsupportedOperationException();}
     public AuraHandledException(String param1) {throw new java.lang.UnsupportedOperationException();}
-    public AuraHandledException(String param1, Exception param2) {throw new java.lang.UnsupportedOperationException();}
 }
