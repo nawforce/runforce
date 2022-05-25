@@ -16,8 +16,5 @@ package com.nawforce.runforce.System;
 
 @SuppressWarnings("unused")
 public class InvalidParameterValueException extends Exception {
-	public InvalidParameterValueException() {throw new java.lang.UnsupportedOperationException();}
-	public InvalidParameterValueException(Exception param1) {throw new java.lang.UnsupportedOperationException();}
-	public InvalidParameterValueException(String param1) {throw new java.lang.UnsupportedOperationException();}
-	public InvalidParameterValueException(String param1, Exception param2) {throw new java.lang.UnsupportedOperationException();}
+	public InvalidParameterValueException(String name, String value) {throw new java.lang.UnsupportedOperationException();}
 }
