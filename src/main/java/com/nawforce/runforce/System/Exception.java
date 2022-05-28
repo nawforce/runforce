@@ -18,6 +18,7 @@ import com.nawforce.runforce.Schema.SObjectField;
 
 @SuppressWarnings("unused")
 public class Exception {
+	protected Exception() {throw new java.lang.UnsupportedOperationException();}
 	public Exception getCause() {throw new java.lang.UnsupportedOperationException();}
 	public Integer getLineNumber() {throw new java.lang.UnsupportedOperationException();}
 	public String getMessage() {throw new java.lang.UnsupportedOperationException();}
