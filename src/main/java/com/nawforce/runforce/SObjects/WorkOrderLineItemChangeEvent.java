@@ -16,6 +16,7 @@ package com.nawforce.runforce.SObjects;
 
 import com.nawforce.runforce.Internal.SObjectFields$;
 import com.nawforce.runforce.Internal.SObjectType$;
+import com.nawforce.runforce.System.Address;
 import com.nawforce.runforce.System.Boolean;
 import com.nawforce.runforce.System.Integer;
 import com.nawforce.runforce.System.String;
