@@ -18,6 +18,8 @@ import com.nawforce.runforce.System.Set;
 
 @SuppressWarnings("unused")
 public class CustomNotification {
+    public CustomNotification() {throw new java.lang.UnsupportedOperationException();}
+    public CustomNotification(String typeId, String sender, String title, String body, String targetId, String targetPageRef) {throw new java.lang.UnsupportedOperationException();}
     public void send(Set<String> users) { throw new java.lang.UnsupportedOperationException();}
     public void setNotificationTypeId(String id) { throw new java.lang.UnsupportedOperationException();}
     public void setTitle(String title) { throw new java.lang.UnsupportedOperationException();}
